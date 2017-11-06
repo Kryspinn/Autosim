@@ -1,7 +1,4 @@
-﻿  Auto.cpp
-  Mechanika.cpp
-  MyForm.cpp
-  Generating Code...
+﻿  Mechanika.cpp
   Auto.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
   Project11111.vcxproj -> C:\Users\Krystian\Documents\GitHub\Autosim\Project11111\x64\Debug\Project11111.exe
   Project11111.vcxproj -> C:\Users\Krystian\Documents\GitHub\Autosim\Project11111\x64\Debug\Project11111.pdb (Partial PDB)

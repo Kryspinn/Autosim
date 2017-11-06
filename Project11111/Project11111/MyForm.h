@@ -741,7 +741,9 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 	if (sekund == 59) sekund = 0;
 	zegar->Text = str1 + ":" + str2 + ":" + str3;
 #pragma endregion
+	M.Ustaw_Przeszkode();
 	M.Nowe_Auto();
+	M.Zmiana_Pasa();
 	M.Przyspieszani_Hamowanie();
 	M.Zdarzenia_Losowe();
 	M.Przemieszczenie();

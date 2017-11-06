@@ -4,24 +4,19 @@
 ref class Auto
 {
 public:
-	Auto(int numerr, int predkoscc, int nrdrogii);
-	Auto(int pred, bool zyc,int czas, int nrdrog, int nrpozy);
+
+	Auto(int pred, bool zyc,int czas);
 	Auto();
-	~Auto();
 
 
-	int predkosc;
 	bool zycie;
 	int czas_zycia;
-	int nrdrogi;
-	int nrpozycji;
-
-
-
-
-	void Przemieszczenie();
-	void Przyspieszanie();
-	void Hamowanie();
+	int predkosc;
+	int widocznosc = 2;
+	int odwaga = 2;	//ilosc miejsca zeby zmienic pas
+	
+	
+	bool przeszkoda;
 
 };
 

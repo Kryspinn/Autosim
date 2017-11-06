@@ -2,53 +2,23 @@
 
 
 
-Auto::Auto(int a, int v, int d)
-{
-
-	predkosc = v;
-	nrdrogi = d;
-	nrpozycji = 1;
-	zycie = false;
-	czas_zycia = 0;
-}
-
-Auto::Auto(int pred, bool zyc, int czas, int nrdrog, int nrpozy)
+Auto::Auto(int pred, bool zyc, int czas)
 {
 	predkosc = pred;
 	zycie = zyc;
 	czas_zycia = czas;
-	nrdrogi = nrdrog;
-	nrpozycji = nrpozy;
+	przeszkoda = false;
 }
 
 Auto::Auto()
 {
 
 	predkosc = 1;
-	nrdrogi = 1;
-	nrpozycji = 1;
+	
 	zycie = false;
 	czas_zycia = 0;
-}
-
-Auto::~Auto()
-{
-	
+	przeszkoda = false;
 }
 
 
-void Auto::Przemieszczenie()
-{
-	
-}
-
-void Auto::Przyspieszanie()
-{
-	
-}
-
-void Auto::Hamowanie()
-{
-	
-}
 
