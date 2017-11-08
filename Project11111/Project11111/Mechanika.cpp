@@ -139,29 +139,32 @@ void Mechanika::Przemieszczenie()
 
 void Mechanika::Zmiana_Pasa()
 {
+	
 	for (int i = 0; i < dlugoscdrogi1_2; i++) {
 		if (Droga1[i]->zycie == true && Droga1[i]->przeszkoda == false) {		//sprawdzenie czy istnieje auto
 			int odleglosc_przeszkody = 0;
-			for (int j = 1; j <= Droga1[i]->widocznosc; j++) {	//policzenie odleg³oœci do przeszkody//zawsze widzimy 2 od przeszkody
-				if (i + j < 13) {
-					if (Droga1[j + i]->przeszkoda == false) {
-						odleglosc_przeszkody++;
-					}
-					else j = 100;//wyjscie z pêtli
+			bool jest_przeszkoda = false;
+			for (int j = 1; j + i < dlugoscdrogi1_2; j++) {	
+				if (Droga1[j + i]->przeszkoda == false) {
+					odleglosc_przeszkody++;
 				}
-				else odleglosc_przeszkody = 10;
-
-				
+				else {
+					j = 100;//wyjscie z pêtli
+					jest_przeszkoda = true;
+				}
 			}
-			if (Droga1[i]->widocznosc >= odleglosc_przeszkody) {
+			if (Droga1[i]->widocznosc >= odleglosc_przeszkody && jest_przeszkoda == true) {
 				//widaæ przeszkode
 				int wolne_mijsce_zmiana = 0;
-				for (int k = 0; i-k >= 0 && Droga2[i - k]->zycie == false; k++) {
+				for (int k = 0; i - k >= 0 && Droga2[i - k]->zycie == false; k++) {
 					wolne_mijsce_zmiana++;
 				}
-				if (Droga1[i]->odwaga < wolne_mijsce_zmiana) {
-					Droga2[i] = gcnew Auto(Droga1[i]->predkosc-1, Droga1[i]->zycie, Droga1[i]->czas_zycia);//zmiana predkoœci pamiêêêêêêêêêêêêêêêêetaj
-					Droga1[i]->zycie = false;
+				if (Droga1[i + 1]->zycie == false || (Droga1[i+1]->zycie==true && Droga1[i + 1]->przeszkoda == true)) {
+					if (Droga1[i]->odwaga < wolne_mijsce_zmiana) {
+						Droga2[i] = gcnew Auto(Droga1[i]->predkosc , Droga1[i]->zycie, Droga1[i]->czas_zycia, Droga1[i]->rodzaj);//zmiana predkoœci pamiêêêêêêêêêêêêêêêêetaj
+						Droga1[i]->zycie = false;
+					}
+					else Droga1[i]->predkosc = odleglosc_przeszkody;
 				}
 				else Droga1[i]->predkosc = odleglosc_przeszkody;
 			}
@@ -184,6 +187,7 @@ void Mechanika::Nowe_Auto()
 			Droga1[0]->zycie = true;
 			Droga1[0]->czas_zycia = 0;
 			Droga1[0]->predkosc = rnd->Next(1, 3);
+			Droga1[0]->rodzaj = rnd->Next(1, 4);
 		}
 	}
 
@@ -193,6 +197,7 @@ void Mechanika::Nowe_Auto()
 			Droga2[0]->zycie = true;
 			Droga2[0]->czas_zycia = 0;
 			Droga2[0]->predkosc = rnd->Next(1, 3);
+			Droga2[0]->rodzaj = rnd->Next(1, 5);
 		}
 	}
 }
@@ -209,5 +214,5 @@ array<Auto^>^ Mechanika::DajDroge2()
 
 void Mechanika::Przypisanie(Auto^ zapis, Auto^ odczyt)
 {
-	zapis = gcnew Auto(odczyt->predkosc, odczyt->zycie, odczyt->czas_zycia);
+	zapis = gcnew Auto(odczyt->predkosc, odczyt->zycie, odczyt->czas_zycia, odczyt->rodzaj);
 }

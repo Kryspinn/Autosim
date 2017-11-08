@@ -86,6 +86,9 @@ namespace Project11111 {
 	private: System::Windows::Forms::PictureBox^  pictureBox28;
 	private: System::Windows::Forms::PictureBox^  pictureBox29;
 	private: System::Windows::Forms::PictureBox^  pictureBox30;
+	private: System::Windows::Forms::Label^  label2;
+	private: System::Windows::Forms::PictureBox^  pictureBox31;
+
 
 
 
@@ -162,6 +165,8 @@ namespace Project11111 {
 			this->pictureBox28 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox29 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox30 = (gcnew System::Windows::Forms::PictureBox());
+			this->label2 = (gcnew System::Windows::Forms::Label());
+			this->pictureBox31 = (gcnew System::Windows::Forms::PictureBox());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->droga))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
@@ -195,6 +200,7 @@ namespace Project11111 {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// droga
@@ -352,6 +358,7 @@ namespace Project11111 {
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
+			this->pictureBox1->ImageLocation = L"";
 			this->pictureBox1->Location = System::Drawing::Point(43, 316);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(54, 39);
@@ -616,12 +623,31 @@ namespace Project11111 {
 			this->pictureBox30->TabStop = false;
 			this->pictureBox30->Visible = false;
 			// 
+			// label2
+			// 
+			this->label2->AutoSize = true;
+			this->label2->Location = System::Drawing::Point(283, 132);
+			this->label2->Name = L"label2";
+			this->label2->Size = System::Drawing::Size(46, 17);
+			this->label2->TabIndex = 37;
+			this->label2->Text = L"label2";
+			// 
+			// pictureBox31
+			// 
+			this->pictureBox31->Location = System::Drawing::Point(485, 156);
+			this->pictureBox31->Name = L"pictureBox31";
+			this->pictureBox31->Size = System::Drawing::Size(100, 50);
+			this->pictureBox31->TabIndex = 38;
+			this->pictureBox31->TabStop = false;
+			// 
 			// MyForm
 			// 
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::None;
 			this->AutoValidate = System::Windows::Forms::AutoValidate::EnablePreventFocusChange;
 			this->BackColor = System::Drawing::SystemColors::ControlDarkDark;
 			this->ClientSize = System::Drawing::Size(1898, 1029);
+			this->Controls->Add(this->pictureBox31);
+			this->Controls->Add(this->label2);
 			this->Controls->Add(this->pictureBox30);
 			this->Controls->Add(this->pictureBox29);
 			this->Controls->Add(this->pictureBox28);
@@ -696,14 +722,14 @@ namespace Project11111 {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
 		}
 #pragma endregion
 
-		
-		
+	
 		bool pierwsze = false;
 		int czas = 0;
 		int natezenie = 9;	
@@ -748,68 +774,357 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 	M.Zdarzenia_Losowe();
 	M.Przemieszczenie();
 
-
 	Droga1 = M.DajDroge1();
 
 	Droga2 = M.DajDroge2();
 
 #pragma region wyœwietlanie_drogi_1
-	if (Droga1[0]->zycie == true) pictureBox1->Visible = true;
+	if (Droga1[0]->zycie == true) {
+		pictureBox1->Visible = true;
+		switch (Droga1[0]->rodzaj)
+		{
+		case 1: pictureBox1->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox1->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox1->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox1->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox1->Visible = false;
-	if (Droga1[1]->zycie == true) pictureBox2->Visible = true;
+	if (Droga1[1]->zycie == true) {
+		pictureBox2->Visible = true;
+		switch (Droga1[1]->rodzaj)
+		{
+		case 1: pictureBox2->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox2->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox2->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox2->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox2->Visible = false;
-	if (Droga1[2]->zycie == true) pictureBox3->Visible = true;
+	if (Droga1[2]->zycie == true) {
+		pictureBox3->Visible = true;
+		switch (Droga1[2]->rodzaj)
+		{
+		case 1: pictureBox3->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox3->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox3->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox3->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox3->Visible = false;
-	if (Droga1[3]->zycie == true) pictureBox4->Visible = true;
+	if (Droga1[3]->zycie == true) {
+		pictureBox4->Visible = true;
+		switch (Droga1[3]->rodzaj)
+		{
+		case 1: pictureBox4->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox4->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox4->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox4->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox4->Visible = false;
-	if (Droga1[4]->zycie == true) pictureBox5->Visible = true;
+	if (Droga1[4]->zycie == true) {
+		pictureBox5->Visible = true;
+		switch (Droga1[4]->rodzaj)
+		{
+		case 1: pictureBox5->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox5->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox5->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox5->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox5->Visible = false;
-	if (Droga1[5]->zycie == true) pictureBox6->Visible = true;
+	if (Droga1[5]->zycie == true) {
+		pictureBox6->Visible = true;
+		switch (Droga1[5]->rodzaj)
+		{
+		case 1: pictureBox6->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox6->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox6->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox6->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox6->Visible = false;
-	if (Droga1[6]->zycie == true) pictureBox7->Visible = true;
+	if (Droga1[6]->zycie == true) {
+		pictureBox7->Visible = true;
+		switch (Droga1[6]->rodzaj)
+		{
+		case 1: pictureBox7->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox7->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox7->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox7->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox7->Visible = false;
-	if (Droga1[7]->zycie == true) pictureBox8->Visible = true;
+	if (Droga1[7]->zycie == true) {
+		pictureBox8->Visible = true;
+		switch (Droga1[7]->rodzaj)
+		{
+		case 1: pictureBox8->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox8->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox8->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox8->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox8->Visible = false;
-	if (Droga1[8]->zycie == true) pictureBox9->Visible = true;
+	if (Droga1[8]->zycie == true) {
+		pictureBox9->Visible = true;
+		switch (Droga1[8]->rodzaj)
+		{
+		case 1: pictureBox9->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox9->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox9->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox9->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox9->Visible = false;
-	if (Droga1[9]->zycie == true) pictureBox10->Visible = true;
+	if (Droga1[9]->zycie == true) {
+		pictureBox10->Visible = true;
+		switch (Droga1[9]->rodzaj)
+		{
+		case 1: pictureBox10->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox10->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox10->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox10->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox10->Visible = false;
-	if (Droga1[10]->zycie == true) pictureBox11->Visible = true;
+	if (Droga1[10]->zycie == true) {
+		pictureBox11->Visible = true;
+		switch (Droga1[10]->rodzaj)
+		{
+		case 1: pictureBox11->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox11->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox11->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox11->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox11->Visible = false;
-	if (Droga1[11]->zycie == true) pictureBox12->Visible = true;
+	if (Droga1[11]->zycie == true) {
+		pictureBox12->Visible = true;
+		switch (Droga1[11]->rodzaj)
+		{
+		case 1: pictureBox12->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox12->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox12->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox12->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox12->Visible = false;
-	if (Droga1[12]->zycie == true) pictureBox13->Visible = true;
+	if (Droga1[12]->zycie == true) {
+		pictureBox13->Visible = true;
+		switch (Droga1[12]->rodzaj)
+		{
+		case 1: pictureBox13->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox13->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox13->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox13->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox13->Visible = false;
 #pragma endregion
 
 #pragma region wyœwietlanie_drogi_2
-	if (Droga2[0]->zycie == true) pictureBox18->Visible = true;
+	if (Droga2[0]->zycie == true) {
+		pictureBox18->Visible = true;
+		switch (Droga2[0]->rodzaj)
+		{
+		case 1: pictureBox18->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox18->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox18->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox18->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox18->Visible = false;
-	if (Droga2[1]->zycie == true) pictureBox19->Visible = true;
+	if (Droga2[1]->zycie == true) {
+		pictureBox19->Visible = true;
+		switch (Droga2[1]->rodzaj)
+		{
+		case 1: pictureBox19->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox19->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox19->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox19->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox19->Visible = false;
-	if (Droga2[2]->zycie == true) pictureBox20->Visible = true;
+	if (Droga2[2]->zycie == true) {
+		pictureBox20->Visible = true;
+		switch (Droga2[2]->rodzaj)
+		{
+		case 1: pictureBox20->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox20->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox20->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox20->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox20->Visible = false;
-	if (Droga2[3]->zycie == true) pictureBox21->Visible = true;
+	if (Droga2[3]->zycie == true) {
+		pictureBox21->Visible = true;
+		switch (Droga2[3]->rodzaj)
+		{
+		case 1: pictureBox21->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox21->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox21->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox21->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox21->Visible = false;
-	if (Droga2[4]->zycie == true) pictureBox22->Visible = true;
+	if (Droga2[4]->zycie == true) {
+		pictureBox22->Visible = true;
+		switch (Droga2[4]->rodzaj)
+		{
+		case 1: pictureBox22->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox22->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox22->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox22->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox22->Visible = false;
-	if (Droga2[5]->zycie == true) pictureBox23->Visible = true;
+	if (Droga2[5]->zycie == true) {
+		pictureBox23->Visible = true;
+		switch (Droga2[5]->rodzaj)
+		{
+		case 1: pictureBox23->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox23->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox23->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox23->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox23->Visible = false;
-	if (Droga2[6]->zycie == true) pictureBox24->Visible = true;
+	if (Droga2[6]->zycie == true) {
+		pictureBox24->Visible = true;
+		switch (Droga2[6]->rodzaj)
+		{
+		case 1: pictureBox24->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox24->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox24->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox24->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox24->Visible = false;
-	if (Droga2[7]->zycie == true) pictureBox25->Visible = true;
+	if (Droga2[7]->zycie == true) {
+		pictureBox25->Visible = true;
+		switch (Droga2[7]->rodzaj)
+		{
+		case 1: pictureBox25->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox25->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox25->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox25->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox25->Visible = false;
-	if (Droga2[8]->zycie == true) pictureBox26->Visible = true;
+	if (Droga2[8]->zycie == true) {
+		pictureBox26->Visible = true;
+		switch (Droga2[8]->rodzaj)
+		{
+		case 1: pictureBox26->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox26->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox26->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox26->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox26->Visible = false;
-	if (Droga2[9]->zycie == true) pictureBox27->Visible = true;
+	if (Droga2[9]->zycie == true) {
+		pictureBox27->Visible = true;
+		switch (Droga2[9]->rodzaj)
+		{
+		case 1: pictureBox27->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox27->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox27->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox27->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox27->Visible = false;
-	if (Droga2[10]->zycie == true) pictureBox28->Visible = true;
+	if (Droga2[10]->zycie == true) {
+		pictureBox28->Visible = true;
+		switch (Droga2[10]->rodzaj)
+		{
+		case 1: pictureBox28->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox28->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox28->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox28->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox28->Visible = false;
-	if (Droga2[11]->zycie == true) pictureBox29->Visible = true;
+	if (Droga2[11]->zycie == true) {
+		pictureBox29->Visible = true;
+		switch (Droga2[11]->rodzaj)
+		{
+		case 1: pictureBox29->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox29->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox29->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox29->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox29->Visible = false;
-	if (Droga2[12]->zycie == true) pictureBox30->Visible = true;
+	if (Droga2[12]->zycie == true) {
+		pictureBox30->Visible = true;
+		switch (Droga2[12]->rodzaj)
+		{
+		case 1: pictureBox30->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
+		case 2: pictureBox30->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
+		case 3: pictureBox30->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum3.png"); break;
+		case 4: pictureBox30->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum4.png"); break;
+		default:
+			break;
+		}
+	}
 	else pictureBox30->Visible = false;
 #pragma endregion
+
+
+
+
 }
 
 private: System::Void pictureBox15_Click(System::Object^  sender, System::EventArgs^  e) {
