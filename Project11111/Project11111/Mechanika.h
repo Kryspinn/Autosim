@@ -11,17 +11,25 @@ public:
 	void Przemieszczenie();
 	void Zmiana_Pasa();
 	void Ustaw_Przeszkode();
-	
 	void Nowe_Auto();
+	void Wybor_Pasa();
+
+
+
+	void Ustawwaruki(int natezeniee, int losowoscc);
+
 	array< Auto^ >^ DajDroge1();
 	array< Auto^ >^ DajDroge2();
+	array< Auto^ >^ DajDroge3();
+	array< Auto^ >^ DajDroge4();
 private:
-	void Przypisanie(Auto^ zapis, Auto^ odczyt);
 	Random^ rnd;
-	int natezenie = 6;
+	int natezenie = 7;
 	int losowosc = 20;
 	array< Auto^ >^ Droga1;
 	array< Auto^ >^ Droga2;
+	array< Auto^ >^ Droga3;
+	array< Auto^ >^ Droga4;
 	
 };
 
