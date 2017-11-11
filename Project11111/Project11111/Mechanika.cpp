@@ -1,27 +1,33 @@
 #include "Mechanika.h"
 #include "Auto.h"
 #include <time.h>
-#define dlugoscdrogi1_2 13
+#define DLUGOSCDROGI1_2 13
 using namespace System;
 
 
 Mechanika::Mechanika()
 {
 	rnd = gcnew Random();
-	array< Auto^ >^ local1 = gcnew array< Auto^ >(dlugoscdrogi1_2);
-	array< Auto^ >^ local2 = gcnew array< Auto^ >(dlugoscdrogi1_2);
+	array< Auto^ >^ local1 = gcnew array< Auto^ >(DLUGOSCDROGI1_2);
+	array< Auto^ >^ local2 = gcnew array< Auto^ >(DLUGOSCDROGI1_2);
+	array< Auto^ >^ local3 = gcnew array< Auto^ >(DLUGOSCDROGI1_2);
+	array< Auto^ >^ local4 = gcnew array< Auto^ >(DLUGOSCDROGI1_2);
 
-	for (int i = 0; i < dlugoscdrogi1_2; i++) {
+	for (int i = 0; i < DLUGOSCDROGI1_2; i++) {
 		local1[i] = gcnew Auto;
 		local2[i] = gcnew Auto;
+		local3[i] = gcnew Auto;
+		local4[i] = gcnew Auto;
 	}
 	Droga1 = local1;
 	Droga2 = local2;
+	Droga3 = local3;
+	Droga4 = local4;
 }
 
 void Mechanika::Przyspieszani_Hamowanie()
 {
-	for (int i = 0; i < dlugoscdrogi1_2; i++) {
+	for (int i = 0; i < DLUGOSCDROGI1_2; i++) {
 		if (Droga1[i]->zycie == true && Droga1[i]->przeszkoda == false) {
 			int wolne_miejsca = 0;
 			for (int j = 1; j <= Droga1[i]->predkosc + 1; j++) {
@@ -39,7 +45,7 @@ void Mechanika::Przyspieszani_Hamowanie()
 		}
 	}
 
-	for (int i = 0; i < dlugoscdrogi1_2; i++) {
+	for (int i = 0; i < DLUGOSCDROGI1_2; i++) {
 		if (Droga2[i]->zycie == true && Droga2[i]->przeszkoda == false) {
 			int wolne_miejsca = 0;
 			for (int j = 1; j <= Droga2[i]->predkosc + 1; j++) {
@@ -61,7 +67,7 @@ void Mechanika::Przyspieszani_Hamowanie()
 
 void Mechanika::Zdarzenia_Losowe()
 {
-	for (int i = 0; i < dlugoscdrogi1_2; i++) {
+	for (int i = 0; i < DLUGOSCDROGI1_2; i++) {
 		if (Droga1[i]->zycie == true && Droga1[i]->przeszkoda == false) {
 			int a = rnd->Next(1, 100);
 			if (losowosc >= a) {
@@ -72,7 +78,7 @@ void Mechanika::Zdarzenia_Losowe()
 		}
 	}
 
-	for (int i = 0; i < dlugoscdrogi1_2; i++) {
+	for (int i = 0; i < DLUGOSCDROGI1_2; i++) {
 		if (Droga2[i]->zycie == true && Droga2[i]->przeszkoda == false) {
 			int a = rnd->Next(1, 100);
 			if (losowosc >= a) {
@@ -86,10 +92,10 @@ void Mechanika::Zdarzenia_Losowe()
 
 void Mechanika::Przemieszczenie()
 {
-	array< Auto^ >^ localtemp1 = gcnew array< Auto^ >(dlugoscdrogi1_2);
-	array< Auto^ >^ localtemp2 = gcnew array< Auto^ >(dlugoscdrogi1_2);
+	array< Auto^ >^ localtemp1 = gcnew array< Auto^ >(DLUGOSCDROGI1_2);
+	array< Auto^ >^ localtemp2 = gcnew array< Auto^ >(DLUGOSCDROGI1_2);
 
-	for (int i = 0; i < dlugoscdrogi1_2; i++) {
+	for (int i = 0; i < DLUGOSCDROGI1_2; i++) {
 		localtemp1[i] = gcnew Auto;
 		localtemp2[i] = gcnew Auto;
 	}
@@ -97,7 +103,7 @@ void Mechanika::Przemieszczenie()
 	array< Auto^ >^ Drogatemp2 = localtemp2;
 
 
-	for (int i = 0; i < dlugoscdrogi1_2; i++) {
+	for (int i = 0; i < DLUGOSCDROGI1_2; i++) {
 		if (Droga1[i]->zycie == true ) {			//sprawdzenie czy istnieje auto
 			if (Droga1[i]->czas_zycia >= 1) {	//postuj jednej sekundy na stacie
 				if (i + Droga1[i]->predkosc < 13) { //czy wyjedzie poza tablice
@@ -116,7 +122,7 @@ void Mechanika::Przemieszczenie()
 	}
 	Droga1 = Drogatemp1;
 
-	for (int i = 0; i < dlugoscdrogi1_2; i++) {
+	for (int i = 0; i < DLUGOSCDROGI1_2; i++) {
 		if (Droga2[i]->zycie == true && Droga2[i]->przeszkoda == false) {
 			if (Droga2[i]->czas_zycia >= 1) {
 				if (i + Droga2[i]->predkosc < 13) {
@@ -140,11 +146,11 @@ void Mechanika::Przemieszczenie()
 void Mechanika::Zmiana_Pasa()
 {
 	
-	for (int i = 0; i < dlugoscdrogi1_2; i++) {
+	for (int i = 0; i < DLUGOSCDROGI1_2; i++) {
 		if (Droga1[i]->zycie == true && Droga1[i]->przeszkoda == false) {		//sprawdzenie czy istnieje auto
 			int odleglosc_przeszkody = 0;
 			bool jest_przeszkoda = false;
-			for (int j = 1; j + i < dlugoscdrogi1_2; j++) {	
+			for (int j = 1; j + i < DLUGOSCDROGI1_2; j++) {	
 				if (Droga1[j + i]->przeszkoda == false) {
 					odleglosc_przeszkody++;
 				}
@@ -161,7 +167,7 @@ void Mechanika::Zmiana_Pasa()
 				}
 				if (Droga1[i + 1]->zycie == false || (Droga1[i+1]->zycie==true && Droga1[i + 1]->przeszkoda == true)) {
 					if (Droga1[i]->odwaga < wolne_mijsce_zmiana) {
-						Droga2[i] = gcnew Auto(Droga1[i]->predkosc , Droga1[i]->zycie, Droga1[i]->czas_zycia, Droga1[i]->rodzaj);//zmiana predkoœci pamiêêêêêêêêêêêêêêêêetaj
+						Droga2[i] = gcnew Auto(Droga1[i]->predkosc , Droga1[i]->zycie, Droga1[i]->czas_zycia, Droga1[i]->rodzaj, Droga1[i]->gdzie);//zmiana predkoœci pamiêêêêêêêêêêêêêêêêetaj
 						Droga1[i]->zycie = false;
 					}
 					else Droga1[i]->predkosc = odleglosc_przeszkody;
@@ -188,6 +194,7 @@ void Mechanika::Nowe_Auto()
 			Droga1[0]->czas_zycia = 0;
 			Droga1[0]->predkosc = rnd->Next(1, 3);
 			Droga1[0]->rodzaj = rnd->Next(1, 4);
+			Droga1[0]->gdzie = rnd->Next(1, 2);
 		}
 	}
 
@@ -198,6 +205,7 @@ void Mechanika::Nowe_Auto()
 			Droga2[0]->czas_zycia = 0;
 			Droga2[0]->predkosc = rnd->Next(1, 3);
 			Droga2[0]->rodzaj = rnd->Next(1, 5);
+			Droga2[0]->gdzie = rnd->Next(1, 2);
 		}
 	}
 }
@@ -214,5 +222,5 @@ array<Auto^>^ Mechanika::DajDroge2()
 
 void Mechanika::Przypisanie(Auto^ zapis, Auto^ odczyt)
 {
-	zapis = gcnew Auto(odczyt->predkosc, odczyt->zycie, odczyt->czas_zycia, odczyt->rodzaj);
+	
 }

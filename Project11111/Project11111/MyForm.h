@@ -86,8 +86,9 @@ namespace Project11111 {
 	private: System::Windows::Forms::PictureBox^  pictureBox28;
 	private: System::Windows::Forms::PictureBox^  pictureBox29;
 	private: System::Windows::Forms::PictureBox^  pictureBox30;
-	private: System::Windows::Forms::Label^  label2;
-	private: System::Windows::Forms::PictureBox^  pictureBox31;
+
+
+
 
 
 
@@ -165,8 +166,6 @@ namespace Project11111 {
 			this->pictureBox28 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox29 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox30 = (gcnew System::Windows::Forms::PictureBox());
-			this->label2 = (gcnew System::Windows::Forms::Label());
-			this->pictureBox31 = (gcnew System::Windows::Forms::PictureBox());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->droga))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
@@ -200,7 +199,6 @@ namespace Project11111 {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// droga
@@ -209,7 +207,7 @@ namespace Project11111 {
 			this->droga->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"droga.Image")));
 			this->droga->Location = System::Drawing::Point(10, 229);
 			this->droga->Name = L"droga";
-			this->droga->Size = System::Drawing::Size(1182, 152);
+			this->droga->Size = System::Drawing::Size(1182, 149);
 			this->droga->TabIndex = 0;
 			this->droga->TabStop = false;
 			// 
@@ -623,31 +621,12 @@ namespace Project11111 {
 			this->pictureBox30->TabStop = false;
 			this->pictureBox30->Visible = false;
 			// 
-			// label2
-			// 
-			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(283, 132);
-			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(46, 17);
-			this->label2->TabIndex = 37;
-			this->label2->Text = L"label2";
-			// 
-			// pictureBox31
-			// 
-			this->pictureBox31->Location = System::Drawing::Point(485, 156);
-			this->pictureBox31->Name = L"pictureBox31";
-			this->pictureBox31->Size = System::Drawing::Size(100, 50);
-			this->pictureBox31->TabIndex = 38;
-			this->pictureBox31->TabStop = false;
-			// 
 			// MyForm
 			// 
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::None;
 			this->AutoValidate = System::Windows::Forms::AutoValidate::EnablePreventFocusChange;
 			this->BackColor = System::Drawing::SystemColors::ControlDarkDark;
 			this->ClientSize = System::Drawing::Size(1898, 1029);
-			this->Controls->Add(this->pictureBox31);
-			this->Controls->Add(this->label2);
 			this->Controls->Add(this->pictureBox30);
 			this->Controls->Add(this->pictureBox29);
 			this->Controls->Add(this->pictureBox28);
@@ -686,7 +665,7 @@ namespace Project11111 {
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"MyForm";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
-			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
+			
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->droga))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
@@ -722,7 +701,6 @@ namespace Project11111 {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox28))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox29))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox30))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox31))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -730,16 +708,15 @@ namespace Project11111 {
 #pragma endregion
 
 	
-		bool pierwsze = false;
+
 		int czas = 0;
 		int natezenie = 9;	
 		int losowosc = 0;
 		Mechanika M;
 		array< Auto^ >^ Droga1;
-		array< Auto^ >^ Droga1temp;
-		array< Auto^ >^ *wskDroga1;
+
 		array< Auto^ >^ Droga2;
-		array< Auto^ >^ Droga2temp;
+
 		Random^ rnd;
 private: System::Void Start_Click(System::Object^  sender, System::EventArgs^  e) {
 	if (timer1->Enabled == true) timer1->Enabled = false;
@@ -767,7 +744,7 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 	if (sekund == 59) sekund = 0;
 	zegar->Text = str1 + ":" + str2 + ":" + str3;
 #pragma endregion
-	M.Ustaw_Przeszkode();
+	//M.Ustaw_Przeszkode();
 	M.Nowe_Auto();
 	M.Zmiana_Pasa();
 	M.Przyspieszani_Hamowanie();
@@ -1152,8 +1129,7 @@ private: System::Void pictureBox16_Click(System::Object^  sender, System::EventA
 	String^ str1 = Convert::ToString(losowosc);
 	labellosowosc->Text = str1;
 }
-private: System::Void MyForm_Load(System::Object^  sender, System::EventArgs^  e) {
-}
+
 
 };//----------------------------------------------
 }

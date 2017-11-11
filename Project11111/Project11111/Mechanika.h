@@ -22,6 +22,7 @@ private:
 	int losowosc = 20;
 	array< Auto^ >^ Droga1;
 	array< Auto^ >^ Droga2;
-	
+	array< Auto^ >^ Droga3;
+	array< Auto^ >^ Droga4;
 };
 
