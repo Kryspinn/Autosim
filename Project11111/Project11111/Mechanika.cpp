@@ -31,7 +31,7 @@ void Mechanika::Przyspieszani_Hamowanie()
 		if (Droga1[i]->zycie == true && Droga1[i]->przeszkoda == false) {
 			int wolne_miejsca = 0;
 			for (int j = 1; j <= Droga1[i]->predkosc + 1; j++) {
-				if (i + j < 13) {
+				if (i + j < DLUGOSCDROGI1_2) {
 					if (Droga1[i + j]->zycie == false) {
 						wolne_miejsca++;
 					}
@@ -49,7 +49,7 @@ void Mechanika::Przyspieszani_Hamowanie()
 		if (Droga2[i]->zycie == true && Droga2[i]->przeszkoda == false) {
 			int wolne_miejsca = 0;
 			for (int j = 1; j <= Droga2[i]->predkosc + 1; j++) {
-				if (i + j < 13) {
+				if (i + j < DLUGOSCDROGI1_2) {
 					if (Droga2[i + j]->zycie == false) {
 						wolne_miejsca++;
 					}
@@ -94,16 +94,21 @@ void Mechanika::Przemieszczenie()
 {
 	array< Auto^ >^ localtemp1 = gcnew array< Auto^ >(DLUGOSCDROGI1_2);
 	array< Auto^ >^ localtemp2 = gcnew array< Auto^ >(DLUGOSCDROGI1_2);
-
+	array< Auto^ >^ localtemp3 = gcnew array< Auto^ >(DLUGOSCDROGI1_2);
+	array< Auto^ >^ localtemp4 = gcnew array< Auto^ >(DLUGOSCDROGI1_2);
 
 
 
 	for (int i = 0; i < DLUGOSCDROGI1_2; i++) {
 		localtemp1[i] = gcnew Auto;
 		localtemp2[i] = gcnew Auto;
+		localtemp3[i] = gcnew Auto;
+		localtemp4[i] = gcnew Auto;
 	}
 	array< Auto^ >^ Drogatemp1 = localtemp1;
 	array< Auto^ >^ Drogatemp2 = localtemp2;
+	array< Auto^ >^ Drogatemp3 = localtemp3;
+	array< Auto^ >^ Drogatemp4 = localtemp4;
 
 
 
@@ -117,20 +122,33 @@ void Mechanika::Przemieszczenie()
 						Drogatemp1[i + Droga1[i]->predkosc] = Droga1[i]; //ustawinie nowego miejsca
 					}
 					else {
+						
+						
+						
+						
+						
+						
+						
 						Drogatemp1[i]->zycie = false;	//jak wyjedzie to znika ii ma sie pojawiæ w kolejnej tablicy
-
+						
 					}
 				}
 				else {
-
-					//tutaj na koniec tablicy zatrzymaæ sie
-
-
+					int wolne_miejsca = 0;
+					for (int j = 1; j <= Droga1[i]->predkosc + 1; j++) {
+						if (i + j < DLUGOSCDROGI1_2) {
+							if (Droga1[i + j]->zycie == false) {
+								wolne_miejsca++;
+							}
+							else j = Droga1[i]->predkosc + 100;//wyjscie z pêtli
+						}
+					}
+					if (i + wolne_miejsca >= DLUGOSCDROGI1_2 - 1) {
+						Droga1[i]->predkosc = wolne_miejsca;
+					}
+					Drogatemp1[i + Droga1[i]->predkosc] = Droga1[i];
 				}
-			}
-			else {
-				Drogatemp1[i] = Droga1[i];   //postuj dla 1sekundy
-			}
+			} else Drogatemp1[i] = Droga1[i];   //postuj dla 1sekundy
 			Droga1[i]->czas_zycia++;		//inkrementacja ¿ycia
 		}
 	}
