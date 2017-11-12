@@ -16,7 +16,7 @@ public:
 	int odwaga = 1;	//ilosc miejsca zeby zmienic pas
 	int zdenerwowanie; //czas potrzebny do zmniejszenia odwagi
 	int rodzaj; // kolor auta
-	int gdzie = 3; //numer drogi zjazdowej
+	int gdzie ; //numer drogi zjazdowej
 	
 	bool przeszkoda; // czy dana komórka jest przeszkod¹
 

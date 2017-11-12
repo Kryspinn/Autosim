@@ -105,6 +105,8 @@ void Mechanika::Przemieszczenie()
 		localtemp3[i] = gcnew Auto;
 		localtemp4[i] = gcnew Auto;
 	}
+
+
 	array< Auto^ >^ Drogatemp1 = localtemp1;
 	array< Auto^ >^ Drogatemp2 = localtemp2;
 	array< Auto^ >^ Drogatemp3 = localtemp3;
@@ -122,14 +124,28 @@ void Mechanika::Przemieszczenie()
 						Drogatemp1[i + Droga1[i]->predkosc] = Droga1[i]; //ustawinie nowego miejsca
 					}
 					else {
+						int wolne_miejsca_na_nowej_drodze = 0;
+						for (int j = 0; j <= i + Droga1[i]->predkosc - DLUGOSCDROGI1_2; j++) {
+							if (Droga4[j]->zycie == false) wolne_miejsca_na_nowej_drodze++; //sprawdzamy droge do której siê udajemy
+							else j = 1000;//wyjscie z petli
+						}
+						if (Droga1[i]->predkosc + i - DLUGOSCDROGI1_2 < wolne_miejsca_na_nowej_drodze && wolne_miejsca_na_nowej_drodze != 0) {
+							Drogatemp4[Droga1[i]->predkosc + i - DLUGOSCDROGI1_2] = gcnew Auto(Droga1[i]->predkosc, Droga1[i]->zycie, Droga1[i]->czas_zycia + 1, Droga1[i]->rodzaj, Droga1[i]->widocznosc, Droga1[i]->odwaga, Droga1[i]->zdenerwowanie, Droga1[i]->gdzie);
+							Droga1[i]->zycie = false;
+							Drogatemp1[i]->zycie = false;	//jak wyjedzie to znika ii ma sie pojawiæ w kolejnej tablicy
+						}
+						if (Droga1[i]->predkosc + i - DLUGOSCDROGI1_2 >= wolne_miejsca_na_nowej_drodze && wolne_miejsca_na_nowej_drodze != 0) {
+							Drogatemp4[wolne_miejsca_na_nowej_drodze - 1] = gcnew Auto(Droga1[i]->predkosc, Droga1[i]->zycie, Droga1[i]->czas_zycia + 1, Droga1[i]->rodzaj, Droga1[i]->widocznosc, Droga1[i]->odwaga, Droga1[i]->zdenerwowanie, Droga1[i]->gdzie);
+							Droga1[i]->zycie = false;
+							Drogatemp1[i]->zycie = false;	//jak wyjedzie to znika ii ma sie pojawiæ w kolejnej tablicy
+						}
+						if (wolne_miejsca_na_nowej_drodze == 0) {
+							Drogatemp1[i] = Droga1[i];
+						}
 						
 						
 						
 						
-						
-						
-						
-						Drogatemp1[i]->zycie = false;	//jak wyjedzie to znika ii ma sie pojawiæ w kolejnej tablicy
 						
 					}
 				}
@@ -152,7 +168,7 @@ void Mechanika::Przemieszczenie()
 			Droga1[i]->czas_zycia++;		//inkrementacja ¿ycia
 		}
 	}
-	Droga1 = Drogatemp1;
+
 
 
 
@@ -176,7 +192,12 @@ void Mechanika::Przemieszczenie()
 		}
 	}
 
+
+
+	Droga1 = Drogatemp1;
 	Droga2 = Drogatemp2;
+	Droga3 = Drogatemp3;
+	Droga4 = Drogatemp4;
 }
 
 void Mechanika::Zmiana_Pasa()
@@ -232,6 +253,7 @@ void Mechanika::Nowe_Auto()
 			Droga1[0]->czas_zycia = 0;
 			Droga1[0]->predkosc = rnd->Next(1, 3);
 			Droga1[0]->rodzaj = rnd->Next(1, 4);
+			Droga1[0]->gdzie = 2;//popraw dla innych
 		}
 	}
 

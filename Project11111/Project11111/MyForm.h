@@ -427,7 +427,7 @@ namespace Project11111 {
 			// 
 			// timer1
 			// 
-			this->timer1->Interval = 1000;
+			this->timer1->Interval = 200;
 			this->timer1->Tick += gcnew System::EventHandler(this, &MyForm::timer1_Tick);
 			// 
 			// pictureBox1
@@ -1720,9 +1720,9 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 
 #pragma region wyœwietlanie_drogi_4
 
-	if (Droga4[12]->zycie == true) {
+	if (Droga4[0]->zycie == true) {
 		pictureBox44->Visible = true;
-		switch (Droga4[12]->rodzaj)
+		switch (Droga4[0]->rodzaj)
 		{
 		case 1: pictureBox44->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
 		case 2: pictureBox44->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
@@ -1734,9 +1734,9 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 	}
 	else pictureBox44->Visible = false;
 
-	if (Droga4[12]->zycie == true) {
+	if (Droga4[1]->zycie == true) {
 		pictureBox45->Visible = true;
-		switch (Droga4[12]->rodzaj)
+		switch (Droga4[1]->rodzaj)
 		{
 		case 1: pictureBox45->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
 		case 2: pictureBox45->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
@@ -1748,9 +1748,9 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 	}
 	else pictureBox45->Visible = false;
 
-	if (Droga4[12]->zycie == true) {
+	if (Droga4[2]->zycie == true) {
 		pictureBox46->Visible = true;
-		switch (Droga4[12]->rodzaj)
+		switch (Droga4[2]->rodzaj)
 		{
 		case 1: pictureBox46->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
 		case 2: pictureBox46->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
@@ -1762,9 +1762,9 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 	}
 	else pictureBox46->Visible = false;
 
-	if (Droga4[12]->zycie == true) {
+	if (Droga4[3]->zycie == true) {
 		pictureBox47->Visible = true;
-		switch (Droga4[12]->rodzaj)
+		switch (Droga4[3]->rodzaj)
 		{
 		case 1: pictureBox47->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
 		case 2: pictureBox47->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
@@ -1776,9 +1776,9 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 	}
 	else pictureBox47->Visible = false;
 
-	if (Droga4[12]->zycie == true) {
+	if (Droga4[4]->zycie == true) {
 		pictureBox48->Visible = true;
-		switch (Droga4[12]->rodzaj)
+		switch (Droga4[4]->rodzaj)
 		{
 		case 1: pictureBox48->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
 		case 2: pictureBox48->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
@@ -1790,9 +1790,9 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 	}
 	else pictureBox48->Visible = false;
 
-	if (Droga4[12]->zycie == true) {
+	if (Droga4[5]->zycie == true) {
 		pictureBox49->Visible = true;
-		switch (Droga4[12]->rodzaj)
+		switch (Droga4[5]->rodzaj)
 		{
 		case 1: pictureBox49->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
 		case 2: pictureBox49->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
@@ -1804,9 +1804,9 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 	}
 	else pictureBox49->Visible = false;
 
-	if (Droga4[12]->zycie == true) {
+	if (Droga4[6]->zycie == true) {
 		pictureBox50->Visible = true;
-		switch (Droga4[12]->rodzaj)
+		switch (Droga4[6]->rodzaj)
 		{
 		case 1: pictureBox50->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
 		case 2: pictureBox50->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
@@ -1818,9 +1818,9 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 	}
 	else pictureBox50->Visible = false;
 
-	if (Droga4[12]->zycie == true) {
+	if (Droga4[7]->zycie == true) {
 		pictureBox51->Visible = true;
-		switch (Droga4[12]->rodzaj)
+		switch (Droga4[7]->rodzaj)
 		{
 		case 1: pictureBox51->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
 		case 2: pictureBox51->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
@@ -1832,9 +1832,9 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 	}
 	else pictureBox51->Visible = false;
 
-	if (Droga4[12]->zycie == true) {
+	if (Droga4[8]->zycie == true) {
 		pictureBox52->Visible = true;
-		switch (Droga4[12]->rodzaj)
+		switch (Droga4[8]->rodzaj)
 		{
 		case 1: pictureBox52->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
 		case 2: pictureBox52->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
@@ -1846,9 +1846,9 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 	}
 	else pictureBox52->Visible = false;
 
-	if (Droga4[12]->zycie == true) {
+	if (Droga4[9]->zycie == true) {
 		pictureBox53->Visible = true;
-		switch (Droga4[12]->rodzaj)
+		switch (Droga4[9]->rodzaj)
 		{
 		case 1: pictureBox53->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
 		case 2: pictureBox53->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
@@ -1860,9 +1860,9 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 	}
 	else pictureBox53->Visible = false;
 
-	if (Droga4[12]->zycie == true) {
+	if (Droga4[10]->zycie == true) {
 		pictureBox54->Visible = true;
-		switch (Droga4[12]->rodzaj)
+		switch (Droga4[10]->rodzaj)
 		{
 		case 1: pictureBox54->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
 		case 2: pictureBox54->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
@@ -1874,9 +1874,9 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 	}
 	else pictureBox54->Visible = false;
 
-	if (Droga4[12]->zycie == true) {
+	if (Droga4[11]->zycie == true) {
 		pictureBox55->Visible = true;
-		switch (Droga4[12]->rodzaj)
+		switch (Droga4[11]->rodzaj)
 		{
 		case 1: pictureBox55->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum1.png"); break;
 		case 2: pictureBox55->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\brum2.png"); break;
