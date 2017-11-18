@@ -107,6 +107,8 @@ namespace Project11111 {
 
 
 
+
+
 	private: System::ComponentModel::IContainer^  components;
 	protected:
 
@@ -205,11 +207,9 @@ namespace Project11111 {
 			// 
 			this->droga->BackColor = System::Drawing::SystemColors::ControlDarkDark;
 			this->droga->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"droga.Image")));
-			this->droga->InitialImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"droga.InitialImage")));
-			this->droga->Location = System::Drawing::Point(59, -464);
+			this->droga->Location = System::Drawing::Point(10, 229);
 			this->droga->Name = L"droga";
-			this->droga->Size = System::Drawing::Size(3000, 2000);
-			this->droga->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
+			this->droga->Size = System::Drawing::Size(1182, 149);
 			this->droga->TabIndex = 0;
 			this->droga->TabStop = false;
 			// 
@@ -370,12 +370,13 @@ namespace Project11111 {
 			// label1
 			// 
 			this->label1->AutoSize = true;
+			this->label1->BackColor = System::Drawing::Color::Transparent;
 			this->label1->Font = (gcnew System::Drawing::Font(L"Times New Roman", 17, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->label1->ImageAlign = System::Drawing::ContentAlignment::TopCenter;
-			this->label1->Location = System::Drawing::Point(1815, 13);
+			this->label1->Location = System::Drawing::Point(1785, 13);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(71, 25);
+			this->label1->Size = System::Drawing::Size(86, 32);
 			this->label1->TabIndex = 16;
 			this->label1->Text = L"Zegar";
 			// 
@@ -384,9 +385,9 @@ namespace Project11111 {
 			this->zegar->AutoSize = true;
 			this->zegar->Font = (gcnew System::Drawing::Font(L"Lucida Sans", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->zegar->Location = System::Drawing::Point(1805, 45);
+			this->zegar->Location = System::Drawing::Point(1772, 49);
 			this->zegar->Name = L"zegar";
-			this->zegar->Size = System::Drawing::Size(92, 22);
+			this->zegar->Size = System::Drawing::Size(114, 27);
 			this->zegar->TabIndex = 17;
 			this->zegar->Text = L"00:00:00";
 			// 
@@ -431,7 +432,7 @@ namespace Project11111 {
 			this->labelnatezenie->AutoSize = true;
 			this->labelnatezenie->Location = System::Drawing::Point(61, 34);
 			this->labelnatezenie->Name = L"labelnatezenie";
-			this->labelnatezenie->Size = System::Drawing::Size(21, 24);
+			this->labelnatezenie->Size = System::Drawing::Size(27, 29);
 			this->labelnatezenie->TabIndex = 21;
 			this->labelnatezenie->Text = L"0";
 			// 
@@ -454,7 +455,7 @@ namespace Project11111 {
 			this->labellosowosc->AutoSize = true;
 			this->labellosowosc->Location = System::Drawing::Point(61, 32);
 			this->labellosowosc->Name = L"labellosowosc";
-			this->labellosowosc->Size = System::Drawing::Size(21, 24);
+			this->labellosowosc->Size = System::Drawing::Size(27, 29);
 			this->labellosowosc->TabIndex = 22;
 			this->labellosowosc->Text = L"0";
 			// 
@@ -628,6 +629,7 @@ namespace Project11111 {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::None;
 			this->AutoValidate = System::Windows::Forms::AutoValidate::EnablePreventFocusChange;
 			this->BackColor = System::Drawing::SystemColors::ControlDarkDark;
+			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->ClientSize = System::Drawing::Size(1898, 1029);
 			this->Controls->Add(this->pictureBox30);
 			this->Controls->Add(this->pictureBox29);

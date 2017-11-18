@@ -5,19 +5,19 @@ ref class Auto
 {
 public:
 
-	Auto(int pred, bool zyc,int czas, int rodzajj, int gdziee);
+	Auto(int pred, bool zyc, int czas, int rodzajj, int widocznoscc, int odwagaa, int zdenerwowaniee, int gdziee);
 	Auto();
 
 
 	bool zycie;
 	int czas_zycia;
-	int predkosc;
-	int widocznosc = 2;// jaka odleg³oœ potrzebna do zmiany pasa
+	int predkosc;  //predkoœc auta
+	int widocznosc = 4; // ilosc pól z której widaæ przeszkode
 	int odwaga = 1;	//ilosc miejsca zeby zmienic pas
-	int rodzaj;	//kolor auta
-	int gdzie;	//okresla któr¹ drog¹ ma jechaæ 
-	
-	bool przeszkoda;
+	int zdenerwowanie; //czas potrzebny do zmniejszenia odwagi
+	int rodzaj; // kolor auta
+	int gdzie; //numer drogi zjazdowej
+
+	bool przeszkoda; // czy dana komórka jest przeszkod¹
 
 };
-
