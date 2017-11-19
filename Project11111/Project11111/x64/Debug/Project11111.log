@@ -1,8 +1,4 @@
 ﻿  MyForm.cpp
   Auto.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
-.NETFramework,Version=v4.5.2.AssemblyAttributes.obj : warning LNK4020: a type record in 'c:\users\krystian\documents\github\autosim\project11111\project11111\x64\debug\vc140.pdb' is corrupted; some symbols and types may not be accessible from the debugger
-MyForm.obj : warning LNK4020: a type record in 'c:\users\krystian\documents\github\autosim\project11111\project11111\x64\debug\vc140.pdb' is corrupted; some symbols and types may not be accessible from the debugger
-Mechanika.obj : warning LNK4020: a type record in 'c:\users\krystian\documents\github\autosim\project11111\project11111\x64\debug\vc140.pdb' is corrupted; some symbols and types may not be accessible from the debugger
-Auto.obj : warning LNK4020: a type record in 'c:\users\krystian\documents\github\autosim\project11111\project11111\x64\debug\vc140.pdb' is corrupted; some symbols and types may not be accessible from the debugger
   Project11111.vcxproj -> C:\Users\Krystian\Documents\GitHub\Autosim\Project11111\x64\Debug\Project11111.exe
   Project11111.vcxproj -> C:\Users\Krystian\Documents\GitHub\Autosim\Project11111\x64\Debug\Project11111.pdb (Partial PDB)
