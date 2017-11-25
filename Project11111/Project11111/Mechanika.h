@@ -8,12 +8,12 @@ public:
 	Mechanika();
 	void Przyspieszani_Hamowanie();
 	void Zdarzenia_Losowe();
-	/*void Przemieszczenie();
-	void Zmiana_Pasa();*/
+	void Przemieszczenie();
+	void Zmiana_Pasa();
 	void Ustaw_Przeszkode();
 	void Nowe_Auto();
 	void Wybor_Pasa();
-
+	void Skrecanie();
 
 
 	void Ustawwaruki(int natezeniee, int losowoscc);
@@ -39,9 +39,9 @@ public:
 	array< Auto^ >^ DajDroge19();
 
 
-private:
+public:
 	Random^ rnd;
-	int natezenie = 7;
+	int natezenie = 4;
 	int losowosc = 20;
 	array< Auto^ >^ Droga1;
 	array< Auto^ >^ Droga2;

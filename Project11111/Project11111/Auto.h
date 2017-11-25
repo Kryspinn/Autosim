@@ -13,7 +13,7 @@ public:
 	int czas_zycia;
 	int predkosc;  //predkoœc auta
 	int widocznosc = 4; // ilosc pól z której widaæ przeszkode
-	int odwaga = 1;	//ilosc miejsca zeby zmienic pas
+	int odwaga = 3;	//ilosc miejsca zeby zmienic pas
 	int zdenerwowanie; //czas potrzebny do zmniejszenia odwagi
 	int rodzaj; // kolor auta
 	int gdzie; //numer drogi zjazdowej

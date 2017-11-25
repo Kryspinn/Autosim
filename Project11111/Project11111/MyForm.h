@@ -1020,7 +1020,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			// 
 			// timer1
 			// 
-			this->timer1->Interval = 1000;
+			this->timer1->Interval = 10;
 			this->timer1->Tick += gcnew System::EventHandler(this, &MyForm::timer1_Tick);
 			// 
 			// label1
@@ -1032,7 +1032,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->label1->ImageAlign = System::Drawing::ContentAlignment::TopCenter;
 			this->label1->Location = System::Drawing::Point(1785, 13);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(86, 32);
+			this->label1->Size = System::Drawing::Size(71, 25);
 			this->label1->TabIndex = 16;
 			this->label1->Text = L"Zegar";
 			// 
@@ -1043,7 +1043,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 				static_cast<System::Byte>(0)));
 			this->zegar->Location = System::Drawing::Point(1772, 49);
 			this->zegar->Name = L"zegar";
-			this->zegar->Size = System::Drawing::Size(114, 27);
+			this->zegar->Size = System::Drawing::Size(92, 22);
 			this->zegar->TabIndex = 17;
 			this->zegar->Text = L"00:00:00";
 			// 
@@ -1088,7 +1088,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->labelnatezenie->AutoSize = true;
 			this->labelnatezenie->Location = System::Drawing::Point(61, 34);
 			this->labelnatezenie->Name = L"labelnatezenie";
-			this->labelnatezenie->Size = System::Drawing::Size(27, 29);
+			this->labelnatezenie->Size = System::Drawing::Size(21, 24);
 			this->labelnatezenie->TabIndex = 21;
 			this->labelnatezenie->Text = L"0";
 			// 
@@ -1111,7 +1111,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->labellosowosc->AutoSize = true;
 			this->labellosowosc->Location = System::Drawing::Point(61, 32);
 			this->labellosowosc->Name = L"labellosowosc";
-			this->labellosowosc->Size = System::Drawing::Size(27, 29);
+			this->labellosowosc->Size = System::Drawing::Size(21, 24);
 			this->labellosowosc->TabIndex = 22;
 			this->labellosowosc->Text = L"0";
 			// 
@@ -1561,7 +1561,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox39->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox39.Image")));
 			this->pictureBox39->Location = System::Drawing::Point(1058, 347);
 			this->pictureBox39->Name = L"pictureBox39";
-			this->pictureBox39->Size = System::Drawing::Size(14, 16);
+			this->pictureBox39->Size = System::Drawing::Size(16, 16);
 			this->pictureBox39->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox39->TabIndex = 62;
 			this->pictureBox39->TabStop = false;
@@ -1715,7 +1715,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox53->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox53.Image")));
 			this->pictureBox53->Location = System::Drawing::Point(748, 557);
 			this->pictureBox53->Name = L"pictureBox53";
-			this->pictureBox53->Size = System::Drawing::Size(16, 16);
+			this->pictureBox53->Size = System::Drawing::Size(16, 14);
 			this->pictureBox53->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox53->TabIndex = 76;
 			this->pictureBox53->TabStop = false;
@@ -1770,7 +1770,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox58->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox58.Image")));
 			this->pictureBox58->Location = System::Drawing::Point(634, 623);
 			this->pictureBox58->Name = L"pictureBox58";
-			this->pictureBox58->Size = System::Drawing::Size(16, 16);
+			this->pictureBox58->Size = System::Drawing::Size(16, 14);
 			this->pictureBox58->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox58->TabIndex = 81;
 			this->pictureBox58->TabStop = false;
@@ -1813,7 +1813,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->label2->AutoSize = true;
 			this->label2->Location = System::Drawing::Point(1058, 251);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(46, 17);
+			this->label2->Size = System::Drawing::Size(35, 13);
 			this->label2->TabIndex = 85;
 			this->label2->Text = L"label2";
 			// 
@@ -1823,7 +1823,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox62->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox62.Image")));
 			this->pictureBox62->Location = System::Drawing::Point(1114, 249);
 			this->pictureBox62->Name = L"pictureBox62";
-			this->pictureBox62->Size = System::Drawing::Size(14, 16);
+			this->pictureBox62->Size = System::Drawing::Size(16, 16);
 			this->pictureBox62->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox62->TabIndex = 86;
 			this->pictureBox62->TabStop = false;
@@ -1867,7 +1867,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox66->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox66.Image")));
 			this->pictureBox66->Location = System::Drawing::Point(1070, 357);
 			this->pictureBox66->Name = L"pictureBox66";
-			this->pictureBox66->Size = System::Drawing::Size(14, 16);
+			this->pictureBox66->Size = System::Drawing::Size(12, 16);
 			this->pictureBox66->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox66->TabIndex = 90;
 			this->pictureBox66->TabStop = false;
@@ -1878,7 +1878,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox67->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox67.Image")));
 			this->pictureBox67->Location = System::Drawing::Point(1069, 385);
 			this->pictureBox67->Name = L"pictureBox67";
-			this->pictureBox67->Size = System::Drawing::Size(14, 16);
+			this->pictureBox67->Size = System::Drawing::Size(12, 16);
 			this->pictureBox67->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox67->TabIndex = 91;
 			this->pictureBox67->TabStop = false;
@@ -1889,7 +1889,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox68->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox68.Image")));
 			this->pictureBox68->Location = System::Drawing::Point(1075, 421);
 			this->pictureBox68->Name = L"pictureBox68";
-			this->pictureBox68->Size = System::Drawing::Size(14, 16);
+			this->pictureBox68->Size = System::Drawing::Size(12, 16);
 			this->pictureBox68->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox68->TabIndex = 92;
 			this->pictureBox68->TabStop = false;
@@ -1922,7 +1922,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox71->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox71.Image")));
 			this->pictureBox71->Location = System::Drawing::Point(1113, 502);
 			this->pictureBox71->Name = L"pictureBox71";
-			this->pictureBox71->Size = System::Drawing::Size(14, 16);
+			this->pictureBox71->Size = System::Drawing::Size(16, 16);
 			this->pictureBox71->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox71->TabIndex = 95;
 			this->pictureBox71->TabStop = false;
@@ -1944,7 +1944,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox73->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox73.Image")));
 			this->pictureBox73->Location = System::Drawing::Point(1162, 541);
 			this->pictureBox73->Name = L"pictureBox73";
-			this->pictureBox73->Size = System::Drawing::Size(14, 16);
+			this->pictureBox73->Size = System::Drawing::Size(16, 14);
 			this->pictureBox73->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox73->TabIndex = 97;
 			this->pictureBox73->TabStop = false;
@@ -1966,7 +1966,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox75->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox75.Image")));
 			this->pictureBox75->Location = System::Drawing::Point(1217, 565);
 			this->pictureBox75->Name = L"pictureBox75";
-			this->pictureBox75->Size = System::Drawing::Size(14, 16);
+			this->pictureBox75->Size = System::Drawing::Size(16, 14);
 			this->pictureBox75->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox75->TabIndex = 99;
 			this->pictureBox75->TabStop = false;
@@ -1977,7 +1977,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox76->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox76.Image")));
 			this->pictureBox76->Location = System::Drawing::Point(1249, 570);
 			this->pictureBox76->Name = L"pictureBox76";
-			this->pictureBox76->Size = System::Drawing::Size(14, 16);
+			this->pictureBox76->Size = System::Drawing::Size(16, 12);
 			this->pictureBox76->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox76->TabIndex = 100;
 			this->pictureBox76->TabStop = false;
@@ -1999,7 +1999,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox78->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox78.Image")));
 			this->pictureBox78->Location = System::Drawing::Point(1314, 563);
 			this->pictureBox78->Name = L"pictureBox78";
-			this->pictureBox78->Size = System::Drawing::Size(14, 16);
+			this->pictureBox78->Size = System::Drawing::Size(16, 13);
 			this->pictureBox78->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox78->TabIndex = 102;
 			this->pictureBox78->TabStop = false;
@@ -2010,7 +2010,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox79->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox79.Image")));
 			this->pictureBox79->Location = System::Drawing::Point(1348, 553);
 			this->pictureBox79->Name = L"pictureBox79";
-			this->pictureBox79->Size = System::Drawing::Size(14, 16);
+			this->pictureBox79->Size = System::Drawing::Size(16, 16);
 			this->pictureBox79->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox79->TabIndex = 103;
 			this->pictureBox79->TabStop = false;
@@ -2032,7 +2032,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox81->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox81.Image")));
 			this->pictureBox81->Location = System::Drawing::Point(1403, 511);
 			this->pictureBox81->Name = L"pictureBox81";
-			this->pictureBox81->Size = System::Drawing::Size(14, 16);
+			this->pictureBox81->Size = System::Drawing::Size(16, 16);
 			this->pictureBox81->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox81->TabIndex = 105;
 			this->pictureBox81->TabStop = false;
@@ -2043,7 +2043,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox82->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox82.Image")));
 			this->pictureBox82->Location = System::Drawing::Point(1425, 486);
 			this->pictureBox82->Name = L"pictureBox82";
-			this->pictureBox82->Size = System::Drawing::Size(14, 16);
+			this->pictureBox82->Size = System::Drawing::Size(16, 16);
 			this->pictureBox82->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox82->TabIndex = 106;
 			this->pictureBox82->TabStop = false;
@@ -2054,7 +2054,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox83->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox83.Image")));
 			this->pictureBox83->Location = System::Drawing::Point(1441, 453);
 			this->pictureBox83->Name = L"pictureBox83";
-			this->pictureBox83->Size = System::Drawing::Size(14, 16);
+			this->pictureBox83->Size = System::Drawing::Size(13, 16);
 			this->pictureBox83->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox83->TabIndex = 107;
 			this->pictureBox83->TabStop = false;
@@ -2065,7 +2065,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox84->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox84.Image")));
 			this->pictureBox84->Location = System::Drawing::Point(1453, 416);
 			this->pictureBox84->Name = L"pictureBox84";
-			this->pictureBox84->Size = System::Drawing::Size(14, 16);
+			this->pictureBox84->Size = System::Drawing::Size(13, 16);
 			this->pictureBox84->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox84->TabIndex = 108;
 			this->pictureBox84->TabStop = false;
@@ -2076,7 +2076,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox85->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox85.Image")));
 			this->pictureBox85->Location = System::Drawing::Point(1456, 371);
 			this->pictureBox85->Name = L"pictureBox85";
-			this->pictureBox85->Size = System::Drawing::Size(14, 16);
+			this->pictureBox85->Size = System::Drawing::Size(12, 16);
 			this->pictureBox85->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox85->TabIndex = 109;
 			this->pictureBox85->TabStop = false;
@@ -2120,7 +2120,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox89->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox89.Image")));
 			this->pictureBox89->Location = System::Drawing::Point(1404, 244);
 			this->pictureBox89->Name = L"pictureBox89";
-			this->pictureBox89->Size = System::Drawing::Size(14, 16);
+			this->pictureBox89->Size = System::Drawing::Size(16, 16);
 			this->pictureBox89->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox89->TabIndex = 113;
 			this->pictureBox89->TabStop = false;
@@ -2131,7 +2131,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox90->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox90.Image")));
 			this->pictureBox90->Location = System::Drawing::Point(1379, 221);
 			this->pictureBox90->Name = L"pictureBox90";
-			this->pictureBox90->Size = System::Drawing::Size(14, 16);
+			this->pictureBox90->Size = System::Drawing::Size(16, 16);
 			this->pictureBox90->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox90->TabIndex = 114;
 			this->pictureBox90->TabStop = false;
@@ -2142,7 +2142,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox91->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox91.Image")));
 			this->pictureBox91->Location = System::Drawing::Point(1352, 204);
 			this->pictureBox91->Name = L"pictureBox91";
-			this->pictureBox91->Size = System::Drawing::Size(14, 16);
+			this->pictureBox91->Size = System::Drawing::Size(16, 14);
 			this->pictureBox91->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox91->TabIndex = 115;
 			this->pictureBox91->TabStop = false;
@@ -2153,7 +2153,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox92->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox92.Image")));
 			this->pictureBox92->Location = System::Drawing::Point(1314, 188);
 			this->pictureBox92->Name = L"pictureBox92";
-			this->pictureBox92->Size = System::Drawing::Size(14, 16);
+			this->pictureBox92->Size = System::Drawing::Size(16, 14);
 			this->pictureBox92->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox92->TabIndex = 116;
 			this->pictureBox92->TabStop = false;
@@ -2164,7 +2164,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox93->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox93.Image")));
 			this->pictureBox93->Location = System::Drawing::Point(1269, 183);
 			this->pictureBox93->Name = L"pictureBox93";
-			this->pictureBox93->Size = System::Drawing::Size(14, 16);
+			this->pictureBox93->Size = System::Drawing::Size(16, 12);
 			this->pictureBox93->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox93->TabIndex = 117;
 			this->pictureBox93->TabStop = false;
@@ -2175,7 +2175,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox94->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox94.Image")));
 			this->pictureBox94->Location = System::Drawing::Point(1230, 183);
 			this->pictureBox94->Name = L"pictureBox94";
-			this->pictureBox94->Size = System::Drawing::Size(14, 16);
+			this->pictureBox94->Size = System::Drawing::Size(16, 14);
 			this->pictureBox94->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox94->TabIndex = 118;
 			this->pictureBox94->TabStop = false;
@@ -2186,7 +2186,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox95->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox95.Image")));
 			this->pictureBox95->Location = System::Drawing::Point(1196, 194);
 			this->pictureBox95->Name = L"pictureBox95";
-			this->pictureBox95->Size = System::Drawing::Size(14, 16);
+			this->pictureBox95->Size = System::Drawing::Size(16, 14);
 			this->pictureBox95->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox95->TabIndex = 119;
 			this->pictureBox95->TabStop = false;
@@ -2197,7 +2197,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox96->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox96.Image")));
 			this->pictureBox96->Location = System::Drawing::Point(1162, 207);
 			this->pictureBox96->Name = L"pictureBox96";
-			this->pictureBox96->Size = System::Drawing::Size(14, 16);
+			this->pictureBox96->Size = System::Drawing::Size(16, 16);
 			this->pictureBox96->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox96->TabIndex = 120;
 			this->pictureBox96->TabStop = false;
@@ -2208,7 +2208,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox97->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox97.Image")));
 			this->pictureBox97->Location = System::Drawing::Point(1134, 226);
 			this->pictureBox97->Name = L"pictureBox97";
-			this->pictureBox97->Size = System::Drawing::Size(14, 16);
+			this->pictureBox97->Size = System::Drawing::Size(16, 16);
 			this->pictureBox97->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox97->TabIndex = 121;
 			this->pictureBox97->TabStop = false;
@@ -2615,7 +2615,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox134->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox134.Image")));
 			this->pictureBox134->Location = System::Drawing::Point(1287, 169);
 			this->pictureBox134->Name = L"pictureBox134";
-			this->pictureBox134->Size = System::Drawing::Size(14, 16);
+			this->pictureBox134->Size = System::Drawing::Size(16, 16);
 			this->pictureBox134->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox134->TabIndex = 158;
 			this->pictureBox134->TabStop = false;
@@ -2637,7 +2637,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox136->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox136.Image")));
 			this->pictureBox136->Location = System::Drawing::Point(1270, 107);
 			this->pictureBox136->Name = L"pictureBox136";
-			this->pictureBox136->Size = System::Drawing::Size(14, 16);
+			this->pictureBox136->Size = System::Drawing::Size(12, 16);
 			this->pictureBox136->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox136->TabIndex = 160;
 			this->pictureBox136->TabStop = false;
@@ -2725,7 +2725,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox144->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox144.Image")));
 			this->pictureBox144->Location = System::Drawing::Point(1249, 138);
 			this->pictureBox144->Name = L"pictureBox144";
-			this->pictureBox144->Size = System::Drawing::Size(14, 16);
+			this->pictureBox144->Size = System::Drawing::Size(12, 16);
 			this->pictureBox144->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox144->TabIndex = 168;
 			this->pictureBox144->TabStop = false;
@@ -2736,7 +2736,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox145->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox145.Image")));
 			this->pictureBox145->Location = System::Drawing::Point(1240, 165);
 			this->pictureBox145->Name = L"pictureBox145";
-			this->pictureBox145->Size = System::Drawing::Size(14, 16);
+			this->pictureBox145->Size = System::Drawing::Size(16, 16);
 			this->pictureBox145->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox145->TabIndex = 169;
 			this->pictureBox145->TabStop = false;
@@ -2747,7 +2747,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox146->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox146.Image")));
 			this->pictureBox146->Location = System::Drawing::Point(1471, 348);
 			this->pictureBox146->Name = L"pictureBox146";
-			this->pictureBox146->Size = System::Drawing::Size(14, 16);
+			this->pictureBox146->Size = System::Drawing::Size(16, 16);
 			this->pictureBox146->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox146->TabIndex = 170;
 			this->pictureBox146->TabStop = false;
@@ -2769,7 +2769,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox148->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox148.Image")));
 			this->pictureBox148->Location = System::Drawing::Point(1522, 305);
 			this->pictureBox148->Name = L"pictureBox148";
-			this->pictureBox148->Size = System::Drawing::Size(14, 16);
+			this->pictureBox148->Size = System::Drawing::Size(16, 13);
 			this->pictureBox148->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox148->TabIndex = 172;
 			this->pictureBox148->TabStop = false;
@@ -2791,7 +2791,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox150->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox150.Image")));
 			this->pictureBox150->Location = System::Drawing::Point(1605, 311);
 			this->pictureBox150->Name = L"pictureBox150";
-			this->pictureBox150->Size = System::Drawing::Size(14, 16);
+			this->pictureBox150->Size = System::Drawing::Size(16, 14);
 			this->pictureBox150->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox150->TabIndex = 174;
 			this->pictureBox150->TabStop = false;
@@ -2802,7 +2802,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox151->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox151.Image")));
 			this->pictureBox151->Location = System::Drawing::Point(1645, 317);
 			this->pictureBox151->Name = L"pictureBox151";
-			this->pictureBox151->Size = System::Drawing::Size(14, 16);
+			this->pictureBox151->Size = System::Drawing::Size(16, 12);
 			this->pictureBox151->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox151->TabIndex = 175;
 			this->pictureBox151->TabStop = false;
@@ -2835,7 +2835,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox154->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox154.Image")));
 			this->pictureBox154->Location = System::Drawing::Point(1751, 333);
 			this->pictureBox154->Name = L"pictureBox154";
-			this->pictureBox154->Size = System::Drawing::Size(14, 16);
+			this->pictureBox154->Size = System::Drawing::Size(16, 14);
 			this->pictureBox154->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox154->TabIndex = 178;
 			this->pictureBox154->TabStop = false;
@@ -2923,7 +2923,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox162->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox162.Image")));
 			this->pictureBox162->Location = System::Drawing::Point(1782, 303);
 			this->pictureBox162->Name = L"pictureBox162";
-			this->pictureBox162->Size = System::Drawing::Size(14, 16);
+			this->pictureBox162->Size = System::Drawing::Size(16, 14);
 			this->pictureBox162->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox162->TabIndex = 186;
 			this->pictureBox162->TabStop = false;
@@ -2934,7 +2934,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox163->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox163.Image")));
 			this->pictureBox163->Location = System::Drawing::Point(1747, 298);
 			this->pictureBox163->Name = L"pictureBox163";
-			this->pictureBox163->Size = System::Drawing::Size(14, 16);
+			this->pictureBox163->Size = System::Drawing::Size(16, 14);
 			this->pictureBox163->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox163->TabIndex = 187;
 			this->pictureBox163->TabStop = false;
@@ -2978,7 +2978,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox167->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox167.Image")));
 			this->pictureBox167->Location = System::Drawing::Point(1612, 277);
 			this->pictureBox167->Name = L"pictureBox167";
-			this->pictureBox167->Size = System::Drawing::Size(14, 16);
+			this->pictureBox167->Size = System::Drawing::Size(16, 14);
 			this->pictureBox167->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox167->TabIndex = 191;
 			this->pictureBox167->TabStop = false;
@@ -2987,9 +2987,9 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			// 
 			this->pictureBox168->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox168->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox168.Image")));
-			this->pictureBox168->Location = System::Drawing::Point(1576, 268);
+			this->pictureBox168->Location = System::Drawing::Point(1576, 271);
 			this->pictureBox168->Name = L"pictureBox168";
-			this->pictureBox168->Size = System::Drawing::Size(14, 16);
+			this->pictureBox168->Size = System::Drawing::Size(16, 12);
 			this->pictureBox168->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox168->TabIndex = 192;
 			this->pictureBox168->TabStop = false;
@@ -2998,9 +2998,9 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			// 
 			this->pictureBox169->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox169->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox169.Image")));
-			this->pictureBox169->Location = System::Drawing::Point(1541, 266);
+			this->pictureBox169->Location = System::Drawing::Point(1541, 268);
 			this->pictureBox169->Name = L"pictureBox169";
-			this->pictureBox169->Size = System::Drawing::Size(14, 16);
+			this->pictureBox169->Size = System::Drawing::Size(16, 12);
 			this->pictureBox169->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox169->TabIndex = 193;
 			this->pictureBox169->TabStop = false;
@@ -3011,7 +3011,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox170->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox170.Image")));
 			this->pictureBox170->Location = System::Drawing::Point(1504, 271);
 			this->pictureBox170->Name = L"pictureBox170";
-			this->pictureBox170->Size = System::Drawing::Size(14, 16);
+			this->pictureBox170->Size = System::Drawing::Size(16, 14);
 			this->pictureBox170->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox170->TabIndex = 194;
 			this->pictureBox170->TabStop = false;
@@ -3022,7 +3022,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox171->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox171.Image")));
 			this->pictureBox171->Location = System::Drawing::Point(1474, 278);
 			this->pictureBox171->Name = L"pictureBox171";
-			this->pictureBox171->Size = System::Drawing::Size(14, 16);
+			this->pictureBox171->Size = System::Drawing::Size(16, 14);
 			this->pictureBox171->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox171->TabIndex = 195;
 			this->pictureBox171->TabStop = false;
@@ -3033,7 +3033,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox172->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox172.Image")));
 			this->pictureBox172->Location = System::Drawing::Point(1449, 283);
 			this->pictureBox172->Name = L"pictureBox172";
-			this->pictureBox172->Size = System::Drawing::Size(14, 16);
+			this->pictureBox172->Size = System::Drawing::Size(16, 14);
 			this->pictureBox172->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox172->TabIndex = 196;
 			this->pictureBox172->TabStop = false;
@@ -3242,7 +3242,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox191->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox191.Image")));
 			this->pictureBox191->Location = System::Drawing::Point(1499, 737);
 			this->pictureBox191->Name = L"pictureBox191";
-			this->pictureBox191->Size = System::Drawing::Size(14, 16);
+			this->pictureBox191->Size = System::Drawing::Size(12, 16);
 			this->pictureBox191->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox191->TabIndex = 215;
 			this->pictureBox191->TabStop = false;
@@ -3253,7 +3253,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox192->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox192.Image")));
 			this->pictureBox192->Location = System::Drawing::Point(1496, 705);
 			this->pictureBox192->Name = L"pictureBox192";
-			this->pictureBox192->Size = System::Drawing::Size(14, 16);
+			this->pictureBox192->Size = System::Drawing::Size(12, 16);
 			this->pictureBox192->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox192->TabIndex = 216;
 			this->pictureBox192->TabStop = false;
@@ -3286,7 +3286,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox195->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox195.Image")));
 			this->pictureBox195->Location = System::Drawing::Point(1509, 611);
 			this->pictureBox195->Name = L"pictureBox195";
-			this->pictureBox195->Size = System::Drawing::Size(14, 16);
+			this->pictureBox195->Size = System::Drawing::Size(13, 16);
 			this->pictureBox195->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox195->TabIndex = 219;
 			this->pictureBox195->TabStop = false;
@@ -3297,7 +3297,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox196->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox196.Image")));
 			this->pictureBox196->Location = System::Drawing::Point(1519, 581);
 			this->pictureBox196->Name = L"pictureBox196";
-			this->pictureBox196->Size = System::Drawing::Size(14, 16);
+			this->pictureBox196->Size = System::Drawing::Size(16, 16);
 			this->pictureBox196->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox196->TabIndex = 220;
 			this->pictureBox196->TabStop = false;
@@ -3352,7 +3352,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox201->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox201.Image")));
 			this->pictureBox201->Location = System::Drawing::Point(1602, 458);
 			this->pictureBox201->Name = L"pictureBox201";
-			this->pictureBox201->Size = System::Drawing::Size(14, 16);
+			this->pictureBox201->Size = System::Drawing::Size(16, 16);
 			this->pictureBox201->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox201->TabIndex = 225;
 			this->pictureBox201->TabStop = false;
@@ -3363,7 +3363,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox202->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox202.Image")));
 			this->pictureBox202->Location = System::Drawing::Point(1627, 435);
 			this->pictureBox202->Name = L"pictureBox202";
-			this->pictureBox202->Size = System::Drawing::Size(14, 16);
+			this->pictureBox202->Size = System::Drawing::Size(16, 16);
 			this->pictureBox202->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox202->TabIndex = 226;
 			this->pictureBox202->TabStop = false;
@@ -3374,7 +3374,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox203->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox203.Image")));
 			this->pictureBox203->Location = System::Drawing::Point(1651, 416);
 			this->pictureBox203->Name = L"pictureBox203";
-			this->pictureBox203->Size = System::Drawing::Size(14, 16);
+			this->pictureBox203->Size = System::Drawing::Size(16, 16);
 			this->pictureBox203->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox203->TabIndex = 227;
 			this->pictureBox203->TabStop = false;
@@ -3385,7 +3385,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox204->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox204.Image")));
 			this->pictureBox204->Location = System::Drawing::Point(1675, 402);
 			this->pictureBox204->Name = L"pictureBox204";
-			this->pictureBox204->Size = System::Drawing::Size(14, 16);
+			this->pictureBox204->Size = System::Drawing::Size(16, 16);
 			this->pictureBox204->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox204->TabIndex = 228;
 			this->pictureBox204->TabStop = false;
@@ -3396,7 +3396,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox205->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox205.Image")));
 			this->pictureBox205->Location = System::Drawing::Point(1700, 389);
 			this->pictureBox205->Name = L"pictureBox205";
-			this->pictureBox205->Size = System::Drawing::Size(14, 16);
+			this->pictureBox205->Size = System::Drawing::Size(16, 16);
 			this->pictureBox205->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox205->TabIndex = 229;
 			this->pictureBox205->TabStop = false;
@@ -3407,7 +3407,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox206->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox206.Image")));
 			this->pictureBox206->Location = System::Drawing::Point(1725, 377);
 			this->pictureBox206->Name = L"pictureBox206";
-			this->pictureBox206->Size = System::Drawing::Size(14, 16);
+			this->pictureBox206->Size = System::Drawing::Size(16, 13);
 			this->pictureBox206->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox206->TabIndex = 230;
 			this->pictureBox206->TabStop = false;
@@ -3429,7 +3429,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox208->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox208.Image")));
 			this->pictureBox208->Location = System::Drawing::Point(1785, 360);
 			this->pictureBox208->Name = L"pictureBox208";
-			this->pictureBox208->Size = System::Drawing::Size(14, 16);
+			this->pictureBox208->Size = System::Drawing::Size(16, 13);
 			this->pictureBox208->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox208->TabIndex = 232;
 			this->pictureBox208->TabStop = false;
@@ -3440,7 +3440,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox209->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox209.Image")));
 			this->pictureBox209->Location = System::Drawing::Point(1816, 358);
 			this->pictureBox209->Name = L"pictureBox209";
-			this->pictureBox209->Size = System::Drawing::Size(14, 16);
+			this->pictureBox209->Size = System::Drawing::Size(16, 12);
 			this->pictureBox209->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox209->TabIndex = 233;
 			this->pictureBox209->TabStop = false;
@@ -3642,6 +3642,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox227->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox227->TabIndex = 251;
 			this->pictureBox227->TabStop = false;
+			this->pictureBox227->Visible = false;
 			// 
 			// pictureBox228
 			// 
@@ -3653,6 +3654,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox228->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox228->TabIndex = 252;
 			this->pictureBox228->TabStop = false;
+			this->pictureBox228->Visible = false;
 			// 
 			// pictureBox229
 			// 
@@ -3675,6 +3677,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox230->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox230->TabIndex = 254;
 			this->pictureBox230->TabStop = false;
+			this->pictureBox230->Visible = false;
 			// 
 			// pictureBox231
 			// 
@@ -3737,7 +3740,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox236->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox236.Image")));
 			this->pictureBox236->Location = System::Drawing::Point(1403, 537);
 			this->pictureBox236->Name = L"pictureBox236";
-			this->pictureBox236->Size = System::Drawing::Size(14, 16);
+			this->pictureBox236->Size = System::Drawing::Size(13, 16);
 			this->pictureBox236->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox236->TabIndex = 260;
 			this->pictureBox236->TabStop = false;
@@ -3748,7 +3751,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox237->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox237.Image")));
 			this->pictureBox237->Location = System::Drawing::Point(839, 535);
 			this->pictureBox237->Name = L"pictureBox237";
-			this->pictureBox237->Size = System::Drawing::Size(14, 16);
+			this->pictureBox237->Size = System::Drawing::Size(16, 16);
 			this->pictureBox237->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox237->TabIndex = 261;
 			this->pictureBox237->TabStop = false;
@@ -3770,7 +3773,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox239->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox239.Image")));
 			this->pictureBox239->Location = System::Drawing::Point(878, 509);
 			this->pictureBox239->Name = L"pictureBox239";
-			this->pictureBox239->Size = System::Drawing::Size(14, 16);
+			this->pictureBox239->Size = System::Drawing::Size(16, 16);
 			this->pictureBox239->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox239->TabIndex = 263;
 			this->pictureBox239->TabStop = false;
@@ -3781,7 +3784,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox240->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox240.Image")));
 			this->pictureBox240->Location = System::Drawing::Point(906, 501);
 			this->pictureBox240->Name = L"pictureBox240";
-			this->pictureBox240->Size = System::Drawing::Size(14, 16);
+			this->pictureBox240->Size = System::Drawing::Size(16, 13);
 			this->pictureBox240->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox240->TabIndex = 264;
 			this->pictureBox240->TabStop = false;
@@ -3814,7 +3817,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox243->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox243.Image")));
 			this->pictureBox243->Location = System::Drawing::Point(995, 502);
 			this->pictureBox243->Name = L"pictureBox243";
-			this->pictureBox243->Size = System::Drawing::Size(14, 16);
+			this->pictureBox243->Size = System::Drawing::Size(16, 14);
 			this->pictureBox243->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox243->TabIndex = 267;
 			this->pictureBox243->TabStop = false;
@@ -3825,7 +3828,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox244->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox244.Image")));
 			this->pictureBox244->Location = System::Drawing::Point(1030, 513);
 			this->pictureBox244->Name = L"pictureBox244";
-			this->pictureBox244->Size = System::Drawing::Size(14, 16);
+			this->pictureBox244->Size = System::Drawing::Size(16, 16);
 			this->pictureBox244->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox244->TabIndex = 268;
 			this->pictureBox244->TabStop = false;
@@ -3913,7 +3916,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox252->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox252.Image")));
 			this->pictureBox252->Location = System::Drawing::Point(1240, 652);
 			this->pictureBox252->Name = L"pictureBox252";
-			this->pictureBox252->Size = System::Drawing::Size(14, 16);
+			this->pictureBox252->Size = System::Drawing::Size(16, 16);
 			this->pictureBox252->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox252->TabIndex = 276;
 			this->pictureBox252->TabStop = false;
@@ -3924,7 +3927,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox253->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox253.Image")));
 			this->pictureBox253->Location = System::Drawing::Point(1262, 673);
 			this->pictureBox253->Name = L"pictureBox253";
-			this->pictureBox253->Size = System::Drawing::Size(14, 16);
+			this->pictureBox253->Size = System::Drawing::Size(16, 16);
 			this->pictureBox253->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox253->TabIndex = 277;
 			this->pictureBox253->TabStop = false;
@@ -4012,7 +4015,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox261->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox261.Image")));
 			this->pictureBox261->Location = System::Drawing::Point(1264, 585);
 			this->pictureBox261->Name = L"pictureBox261";
-			this->pictureBox261->Size = System::Drawing::Size(14, 16);
+			this->pictureBox261->Size = System::Drawing::Size(16, 16);
 			this->pictureBox261->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox261->TabIndex = 285;
 			this->pictureBox261->TabStop = false;
@@ -4230,7 +4233,6 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			// 
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::None;
 			this->AutoScroll = true;
-			this->AutoValidate = System::Windows::Forms::AutoValidate::EnablePreventFocusChange;
 			this->BackColor = System::Drawing::SystemColors::ControlDarkDark;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->ClientSize = System::Drawing::Size(1898, 1029);
@@ -4525,7 +4527,6 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->Name = L"MyForm";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"MyForm";
-			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxplusnatezenie))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxminusnatezenie))->EndInit();
 			this->groupBox1->ResumeLayout(false);
@@ -4876,10 +4877,14 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 #pragma endregion
 	//M.Ustaw_Przeszkode();
 	M.Nowe_Auto();
-	//M.Zmiana_Pasa();
+	M.Zmiana_Pasa();
+	M.Wybor_Pasa();
+	M.Skrecanie();
 	M.Przyspieszani_Hamowanie();
 	M.Zdarzenia_Losowe();
-	//M.Przemieszczenie();
+	M.Przemieszczenie();
+	
+
 
 	Droga1 = M.DajDroge1();
 	Droga2 = M.DajDroge2();
@@ -4901,7 +4906,7 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 	Droga18 = M.DajDroge18();
 	Droga19 = M.DajDroge19();
 
-
+if(czas%1000==10){
 #pragma region wyœwietlanie_drogi_1
 	if (Droga1[0]->zycie == true) {
 		pictureBox1->Visible = true;
@@ -5444,7 +5449,3636 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 
 #pragma endregion
 
+#pragma region wswietlanie_drogi_4
 
+
+	if (Droga4[0]->zycie == true) {
+		pictureBox237->Visible = true;
+		switch (Droga4[0]->rodzaj)
+		{
+		case 1: pictureBox237->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox237->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox237->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox237->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox237->Visible = false;
+
+	if (Droga4[1]->zycie == true) {
+		pictureBox238->Visible = true;
+		switch (Droga4[1]->rodzaj)
+		{
+		case 1: pictureBox238->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox238->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox238->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox238->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox238->Visible = false;
+
+	if (Droga4[2]->zycie == true) {
+		pictureBox239->Visible = true;
+		switch (Droga4[2]->rodzaj)
+		{
+		case 1: pictureBox239->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox239->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox239->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox239->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox239->Visible = false;
+
+	if (Droga4[3]->zycie == true) {
+		pictureBox240->Visible = true;
+		switch (Droga4[3]->rodzaj)
+		{
+		case 1: pictureBox240->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NEE.png"); break;
+		case 2: pictureBox240->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_E.png"); break;
+		case 3: pictureBox240->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_E.png"); break;
+		case 4: pictureBox240->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_E.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox240->Visible = false;
+
+	if (Droga4[4]->zycie == true) {
+		pictureBox241->Visible = true;
+		switch (Droga4[4]->rodzaj)
+		{
+		case 1: pictureBox241->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_E.png"); break;
+		case 2: pictureBox241->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_E.png"); break;
+		case 3: pictureBox241->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_E.png"); break;
+		case 4: pictureBox241->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_E.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox241->Visible = false;
+
+	if (Droga4[5]->zycie == true) {
+		pictureBox242->Visible = true;
+		switch (Droga4[5]->rodzaj)
+		{
+		case 1: pictureBox242->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_E.png"); break;
+		case 2: pictureBox242->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_E.png"); break;
+		case 3: pictureBox242->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_E.png"); break;
+		case 4: pictureBox242->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_E.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox242->Visible = false;
+
+	if (Droga4[6]->zycie == true) {
+		pictureBox243->Visible = true;
+		switch (Droga4[6]->rodzaj)
+		{
+		case 1: pictureBox243->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SEE.png"); break;
+		case 2: pictureBox243->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SEE.png"); break;
+		case 3: pictureBox243->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SEE.png"); break;
+		case 4: pictureBox243->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SEE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox243->Visible = false;
+
+	if (Droga4[7]->zycie == true) {
+		pictureBox244->Visible = true;
+		switch (Droga4[7]->rodzaj)
+		{
+		case 1: pictureBox244->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SE.png"); break;
+		case 2: pictureBox244->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SE.png"); break;
+		case 3: pictureBox244->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SE.png"); break;
+		case 4: pictureBox244->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox244->Visible = false;
+
+	if (Droga4[8]->zycie == true) {
+		pictureBox245->Visible = true;
+		switch (Droga4[8]->rodzaj)
+		{
+		case 1: pictureBox245->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SE.png"); break;
+		case 2: pictureBox245->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SE.png"); break;
+		case 3: pictureBox245->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SE.png"); break;
+		case 4: pictureBox245->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox245->Visible = false;
+
+	if (Droga4[9]->zycie == true) {
+		pictureBox246->Visible = true;
+		switch (Droga4[9]->rodzaj)
+		{
+		case 1: pictureBox246->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SE.png"); break;
+		case 2: pictureBox246->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SE.png"); break;
+		case 3: pictureBox246->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SE.png"); break;
+		case 4: pictureBox246->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox246->Visible = false;
+
+	if (Droga4[10]->zycie == true) {
+		pictureBox247->Visible = true;
+		switch (Droga4[10]->rodzaj)
+		{
+		case 1: pictureBox247->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SE.png"); break;
+		case 2: pictureBox247->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SE.png"); break;
+		case 3: pictureBox247->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SE.png"); break;
+		case 4: pictureBox247->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox247->Visible = false;
+
+	if (Droga4[11]->zycie == true) {
+		pictureBox248->Visible = true;
+		switch (Droga4[11]->rodzaj)
+		{
+		case 1: pictureBox248->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SE.png"); break;
+		case 2: pictureBox248->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SE.png"); break;
+		case 3: pictureBox248->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SE.png"); break;
+		case 4: pictureBox248->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox248->Visible = false;
+
+	if (Droga4[12]->zycie == true) {
+		pictureBox249->Visible = true;
+		switch (Droga4[12]->rodzaj)
+		{
+		case 1: pictureBox249->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SE.png"); break;
+		case 2: pictureBox249->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SE.png"); break;
+		case 3: pictureBox249->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SE.png"); break;
+		case 4: pictureBox249->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox249->Visible = false;
+
+	if (Droga4[13]->zycie == true) {
+		pictureBox250->Visible = true;
+		switch (Droga4[13]->rodzaj)
+		{
+		case 1: pictureBox250->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SE.png"); break;
+		case 2: pictureBox250->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SE.png"); break;
+		case 3: pictureBox250->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SE.png"); break;
+		case 4: pictureBox250->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox250->Visible = false;
+
+	if (Droga4[14]->zycie == true) {
+		pictureBox251->Visible = true;
+		switch (Droga4[14]->rodzaj)
+		{
+		case 1: pictureBox251->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SE.png"); break;
+		case 2: pictureBox251->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SE.png"); break;
+		case 3: pictureBox251->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SE.png"); break;
+		case 4: pictureBox251->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox251->Visible = false;
+
+	if (Droga4[15]->zycie == true) {
+		pictureBox252->Visible = true;
+		switch (Droga4[15]->rodzaj)
+		{
+		case 1: pictureBox252->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SE.png"); break;
+		case 2: pictureBox252->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SE.png"); break;
+		case 3: pictureBox252->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SE.png"); break;
+		case 4: pictureBox252->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox252->Visible = false;
+
+	if (Droga4[16]->zycie == true) {
+		pictureBox253->Visible = true;
+		switch (Droga4[16]->rodzaj)
+		{
+		case 1: pictureBox253->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SE.png"); break;
+		case 2: pictureBox253->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SE.png"); break;
+		case 3: pictureBox253->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SE.png"); break;
+		case 4: pictureBox253->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox253->Visible = false;
+
+	if (Droga4[17]->zycie == true) {
+		pictureBox254->Visible = true;
+		switch (Droga4[17]->rodzaj)
+		{
+		case 1: pictureBox254->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SE.png"); break;
+		case 2: pictureBox254->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SE.png"); break;
+		case 3: pictureBox254->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SE.png"); break;
+		case 4: pictureBox254->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox254->Visible = false;
+
+	if (Droga4[18]->zycie == true) {
+		pictureBox255->Visible = true;
+		switch (Droga4[18]->rodzaj)
+		{
+		case 1: pictureBox255->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SE.png"); break;
+		case 2: pictureBox255->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SE.png"); break;
+		case 3: pictureBox255->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SE.png"); break;
+		case 4: pictureBox255->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox255->Visible = false;
+
+	if (Droga4[19]->zycie == true) {
+		pictureBox256->Visible = true;
+		switch (Droga4[19]->rodzaj)
+		{
+		case 1: pictureBox256->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox256->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox256->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox256->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox256->Visible = false;
+
+	if (Droga4[20]->zycie == true) {
+		pictureBox257->Visible = true;
+		switch (Droga4[20]->rodzaj)
+		{
+		case 1: pictureBox257->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox257->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox257->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox257->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox257->Visible = false;
+
+	if (Droga4[21]->zycie == true) {
+		pictureBox258->Visible = true;
+		switch (Droga4[21]->rodzaj)
+		{
+		case 1: pictureBox258->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox258->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox258->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox258->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox258->Visible = false;
+
+	if (Droga4[22]->zycie == true) {
+		pictureBox259->Visible = true;
+		switch (Droga4[22]->rodzaj)
+		{
+		case 1: pictureBox259->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox259->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox259->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox259->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox259->Visible = false;
+
+	if (Droga4[23]->zycie == true) {
+		pictureBox260->Visible = true;
+		switch (Droga4[23]->rodzaj)
+		{
+		case 1: pictureBox260->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox260->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox260->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox260->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox260->Visible = false;
+
+
+
+#pragma endregion
+
+#pragma region wswietlanie_drogi_5
+
+
+	if (Droga5[0]->zycie == true) {
+		pictureBox261->Visible = true;
+		switch (Droga5[0]->rodzaj)
+		{
+		case 1: pictureBox261->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SE.png"); break;
+		case 2: pictureBox261->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SE.png"); break;
+		case 3: pictureBox261->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SE.png"); break;
+		case 4: pictureBox261->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox261->Visible = false;
+
+
+	if (Droga5[1]->zycie == true) {
+		pictureBox262->Visible = true;
+		switch (Droga5[1]->rodzaj)
+		{
+		case 1: pictureBox262->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox262->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox262->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox262->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox262->Visible = false;
+
+
+	if (Droga5[2]->zycie == true) {
+		pictureBox263->Visible = true;
+		switch (Droga5[2]->rodzaj)
+		{
+		case 1: pictureBox263->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox263->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox263->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox263->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox263->Visible = false;
+
+
+	if (Droga5[3]->zycie == true) {
+		pictureBox264->Visible = true;
+		switch (Droga5[3]->rodzaj)
+		{
+		case 1: pictureBox264->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox264->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox264->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox264->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox264->Visible = false;
+
+
+	if (Droga5[4]->zycie == true) {
+		pictureBox265->Visible = true;
+		switch (Droga5[4]->rodzaj)
+		{
+		case 1: pictureBox265->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox265->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox265->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox265->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox265->Visible = false;
+
+
+	if (Droga5[5]->zycie == true) {
+		pictureBox266->Visible = true;
+		switch (Droga5[5]->rodzaj)
+		{
+		case 1: pictureBox266->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox266->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox266->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox266->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox266->Visible = false;
+
+
+	if (Droga5[6]->zycie == true) {
+		pictureBox267->Visible = true;
+		switch (Droga5[6]->rodzaj)
+		{
+		case 1: pictureBox267->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox267->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox267->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox267->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox267->Visible = false;
+
+
+	if (Droga5[7]->zycie == true) {
+		pictureBox268->Visible = true;
+		switch (Droga5[7]->rodzaj)
+		{
+		case 1: pictureBox268->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox268->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox268->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox268->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox268->Visible = false;
+
+
+	if (Droga5[8]->zycie == true) {
+		pictureBox269->Visible = true;
+		switch (Droga5[8]->rodzaj)
+		{
+		case 1: pictureBox269->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox269->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox269->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox269->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox269->Visible = false;
+
+
+	if (Droga5[9]->zycie == true) {
+		pictureBox270->Visible = true;
+		switch (Droga5[9]->rodzaj)
+		{
+		case 1: pictureBox270->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox270->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox270->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox270->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox270->Visible = false;
+
+
+#pragma endregion
+
+#pragma region wswietlanie_drogi_6
+
+
+	if (Droga6[0]->zycie == true) {
+		pictureBox271->Visible = true;
+		switch (Droga6[0]->rodzaj)
+		{
+		case 1: pictureBox271->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox271->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox271->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox271->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox271->Visible = false;
+
+	if (Droga6[1]->zycie == true) {
+		pictureBox272->Visible = true;
+		switch (Droga6[1]->rodzaj)
+		{
+		case 1: pictureBox272->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox272->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox272->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox272->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox272->Visible = false;
+
+	if (Droga6[2]->zycie == true) {
+		pictureBox273->Visible = true;
+		switch (Droga6[2]->rodzaj)
+		{
+		case 1: pictureBox273->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox273->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox273->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox273->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox273->Visible = false;
+
+	if (Droga6[3]->zycie == true) {
+		pictureBox274->Visible = true;
+		switch (Droga6[3]->rodzaj)
+		{
+		case 1: pictureBox274->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox274->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox274->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox274->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox274->Visible = false;
+
+	if (Droga6[4]->zycie == true) {
+		pictureBox275->Visible = true;
+		switch (Droga6[4]->rodzaj)
+		{
+		case 1: pictureBox275->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox275->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox275->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox275->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox275->Visible = false;
+
+#pragma endregion
+
+#pragma region wswietlanie_drogi_7
+
+
+	if (Droga7[0]->zycie == true) {
+		pictureBox276->Visible = true;
+		switch (Droga7[0]->rodzaj)
+		{
+		case 1: pictureBox276->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox276->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox276->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox276->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox276->Visible = false;
+
+	if (Droga7[0]->zycie == true) {
+		pictureBox277->Visible = true;
+		switch (Droga7[0]->rodzaj)
+		{
+		case 1: pictureBox277->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox277->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox277->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox277->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox277->Visible = false;
+
+	if (Droga7[0]->zycie == true) {
+		pictureBox278->Visible = true;
+		switch (Droga7[0]->rodzaj)
+		{
+		case 1: pictureBox278->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox278->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox278->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox278->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox278->Visible = false;
+
+	if (Droga7[0]->zycie == true) {
+		pictureBox279->Visible = true;
+		switch (Droga7[0]->rodzaj)
+		{
+		case 1: pictureBox279->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox279->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox279->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox279->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox279->Visible = false;
+
+	if (Droga7[0]->zycie == true) {
+		pictureBox280->Visible = true;
+		switch (Droga7[0]->rodzaj)
+		{
+		case 1: pictureBox280->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox280->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox280->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox280->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox280->Visible = false;
+
+#pragma endregion
+
+#pragma region wswietlanie_drogi_8
+
+
+	if (Droga8[0]->zycie == true) {
+		pictureBox218->Visible = true;
+		switch (Droga8[0]->rodzaj)
+		{
+		case 1: pictureBox218->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox218->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox218->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox218->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox218->Visible = false;
+
+
+	if (Droga8[1]->zycie == true) {
+		pictureBox219->Visible = true;
+		switch (Droga8[1]->rodzaj)
+		{
+		case 1: pictureBox219->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox219->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox219->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox219->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox219->Visible = false;
+
+
+	if (Droga8[2]->zycie == true) {
+		pictureBox220->Visible = true;
+		switch (Droga8[2]->rodzaj)
+		{
+		case 1: pictureBox220->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox220->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox220->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox220->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox220->Visible = false;
+
+
+	if (Droga8[3]->zycie == true) {
+		pictureBox221->Visible = true;
+		switch (Droga8[3]->rodzaj)
+		{
+		case 1: pictureBox221->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox221->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox221->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox221->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox221->Visible = false;
+
+
+	if (Droga8[4]->zycie == true) {
+		pictureBox222->Visible = true;
+		switch (Droga8[4]->rodzaj)
+		{
+		case 1: pictureBox222->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox222->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox222->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox222->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox222->Visible = false;
+
+
+	if (Droga8[5]->zycie == true) {
+		pictureBox223->Visible = true;
+		switch (Droga8[5]->rodzaj)
+		{
+		case 1: pictureBox223->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox223->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox223->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox223->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox223->Visible = false;
+
+#pragma endregion
+
+#pragma region wswietlanie_drogi_9
+
+
+	if (Droga9[0]->zycie == true) {
+		pictureBox212->Visible = true;
+		switch (Droga9[0]->rodzaj)
+		{
+		case 1: pictureBox212->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox212->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox212->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox212->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox212->Visible = false;
+
+
+	if (Droga9[1]->zycie == true) {
+		pictureBox213->Visible = true;
+		switch (Droga9[1]->rodzaj)
+		{
+		case 1: pictureBox213->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox213->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox213->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox213->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox213->Visible = false;
+
+
+	if (Droga9[2]->zycie == true) {
+		pictureBox214->Visible = true;
+		switch (Droga9[2]->rodzaj)
+		{
+		case 1: pictureBox214->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox214->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox214->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox214->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox214->Visible = false;
+
+
+	if (Droga9[3]->zycie == true) {
+		pictureBox215->Visible = true;
+		switch (Droga9[3]->rodzaj)
+		{
+		case 1: pictureBox215->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox215->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox215->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox215->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox215->Visible = false;
+
+
+	if (Droga9[4]->zycie == true) {
+		pictureBox216->Visible = true;
+		switch (Droga9[4]->rodzaj)
+		{
+		case 1: pictureBox216->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox216->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox216->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox216->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox216->Visible = false;
+
+
+	if (Droga9[5]->zycie == true) {
+		pictureBox217->Visible = true;
+		switch (Droga9[5]->rodzaj)
+		{
+		case 1: pictureBox217->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox217->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox217->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox217->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox217->Visible = false;
+
+#pragma endregion
+
+#pragma region wswietlanie_drogi_10
+
+
+	if (Droga10[0]->zycie == true) {
+		pictureBox224->Visible = true;
+		switch (Droga10[0]->rodzaj)
+		{
+		case 1: pictureBox224->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox224->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox224->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox224->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox224->Visible = false;
+
+	if (Droga10[1]->zycie == true) {
+		pictureBox225->Visible = true;
+		switch (Droga10[1]->rodzaj)
+		{
+		case 1: pictureBox225->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox225->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox225->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox225->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox225->Visible = false;
+
+	if (Droga10[2]->zycie == true) {
+		pictureBox226->Visible = true;
+		switch (Droga10[2]->rodzaj)
+		{
+		case 1: pictureBox226->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox226->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox226->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox226->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox226->Visible = false;
+
+	if (Droga10[3]->zycie == true) {
+		pictureBox227->Visible = true;
+		switch (Droga10[3]->rodzaj)
+		{
+		case 1: pictureBox227->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox227->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox227->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox227->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox227->Visible = false;
+
+	if (Droga10[4]->zycie == true) {
+		pictureBox228->Visible = true;
+		switch (Droga10[4]->rodzaj)
+		{
+		case 1: pictureBox228->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox228->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox228->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox228->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox228->Visible = false;
+
+	if (Droga10[5]->zycie == true) {
+		pictureBox229->Visible = true;
+		switch (Droga10[5]->rodzaj)
+		{
+		case 1: pictureBox229->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox229->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox229->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox229->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox229->Visible = false;
+
+	if (Droga10[6]->zycie == true) {
+		pictureBox230->Visible = true;
+		switch (Droga10[6]->rodzaj)
+		{
+		case 1: pictureBox230->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox230->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox230->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox230->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox230->Visible = false;
+
+	if (Droga10[7]->zycie == true) {
+		pictureBox231->Visible = true;
+		switch (Droga10[7]->rodzaj)
+		{
+		case 1: pictureBox231->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox231->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox231->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox231->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox231->Visible = false;
+
+	if (Droga10[8]->zycie == true) {
+		pictureBox232->Visible = true;
+		switch (Droga10[8]->rodzaj)
+		{
+		case 1: pictureBox232->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox232->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox232->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox232->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox232->Visible = false;
+
+	if (Droga10[9]->zycie == true) {
+		pictureBox233->Visible = true;
+		switch (Droga10[9]->rodzaj)
+		{
+		case 1: pictureBox233->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox233->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox233->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox233->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox233->Visible = false;
+
+	if (Droga10[10]->zycie == true) {
+		pictureBox234->Visible = true;
+		switch (Droga10[10]->rodzaj)
+		{
+		case 1: pictureBox234->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox234->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox234->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox234->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox234->Visible = false;
+
+	if (Droga10[11]->zycie == true) {
+		pictureBox235->Visible = true;
+		switch (Droga10[11]->rodzaj)
+		{
+		case 1: pictureBox235->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox235->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox235->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox235->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox235->Visible = false;
+
+	if (Droga10[12]->zycie == true) {
+		pictureBox236->Visible = true;
+		switch (Droga10[12]->rodzaj)
+		{
+		case 1: pictureBox236->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNE.png"); break;
+		case 2: pictureBox236->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNE.png"); break;
+		case 3: pictureBox236->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNE.png"); break;
+		case 4: pictureBox236->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox236->Visible = false;
+
+#pragma endregion
+
+#pragma region wswietlanie_drogi_11
+
+
+	if (Droga11[0]->zycie == true) {
+		pictureBox187->Visible = true;
+		switch (Droga11[0]->rodzaj)
+		{
+		case 1: pictureBox187->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox187->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox187->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox187->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox187->Visible = false;
+
+
+	if (Droga11[1]->zycie == true) {
+		pictureBox188->Visible = true;
+		switch (Droga11[1]->rodzaj)
+		{
+		case 1: pictureBox188->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox188->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox188->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox188->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox188->Visible = false;
+
+
+	if (Droga11[2]->zycie == true) {
+		pictureBox189->Visible = true;
+		switch (Droga11[2]->rodzaj)
+		{
+		case 1: pictureBox189->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox189->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox189->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox189->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox189->Visible = false;
+
+
+	if (Droga11[3]->zycie == true) {
+		pictureBox190->Visible = true;
+		switch (Droga11[3]->rodzaj)
+		{
+		case 1: pictureBox190->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox190->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox190->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox190->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox190->Visible = false;
+
+
+	if (Droga11[4]->zycie == true) {
+		pictureBox191->Visible = true;
+		switch (Droga11[4]->rodzaj)
+		{
+		case 1: pictureBox191->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_N.png"); break;
+		case 2: pictureBox191->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_N.png"); break;
+		case 3: pictureBox191->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_N.png"); break;
+		case 4: pictureBox191->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_N.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox191->Visible = false;
+
+
+	if (Droga11[5]->zycie == true) {
+		pictureBox192->Visible = true;
+		switch (Droga11[5]->rodzaj)
+		{
+		case 1: pictureBox192->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_N.png"); break;
+		case 2: pictureBox192->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_N.png"); break;
+		case 3: pictureBox192->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_N.png"); break;
+		case 4: pictureBox192->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_N.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox192->Visible = false;
+
+
+	if (Droga11[6]->zycie == true) {
+		pictureBox193->Visible = true;
+		switch (Droga11[6]->rodzaj)
+		{
+		case 1: pictureBox193->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNE.png"); break;
+		case 2: pictureBox193->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNE.png"); break;
+		case 3: pictureBox193->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNE.png"); break;
+		case 4: pictureBox193->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox193->Visible = false;
+
+
+	if (Droga11[7]->zycie == true) {
+		pictureBox194->Visible = true;
+		switch (Droga11[7]->rodzaj)
+		{
+		case 1: pictureBox194->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNE.png"); break;
+		case 2: pictureBox194->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNE.png"); break;
+		case 3: pictureBox194->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNE.png"); break;
+		case 4: pictureBox194->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox194->Visible = false;
+
+
+	if (Droga11[8]->zycie == true) {
+		pictureBox195->Visible = true;
+		switch (Droga11[8]->rodzaj)
+		{
+		case 1: pictureBox195->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNE.png"); break;
+		case 2: pictureBox195->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNE.png"); break;
+		case 3: pictureBox195->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNE.png"); break;
+		case 4: pictureBox195->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox195->Visible = false;
+
+
+	if (Droga11[9]->zycie == true) {
+		pictureBox196->Visible = true;
+		switch (Droga11[9]->rodzaj)
+		{
+		case 1: pictureBox196->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox196->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox196->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox196->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox196->Visible = false;
+
+
+	if (Droga11[10]->zycie == true) {
+		pictureBox197->Visible = true;
+		switch (Droga11[10]->rodzaj)
+		{
+		case 1: pictureBox197->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox197->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox197->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox197->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox197->Visible = false;
+
+
+	if (Droga11[11]->zycie == true) {
+		pictureBox198->Visible = true;
+		switch (Droga11[11]->rodzaj)
+		{
+		case 1: pictureBox198->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox198->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox198->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox198->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox198->Visible = false;
+
+
+	if (Droga11[12]->zycie == true) {
+		pictureBox199->Visible = true;
+		switch (Droga11[12]->rodzaj)
+		{
+		case 1: pictureBox199->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox199->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox199->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox199->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox199->Visible = false;
+
+
+	if (Droga11[13]->zycie == true) {
+		pictureBox200->Visible = true;
+		switch (Droga11[13]->rodzaj)
+		{
+		case 1: pictureBox200->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox200->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox200->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox200->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox200->Visible = false;
+
+
+	if (Droga11[14]->zycie == true) {
+		pictureBox201->Visible = true;
+		switch (Droga11[14]->rodzaj)
+		{
+		case 1: pictureBox201->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox201->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox201->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox201->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox201->Visible = false;
+
+
+	if (Droga11[15]->zycie == true) {
+		pictureBox202->Visible = true;
+		switch (Droga11[15]->rodzaj)
+		{
+		case 1: pictureBox202->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox202->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox202->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox202->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox202->Visible = false;
+
+
+	if (Droga11[16]->zycie == true) {
+		pictureBox203->Visible = true;
+		switch (Droga11[16]->rodzaj)
+		{
+		case 1: pictureBox203->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox203->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox203->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox203->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox203->Visible = false;
+
+
+	if (Droga11[17]->zycie == true) {
+		pictureBox204->Visible = true;
+		switch (Droga11[17]->rodzaj)
+		{
+		case 1: pictureBox204->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox204->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox204->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox204->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox204->Visible = false;
+
+
+	if (Droga11[18]->zycie == true) {
+		pictureBox205->Visible = true;
+		switch (Droga11[18]->rodzaj)
+		{
+		case 1: pictureBox205->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox205->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox205->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox205->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox205->Visible = false;
+
+
+	if (Droga11[19]->zycie == true) {
+		pictureBox206->Visible = true;
+		switch (Droga11[19]->rodzaj)
+		{
+		case 1: pictureBox206->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NEE.png"); break;
+		case 2: pictureBox206->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NEE.png"); break;
+		case 3: pictureBox206->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NEE.png"); break;
+		case 4: pictureBox206->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NEE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox206->Visible = false;
+
+
+	if (Droga11[20]->zycie == true) {
+		pictureBox207->Visible = true;
+		switch (Droga11[20]->rodzaj)
+		{
+		case 1: pictureBox207->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NEE.png"); break;
+		case 2: pictureBox207->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NEE.png"); break;
+		case 3: pictureBox207->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NEE.png"); break;
+		case 4: pictureBox207->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NEE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox207->Visible = false;
+
+
+	if (Droga11[21]->zycie == true) {
+		pictureBox208->Visible = true;
+		switch (Droga11[21]->rodzaj)
+		{
+		case 1: pictureBox208->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NEE.png"); break;
+		case 2: pictureBox208->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NEE.png"); break;
+		case 3: pictureBox208->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NEE.png"); break;
+		case 4: pictureBox208->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NEE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox208->Visible = false;
+
+
+	if (Droga11[22]->zycie == true) {
+		pictureBox209->Visible = true;
+		switch (Droga11[22]->rodzaj)
+		{
+		case 1: pictureBox209->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_E.png"); break;
+		case 2: pictureBox209->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_E.png"); break;
+		case 3: pictureBox209->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_E.png"); break;
+		case 4: pictureBox209->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_E.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox209->Visible = false;
+
+
+	if (Droga11[23]->zycie == true) {
+		pictureBox210->Visible = true;
+		switch (Droga11[23]->rodzaj)
+		{
+		case 1: pictureBox210->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_E.png"); break;
+		case 2: pictureBox210->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_E.png"); break;
+		case 3: pictureBox210->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_E.png"); break;
+		case 4: pictureBox210->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_E.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox210->Visible = false;
+
+
+	if (Droga11[24]->zycie == true) {
+		pictureBox211->Visible = true;
+		switch (Droga11[24]->rodzaj)
+		{
+		case 1: pictureBox211->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_E.png"); break;
+		case 2: pictureBox211->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_E.png"); break;
+		case 3: pictureBox211->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_E.png"); break;
+		case 4: pictureBox211->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_E.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox211->Visible = false;
+
+
+#pragma endregion
+
+#pragma region wswietlanie_drogi_12
+
+
+	if (Droga12[0]->zycie == true) {
+		pictureBox146->Visible = true;
+		switch (Droga12[0]->rodzaj)
+		{
+		case 1: pictureBox146->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox146->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox146->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox146->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox146->Visible = false;
+
+
+	if (Droga12[1]->zycie == true) {
+		pictureBox147->Visible = true;
+		switch (Droga12[1]->rodzaj)
+		{
+		case 1: pictureBox147->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox147->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox147->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox147->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox147->Visible = false;
+
+
+	if (Droga12[2]->zycie == true) {
+		pictureBox148->Visible = true;
+		switch (Droga12[2]->rodzaj)
+		{
+		case 1: pictureBox148->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NEE.png"); break;
+		case 2: pictureBox148->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NEE.png"); break;
+		case 3: pictureBox148->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NEE.png"); break;
+		case 4: pictureBox148->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NEE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox148->Visible = false;
+
+
+	if (Droga12[3]->zycie == true) {
+		pictureBox149->Visible = true;
+		switch (Droga12[3]->rodzaj)
+		{
+		case 1: pictureBox149->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_E.png"); break;
+		case 2: pictureBox149->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_E.png"); break;
+		case 3: pictureBox149->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_E.png"); break;
+		case 4: pictureBox149->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_E.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox149->Visible = false;
+
+
+	if (Droga12[4]->zycie == true) {
+		pictureBox150->Visible = true;
+		switch (Droga12[4]->rodzaj)
+		{
+		case 1: pictureBox150->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SEE.png"); break;
+		case 2: pictureBox150->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SEE.png"); break;
+		case 3: pictureBox150->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SEE.png"); break;
+		case 4: pictureBox150->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SEE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox150->Visible = false;
+
+
+	if (Droga12[5]->zycie == true) {
+		pictureBox151->Visible = true;
+		switch (Droga12[5]->rodzaj)
+		{
+		case 1: pictureBox151->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SEE.png"); break;
+		case 2: pictureBox151->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SEE.png"); break;
+		case 3: pictureBox151->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SEE.png"); break;
+		case 4: pictureBox151->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SEE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox151->Visible = false;
+
+
+	if (Droga12[6]->zycie == true) {
+		pictureBox152->Visible = true;
+		switch (Droga12[6]->rodzaj)
+		{
+		case 1: pictureBox152->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SEE.png"); break;
+		case 2: pictureBox152->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SEE.png"); break;
+		case 3: pictureBox152->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SEE.png"); break;
+		case 4: pictureBox152->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SEE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox152->Visible = false;
+
+
+	if (Droga12[7]->zycie == true) {
+		pictureBox153->Visible = true;
+		switch (Droga12[7]->rodzaj)
+		{
+		case 1: pictureBox153->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_E.png"); break;
+		case 2: pictureBox153->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_E.png"); break;
+		case 3: pictureBox153->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_E.png"); break;
+		case 4: pictureBox153->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_E.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox153->Visible = false;
+
+
+	if (Droga12[8]->zycie == true) {
+		pictureBox154->Visible = true;
+		switch (Droga12[8]->rodzaj)
+		{
+		case 1: pictureBox154->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_E.png"); break;
+		case 2: pictureBox154->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_E.png"); break;
+		case 3: pictureBox154->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_E.png"); break;
+		case 4: pictureBox154->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_E.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox154->Visible = false;
+
+
+	if (Droga12[9]->zycie == true) {
+		pictureBox155->Visible = true;
+		switch (Droga12[9]->rodzaj)
+		{
+		case 1: pictureBox155->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_E.png"); break;
+		case 2: pictureBox155->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_E.png"); break;
+		case 3: pictureBox155->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_E.png"); break;
+		case 4: pictureBox155->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_E.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox155->Visible = false;
+
+
+	if (Droga12[10]->zycie == true) {
+		pictureBox156->Visible = true;
+		switch (Droga12[10]->rodzaj)
+		{
+		case 1: pictureBox156->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_E.png"); break;
+		case 2: pictureBox156->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_E.png"); break;
+		case 3: pictureBox156->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_E.png"); break;
+		case 4: pictureBox156->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_E.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox156->Visible = false;
+
+
+	if (Droga12[11]->zycie == true) {
+		pictureBox157->Visible = true;
+		switch (Droga12[11]->rodzaj)
+		{
+		case 1: pictureBox157->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_E.png"); break;
+		case 2: pictureBox157->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_E.png"); break;
+		case 3: pictureBox157->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_E.png"); break;
+		case 4: pictureBox157->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_E.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox157->Visible = false;
+
+
+	if (Droga12[12]->zycie == true) {
+		pictureBox158->Visible = true;
+		switch (Droga12[12]->rodzaj)
+		{
+		case 1: pictureBox158->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_E.png"); break;
+		case 2: pictureBox158->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_E.png"); break;
+		case 3: pictureBox158->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_E.png"); break;
+		case 4: pictureBox158->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_E.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox158->Visible = false;
+
+#pragma endregion
+
+#pragma region wswietlanie_drogi_13
+
+
+	if (Droga13[0]->zycie == true) {
+		pictureBox159->Visible = true;
+		switch (Droga13[0]->rodzaj)
+		{
+		case 1: pictureBox159->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_W.png"); break;
+		case 2: pictureBox159->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_W.png"); break;
+		case 3: pictureBox159->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_W.png"); break;
+		case 4: pictureBox159->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_W.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox159->Visible = false;
+
+
+	if (Droga13[1]->zycie == true) {
+		pictureBox160->Visible = true;
+		switch (Droga13[1]->rodzaj)
+		{
+		case 1: pictureBox160->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_W.png"); break;
+		case 2: pictureBox160->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_W.png"); break;
+		case 3: pictureBox160->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_W.png"); break;
+		case 4: pictureBox160->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_W.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox160->Visible = false;
+
+
+	if (Droga13[2]->zycie == true) {
+		pictureBox161->Visible = true;
+		switch (Droga13[2]->rodzaj)
+		{
+		case 1: pictureBox161->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_W.png"); break;
+		case 2: pictureBox161->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_W.png"); break;
+		case 3: pictureBox161->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_W.png"); break;
+		case 4: pictureBox161->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_W.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox161->Visible = false;
+
+
+	if (Droga13[3]->zycie == true) {
+		pictureBox162->Visible = true;
+		switch (Droga13[3]->rodzaj)
+		{
+		case 1: pictureBox162->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NWW.png"); break;
+		case 2: pictureBox162->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NWW.png"); break;
+		case 3: pictureBox162->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NWW.png"); break;
+		case 4: pictureBox162->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox162->Visible = false;
+
+
+	if (Droga13[4]->zycie == true) {
+		pictureBox163->Visible = true;
+		switch (Droga13[4]->rodzaj)
+		{
+		case 1: pictureBox163->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NWW.png"); break;
+		case 2: pictureBox163->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NWW.png"); break;
+		case 3: pictureBox163->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NWW.png"); break;
+		case 4: pictureBox163->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox163->Visible = false;
+
+
+	if (Droga13[5]->zycie == true) {
+		pictureBox164->Visible = true;
+		switch (Droga13[5]->rodzaj)
+		{
+		case 1: pictureBox164->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NWW.png"); break;
+		case 2: pictureBox164->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NWW.png"); break;
+		case 3: pictureBox164->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NWW.png"); break;
+		case 4: pictureBox164->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox164->Visible = false;
+
+
+	if (Droga13[6]->zycie == true) {
+		pictureBox165->Visible = true;
+		switch (Droga13[6]->rodzaj)
+		{
+		case 1: pictureBox165->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NWW.png"); break;
+		case 2: pictureBox165->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NWW.png"); break;
+		case 3: pictureBox165->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NWW.png"); break;
+		case 4: pictureBox165->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox165->Visible = false;
+
+
+	if (Droga13[7]->zycie == true) {
+		pictureBox166->Visible = true;
+		switch (Droga13[7]->rodzaj)
+		{
+		case 1: pictureBox166->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NWW.png"); break;
+		case 2: pictureBox166->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NWW.png"); break;
+		case 3: pictureBox166->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NWW.png"); break;
+		case 4: pictureBox166->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox166->Visible = false;
+
+
+	if (Droga13[8]->zycie == true) {
+		pictureBox167->Visible = true;
+		switch (Droga13[8]->rodzaj)
+		{
+		case 1: pictureBox167->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NWW.png"); break;
+		case 2: pictureBox167->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NWW.png"); break;
+		case 3: pictureBox167->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NWW.png"); break;
+		case 4: pictureBox167->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox167->Visible = false;
+
+
+	if (Droga13[9]->zycie == true) {
+		pictureBox168->Visible = true;
+		switch (Droga13[9]->rodzaj)
+		{
+		case 1: pictureBox168->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_W.png"); break;
+		case 2: pictureBox168->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_W.png"); break;
+		case 3: pictureBox168->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_W.png"); break;
+		case 4: pictureBox168->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_W.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox168->Visible = false;
+
+
+	if (Droga13[10]->zycie == true) {
+		pictureBox169->Visible = true;
+		switch (Droga13[10]->rodzaj)
+		{
+		case 1: pictureBox169->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_W.png"); break;
+		case 2: pictureBox169->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_W.png"); break;
+		case 3: pictureBox169->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_W.png"); break;
+		case 4: pictureBox169->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_W.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox169->Visible = false;
+
+
+	if (Droga13[11]->zycie == true) {
+		pictureBox170->Visible = true;
+		switch (Droga13[11]->rodzaj)
+		{
+		case 1: pictureBox170->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SWW.png"); break;
+		case 2: pictureBox170->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SWW.png"); break;
+		case 3: pictureBox170->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SWW.png"); break;
+		case 4: pictureBox170->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox170->Visible = false;
+
+
+	if (Droga13[12]->zycie == true) {
+		pictureBox171->Visible = true;
+		switch (Droga13[12]->rodzaj)
+		{
+		case 1: pictureBox171->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SWW.png"); break;
+		case 2: pictureBox171->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SWW.png"); break;
+		case 3: pictureBox171->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SWW.png"); break;
+		case 4: pictureBox171->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox171->Visible = false;
+
+
+	if (Droga13[13]->zycie == true) {
+		pictureBox172->Visible = true;
+		switch (Droga13[13]->rodzaj)
+		{
+		case 1: pictureBox172->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NWW.png"); break;
+		case 2: pictureBox172->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NWW.png"); break;
+		case 3: pictureBox172->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NWW.png"); break;
+		case 4: pictureBox172->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox172->Visible = false;
+
+#pragma endregion
+
+#pragma region wswietlanie_drogi_14
+
+
+	if (Droga14[0]->zycie == true) {
+		pictureBox173->Visible = true;
+		switch (Droga14[0]->rodzaj)
+		{
+		case 1: pictureBox173->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_W.png"); break;
+		case 2: pictureBox173->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_W.png"); break;
+		case 3: pictureBox173->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_W.png"); break;
+		case 4: pictureBox173->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_W.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox173->Visible = false;
+
+
+	if (Droga14[1]->zycie == true) {
+		pictureBox174->Visible = true;
+		switch (Droga14[1]->rodzaj)
+		{
+		case 1: pictureBox174->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_W.png"); break;
+		case 2: pictureBox174->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_W.png"); break;
+		case 3: pictureBox174->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_W.png"); break;
+		case 4: pictureBox174->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_W.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox174->Visible = false;
+
+
+	if (Droga14[2]->zycie == true) {
+		pictureBox175->Visible = true;
+		switch (Droga14[2]->rodzaj)
+		{
+		case 1: pictureBox175->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_W.png"); break;
+		case 2: pictureBox175->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_W.png"); break;
+		case 3: pictureBox175->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_W.png"); break;
+		case 4: pictureBox175->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_W.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox175->Visible = false;
+
+
+	if (Droga14[3]->zycie == true) {
+		pictureBox176->Visible = true;
+		switch (Droga14[3]->rodzaj)
+		{
+		case 1: pictureBox176->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NWW.png"); break;
+		case 2: pictureBox176->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NWW.png"); break;
+		case 3: pictureBox176->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NWW.png"); break;
+		case 4: pictureBox176->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox176->Visible = false;
+
+
+	if (Droga14[4]->zycie == true) {
+		pictureBox177->Visible = true;
+		switch (Droga14[4]->rodzaj)
+		{
+		case 1: pictureBox177->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NWW.png"); break;
+		case 2: pictureBox177->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NWW.png"); break;
+		case 3: pictureBox177->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NWW.png"); break;
+		case 4: pictureBox177->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox177->Visible = false;
+
+
+	if (Droga14[5]->zycie == true) {
+		pictureBox178->Visible = true;
+		switch (Droga14[5]->rodzaj)
+		{
+		case 1: pictureBox178->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NWW.png"); break;
+		case 2: pictureBox178->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NWW.png"); break;
+		case 3: pictureBox178->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NWW.png"); break;
+		case 4: pictureBox178->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox178->Visible = false;
+
+
+	if (Droga14[6]->zycie == true) {
+		pictureBox179->Visible = true;
+		switch (Droga14[6]->rodzaj)
+		{
+		case 1: pictureBox179->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NWW.png"); break;
+		case 2: pictureBox179->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NWW.png"); break;
+		case 3: pictureBox179->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NWW.png"); break;
+		case 4: pictureBox179->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox179->Visible = false;
+
+
+	if (Droga14[7]->zycie == true) {
+		pictureBox180->Visible = true;
+		switch (Droga14[7]->rodzaj)
+		{
+		case 1: pictureBox180->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NWW.png"); break;
+		case 2: pictureBox180->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NWW.png"); break;
+		case 3: pictureBox180->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NWW.png"); break;
+		case 4: pictureBox180->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox180->Visible = false;
+
+
+	if (Droga14[8]->zycie == true) {
+		pictureBox181->Visible = true;
+		switch (Droga14[8]->rodzaj)
+		{
+		case 1: pictureBox181->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NWW.png"); break;
+		case 2: pictureBox181->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NWW.png"); break;
+		case 3: pictureBox181->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NWW.png"); break;
+		case 4: pictureBox181->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox181->Visible = false;
+
+
+	if (Droga14[9]->zycie == true) {
+		pictureBox182->Visible = true;
+		switch (Droga14[9]->rodzaj)
+		{
+		case 1: pictureBox182->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_W.png"); break;
+		case 2: pictureBox182->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_W.png"); break;
+		case 3: pictureBox182->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_W.png"); break;
+		case 4: pictureBox182->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_W.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox182->Visible = false;
+
+
+	if (Droga14[10]->zycie == true) {
+		pictureBox183->Visible = true;
+		switch (Droga14[10]->rodzaj)
+		{
+		case 1: pictureBox183->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_W.png"); break;
+		case 2: pictureBox183->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_W.png"); break;
+		case 3: pictureBox183->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_W.png"); break;
+		case 4: pictureBox183->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_W.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox183->Visible = false;
+
+
+	if (Droga14[11]->zycie == true) {
+		pictureBox184->Visible = true;
+		switch (Droga14[11]->rodzaj)
+		{
+		case 1: pictureBox184->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SWW.png"); break;
+		case 2: pictureBox184->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SWW.png"); break;
+		case 3: pictureBox184->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SWW.png"); break;
+		case 4: pictureBox184->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox184->Visible = false;
+
+
+	if (Droga14[12]->zycie == true) {
+		pictureBox185->Visible = true;
+		switch (Droga14[12]->rodzaj)
+		{
+		case 1: pictureBox185->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SWW.png"); break;
+		case 2: pictureBox185->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SWW.png"); break;
+		case 3: pictureBox185->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SWW.png"); break;
+		case 4: pictureBox185->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox185->Visible = false;
+
+
+	if (Droga14[13]->zycie == true) {
+		pictureBox186->Visible = true;
+		switch (Droga14[13]->rodzaj)
+		{
+		case 1: pictureBox186->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NWW.png"); break;
+		case 2: pictureBox186->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NWW.png"); break;
+		case 3: pictureBox186->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NWW.png"); break;
+		case 4: pictureBox186->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox186->Visible = false;
+
+
+#pragma endregion
+
+#pragma region wswietlanie_drogi_15
+
+
+	if (Droga15[0]->zycie == true) {
+		pictureBox134->Visible = true;
+		switch (Droga15[0]->rodzaj)
+		{
+		case 1: pictureBox134->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NW.png"); break;
+		case 2: pictureBox134->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NW.png"); break;
+		case 3: pictureBox134->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NW.png"); break;
+		case 4: pictureBox134->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox134->Visible = false;
+
+	if (Droga15[1]->zycie == true) {
+		pictureBox135->Visible = true;
+		switch (Droga15[1]->rodzaj)
+		{
+		case 1: pictureBox135->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox135->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox135->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox135->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox135->Visible = false;
+
+	if (Droga15[2]->zycie == true) {
+		pictureBox136->Visible = true;
+		switch (Droga15[2]->rodzaj)
+		{
+		case 1: pictureBox136->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_N.png"); break;
+		case 2: pictureBox136->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_N.png"); break;
+		case 3: pictureBox136->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_N.png"); break;
+		case 4: pictureBox136->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_N.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox136->Visible = false;
+
+	if (Droga15[3]->zycie == true) {
+		pictureBox137->Visible = true;
+		switch (Droga15[3]->rodzaj)
+		{
+		case 1: pictureBox137->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_N.png"); break;
+		case 2: pictureBox137->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_N.png"); break;
+		case 3: pictureBox137->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_N.png"); break;
+		case 4: pictureBox137->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_N.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox137->Visible = false;
+
+	if (Droga15[4]->zycie == true) {
+		pictureBox138->Visible = true;
+		switch (Droga15[4]->rodzaj)
+		{
+		case 1: pictureBox138->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_N.png"); break;
+		case 2: pictureBox138->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_N.png"); break;
+		case 3: pictureBox138->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_N.png"); break;
+		case 4: pictureBox138->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_N.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox138->Visible = false;
+
+	if (Droga15[5]->zycie == true) {
+		pictureBox139->Visible = true;
+		switch (Droga15[5]->rodzaj)
+		{
+		case 1: pictureBox139->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_N.png"); break;
+		case 2: pictureBox139->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_N.png"); break;
+		case 3: pictureBox139->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_N.png"); break;
+		case 4: pictureBox139->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_N.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox139->Visible = false;
+
+#pragma endregion
+
+#pragma region wswietlanie_drogi_16
+
+
+	if (Droga16[0]->zycie == true) {
+		pictureBox140->Visible = true;
+		switch (Droga16[0]->rodzaj)
+		{
+		case 1: pictureBox140->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_S.png"); break;
+		case 2: pictureBox140->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_S.png"); break;
+		case 3: pictureBox140->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_S.png"); break;
+		case 4: pictureBox140->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_S.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox140->Visible = false;
+
+	if (Droga16[1]->zycie == true) {
+		pictureBox141->Visible = true;
+		switch (Droga16[1]->rodzaj)
+		{
+		case 1: pictureBox141->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_S.png"); break;
+		case 2: pictureBox141->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_S.png"); break;
+		case 3: pictureBox141->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_S.png"); break;
+		case 4: pictureBox141->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_S.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox141->Visible = false;
+
+	if (Droga16[2]->zycie == true) {
+		pictureBox142->Visible = true;
+		switch (Droga16[2]->rodzaj)
+		{
+		case 1: pictureBox142->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_S.png"); break;
+		case 2: pictureBox142->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_S.png"); break;
+		case 3: pictureBox142->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_S.png"); break;
+		case 4: pictureBox142->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_S.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox142->Visible = false;
+
+	if (Droga16[3]->zycie == true) {
+		pictureBox143->Visible = true;
+		switch (Droga16[3]->rodzaj)
+		{
+		case 1: pictureBox143->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_S.png"); break;
+		case 2: pictureBox143->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_S.png"); break;
+		case 3: pictureBox143->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_S.png"); break;
+		case 4: pictureBox143->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_S.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox143->Visible = false;
+
+	if (Droga16[4]->zycie == true) {
+		pictureBox144->Visible = true;
+		switch (Droga16[4]->rodzaj)
+		{
+		case 1: pictureBox144->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_S.png"); break;
+		case 2: pictureBox144->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_S.png"); break;
+		case 3: pictureBox144->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_S.png"); break;
+		case 4: pictureBox144->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_S.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox144->Visible = false;
+
+	if (Droga16[5]->zycie == true) {
+		pictureBox145->Visible = true;
+		switch (Droga16[5]->rodzaj)
+		{
+		case 1: pictureBox145->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox145->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox145->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox145->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox145->Visible = false;
+
+#pragma endregion
+
+#pragma region wswietlanie_drogi_17
+
+
+	if (Droga17[0]->zycie == true) {
+		pictureBox39->Visible = true;
+		switch (Droga17[0]->rodzaj)
+		{
+		case 1: pictureBox39->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox39->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox39->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox39->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox39->Visible = false;
+
+	if (Droga17[1]->zycie == true) {
+		pictureBox40->Visible = true;
+		switch (Droga17[1]->rodzaj)
+		{
+		case 1: pictureBox40->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox40->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox40->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox40->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox40->Visible = false;
+
+	if (Droga17[2]->zycie == true) {
+		pictureBox41->Visible = true;
+		switch (Droga17[2]->rodzaj)
+		{
+		case 1: pictureBox41->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox41->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox41->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox41->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox41->Visible = false;
+
+	if (Droga17[3]->zycie == true) {
+		pictureBox42->Visible = true;
+		switch (Droga17[3]->rodzaj)
+		{
+		case 1: pictureBox42->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox42->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox42->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox42->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox42->Visible = false;
+
+	if (Droga17[4]->zycie == true) {
+		pictureBox43->Visible = true;
+		switch (Droga17[4]->rodzaj)
+		{
+		case 1: pictureBox43->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox43->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox43->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox43->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox43->Visible = false;
+
+	if (Droga17[5]->zycie == true) {
+		pictureBox44->Visible = true;
+		switch (Droga17[5]->rodzaj)
+		{
+		case 1: pictureBox44->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox44->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox44->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox44->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox44->Visible = false;
+
+	if (Droga17[6]->zycie == true) {
+		pictureBox45->Visible = true;
+		switch (Droga17[6]->rodzaj)
+		{
+		case 1: pictureBox45->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox45->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox45->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox45->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox45->Visible = false;
+
+	if (Droga17[7]->zycie == true) {
+		pictureBox46->Visible = true;
+		switch (Droga17[7]->rodzaj)
+		{
+		case 1: pictureBox46->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox46->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox46->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox46->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox46->Visible = false;
+
+	if (Droga17[8]->zycie == true) {
+		pictureBox47->Visible = true;
+		switch (Droga17[8]->rodzaj)
+		{
+		case 1: pictureBox47->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox47->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox47->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox47->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox47->Visible = false;
+
+	if (Droga17[9]->zycie == true) {
+		pictureBox48->Visible = true;
+		switch (Droga17[9]->rodzaj)
+		{
+		case 1: pictureBox48->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox48->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox48->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox48->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox48->Visible = false;
+
+	if (Droga17[10]->zycie == true) {
+		pictureBox49->Visible = true;
+		switch (Droga17[10]->rodzaj)
+		{
+		case 1: pictureBox49->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox49->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox49->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox49->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox49->Visible = false;
+
+	if (Droga17[11]->zycie == true) {
+		pictureBox50->Visible = true;
+		switch (Droga17[11]->rodzaj)
+		{
+		case 1: pictureBox50->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox50->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox50->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox50->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox50->Visible = false;
+
+	if (Droga17[12]->zycie == true) {
+		pictureBox51->Visible = true;
+		switch (Droga17[12]->rodzaj)
+		{
+		case 1: pictureBox51->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox51->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox51->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox51->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox51->Visible = false;
+
+	if (Droga17[13]->zycie == true) {
+		pictureBox52->Visible = true;
+		switch (Droga17[13]->rodzaj)
+		{
+		case 1: pictureBox52->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox52->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox52->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox52->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox52->Visible = false;
+
+	if (Droga17[14]->zycie == true) {
+		pictureBox53->Visible = true;
+		switch (Droga17[14]->rodzaj)
+		{
+		case 1: pictureBox53->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SWW.png"); break;
+		case 2: pictureBox53->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SWW.png"); break;
+		case 3: pictureBox53->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SWW.png"); break;
+		case 4: pictureBox53->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox53->Visible = false;
+
+	if (Droga17[15]->zycie == true) {
+		pictureBox54->Visible = true;
+		switch (Droga17[15]->rodzaj)
+		{
+		case 1: pictureBox54->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SWW.png"); break;
+		case 2: pictureBox54->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SWW.png"); break;
+		case 3: pictureBox54->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SWW.png"); break;
+		case 4: pictureBox54->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox54->Visible = false;
+
+	if (Droga17[16]->zycie == true) {
+		pictureBox55->Visible = true;
+		switch (Droga17[16]->rodzaj)
+		{
+		case 1: pictureBox55->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SWW.png"); break;
+		case 2: pictureBox55->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SWW.png"); break;
+		case 3: pictureBox55->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SWW.png"); break;
+		case 4: pictureBox55->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox55->Visible = false;
+
+	if (Droga17[17]->zycie == true) {
+		pictureBox56->Visible = true;
+		switch (Droga17[17]->rodzaj)
+		{
+		case 1: pictureBox56->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SWW.png"); break;
+		case 2: pictureBox56->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SWW.png"); break;
+		case 3: pictureBox56->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SWW.png"); break;
+		case 4: pictureBox56->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox56->Visible = false;
+
+	if (Droga17[18]->zycie == true) {
+		pictureBox57->Visible = true;
+		switch (Droga17[18]->rodzaj)
+		{
+		case 1: pictureBox57->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SWW.png"); break;
+		case 2: pictureBox57->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SWW.png"); break;
+		case 3: pictureBox57->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SWW.png"); break;
+		case 4: pictureBox57->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox57->Visible = false;
+
+	if (Droga17[19]->zycie == true) {
+		pictureBox58->Visible = true;
+		switch (Droga17[19]->rodzaj)
+		{
+		case 1: pictureBox58->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SWW.png"); break;
+		case 2: pictureBox58->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SWW.png"); break;
+		case 3: pictureBox58->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SWW.png"); break;
+		case 4: pictureBox58->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox58->Visible = false;
+
+	if (Droga17[20]->zycie == true) {
+		pictureBox59->Visible = true;
+		switch (Droga17[20]->rodzaj)
+		{
+		case 1: pictureBox59->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox59->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox59->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox59->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox59->Visible = false;
+
+	if (Droga17[21]->zycie == true) {
+		pictureBox60->Visible = true;
+		switch (Droga17[21]->rodzaj)
+		{
+		case 1: pictureBox60->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox60->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox60->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox60->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox60->Visible = false;
+
+	if (Droga17[22]->zycie == true) {
+		pictureBox61->Visible = true;
+		switch (Droga17[22]->rodzaj)
+		{
+		case 1: pictureBox61->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox61->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox61->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox61->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox61->Visible = false;
+
+#pragma endregion
+
+#pragma region wswietlanie_drogi_18
+
+
+	if (Droga18[0]->zycie == true) {
+		pictureBox62->Visible = true;
+		switch (Droga18[0]->rodzaj)
+		{
+		case 1: pictureBox62->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox62->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox62->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox62->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox62->Visible = false;
+
+
+
+	if (Droga18[1]->zycie == true) {
+		pictureBox63->Visible = true;
+		switch (Droga18[1]->rodzaj)
+		{
+		case 1: pictureBox63->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSW.png"); break;
+		case 2: pictureBox63->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSW.png"); break;
+		case 3: pictureBox63->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSW.png"); break;
+		case 4: pictureBox63->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox63->Visible = false;
+
+
+	if (Droga18[2]->zycie == true) {
+		pictureBox64->Visible = true;
+		switch (Droga18[2]->rodzaj)
+		{
+		case 1: pictureBox64->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSW.png"); break;
+		case 2: pictureBox64->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSW.png"); break;
+		case 3: pictureBox64->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSW.png"); break;
+		case 4: pictureBox64->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox64->Visible = false;
+
+
+	if (Droga18[3]->zycie == true) {
+		pictureBox65->Visible = true;
+		switch (Droga18[3]->rodzaj)
+		{
+		case 1: pictureBox65->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSW.png"); break;
+		case 2: pictureBox65->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSW.png"); break;
+		case 3: pictureBox65->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSW.png"); break;
+		case 4: pictureBox65->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox65->Visible = false;
+
+
+	if (Droga18[4]->zycie == true) {
+		pictureBox66->Visible = true;
+		switch (Droga18[4]->rodzaj)
+		{
+		case 1: pictureBox66->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_S.png"); break;
+		case 2: pictureBox66->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_S.png"); break;
+		case 3: pictureBox66->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_S.png"); break;
+		case 4: pictureBox66->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_S.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox66->Visible = false;
+
+
+	if (Droga18[5]->zycie == true) {
+		pictureBox67->Visible = true;
+		switch (Droga18[5]->rodzaj)
+		{
+		case 1: pictureBox67->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_S.png"); break;
+		case 2: pictureBox67->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_S.png"); break;
+		case 3: pictureBox67->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_S.png"); break;
+		case 4: pictureBox67->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_S.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox67->Visible = false;
+
+
+	if (Droga18[6]->zycie == true) {
+		pictureBox68->Visible = true;
+		switch (Droga18[6]->rodzaj)
+		{
+		case 1: pictureBox68->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_S.png"); break;
+		case 2: pictureBox68->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_S.png"); break;
+		case 3: pictureBox68->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_S.png"); break;
+		case 4: pictureBox68->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_S.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox68->Visible = false;
+
+
+	if (Droga18[7]->zycie == true) {
+		pictureBox69->Visible = true;
+		switch (Droga18[7]->rodzaj)
+		{
+		case 1: pictureBox69->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox69->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox69->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox69->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox69->Visible = false;
+
+
+	if (Droga18[8]->zycie == true) {
+		pictureBox70->Visible = true;
+		switch (Droga18[8]->rodzaj)
+		{
+		case 1: pictureBox70->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox70->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox70->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox70->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox70->Visible = false;
+
+
+	if (Droga18[9]->zycie == true) {
+		pictureBox71->Visible = true;
+		switch (Droga18[9]->rodzaj)
+		{
+		case 1: pictureBox71->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SE.png"); break;
+		case 2: pictureBox71->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SE.png"); break;
+		case 3: pictureBox71->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SE.png"); break;
+		case 4: pictureBox71->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox71->Visible = false;
+
+
+	if (Droga18[10]->zycie == true) {
+		pictureBox72->Visible = true;
+		switch (Droga18[10]->rodzaj)
+		{
+		case 1: pictureBox72->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SE.png"); break;
+		case 2: pictureBox72->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SE.png"); break;
+		case 3: pictureBox72->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SE.png"); break;
+		case 4: pictureBox72->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox72->Visible = false;
+
+
+	if (Droga18[11]->zycie == true) {
+		pictureBox73->Visible = true;
+		switch (Droga18[11]->rodzaj)
+		{
+		case 1: pictureBox73->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SEE.png"); break;
+		case 2: pictureBox73->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SEE.png"); break;
+		case 3: pictureBox73->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SEE.png"); break;
+		case 4: pictureBox73->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SEE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox73->Visible = false;
+
+
+	if (Droga18[12]->zycie == true) {
+		pictureBox74->Visible = true;
+		switch (Droga18[12]->rodzaj)
+		{
+		case 1: pictureBox74->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SEE.png"); break;
+		case 2: pictureBox74->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SEE.png"); break;
+		case 3: pictureBox74->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SEE.png"); break;
+		case 4: pictureBox74->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SEE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox74->Visible = false;
+
+
+	if (Droga18[13]->zycie == true) {
+		pictureBox75->Visible = true;
+		switch (Droga18[13]->rodzaj)
+		{
+		case 1: pictureBox75->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SEE.png"); break;
+		case 2: pictureBox75->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SEE.png"); break;
+		case 3: pictureBox75->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SEE.png"); break;
+		case 4: pictureBox75->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SEE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox75->Visible = false;
+
+
+	if (Droga18[14]->zycie == true) {
+		pictureBox76->Visible = true;
+		switch (Droga18[14]->rodzaj)
+		{
+		case 1: pictureBox76->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_E.png"); break;
+		case 2: pictureBox76->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_E.png"); break;
+		case 3: pictureBox76->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_E.png"); break;
+		case 4: pictureBox76->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_E.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox76->Visible = false;
+
+
+	if (Droga18[15]->zycie == true) {
+		pictureBox77->Visible = true;
+		switch (Droga18[15]->rodzaj)
+		{
+		case 1: pictureBox77->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_E.png"); break;
+		case 2: pictureBox77->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_E.png"); break;
+		case 3: pictureBox77->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_E.png"); break;
+		case 4: pictureBox77->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_E.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox77->Visible = false;
+
+
+	if (Droga18[16]->zycie == true) {
+		pictureBox78->Visible = true;
+		switch (Droga18[16]->rodzaj)
+		{
+		case 1: pictureBox78->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NEE.png"); break;
+		case 2: pictureBox78->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NEE.png"); break;
+		case 3: pictureBox78->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NEE.png"); break;
+		case 4: pictureBox78->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NEE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox78->Visible = false;
+
+
+	if (Droga18[17]->zycie == true) {
+		pictureBox79->Visible = true;
+		switch (Droga18[17]->rodzaj)
+		{
+		case 1: pictureBox79->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox79->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox79->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox79->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox79->Visible = false;
+
+
+	if (Droga18[18]->zycie == true) {
+		pictureBox80->Visible = true;
+		switch (Droga18[18]->rodzaj)
+		{
+		case 1: pictureBox80->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox80->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox80->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox80->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox80->Visible = false;
+
+
+	if (Droga18[19]->zycie == true) {
+		pictureBox81->Visible = true;
+		switch (Droga18[19]->rodzaj)
+		{
+		case 1: pictureBox81->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox81->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox81->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox81->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox81->Visible = false;
+
+
+	if (Droga18[20]->zycie == true) {
+		pictureBox82->Visible = true;
+		switch (Droga18[20]->rodzaj)
+		{
+		case 1: pictureBox82->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox82->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox82->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox82->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox82->Visible = false;
+
+
+	if (Droga18[21]->zycie == true) {
+		pictureBox83->Visible = true;
+		switch (Droga18[21]->rodzaj)
+		{
+		case 1: pictureBox83->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNE.png"); break;
+		case 2: pictureBox83->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNE.png"); break;
+		case 3: pictureBox83->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNE.png"); break;
+		case 4: pictureBox83->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox83->Visible = false;
+
+
+	if (Droga18[22]->zycie == true) {
+		pictureBox84->Visible = true;
+		switch (Droga18[22]->rodzaj)
+		{
+		case 1: pictureBox84->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNE.png"); break;
+		case 2: pictureBox84->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNE.png"); break;
+		case 3: pictureBox84->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNE.png"); break;
+		case 4: pictureBox84->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox84->Visible = false;
+
+
+	if (Droga18[23]->zycie == true) {
+		pictureBox85->Visible = true;
+		switch (Droga18[23]->rodzaj)
+		{
+		case 1: pictureBox85->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_N.png"); break;
+		case 2: pictureBox85->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_N.png"); break;
+		case 3: pictureBox85->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_N.png"); break;
+		case 4: pictureBox85->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_N.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox85->Visible = false;
+
+
+	if (Droga18[24]->zycie == true) {
+		pictureBox86->Visible = true;
+		switch (Droga18[24]->rodzaj)
+		{
+		case 1: pictureBox86->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox86->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox86->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox86->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox86->Visible = false;
+
+
+	if (Droga18[25]->zycie == true) {
+		pictureBox87->Visible = true;
+		switch (Droga18[25]->rodzaj)
+		{
+		case 1: pictureBox87->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox87->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox87->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox87->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox87->Visible = false;
+
+
+	if (Droga18[26]->zycie == true) {
+		pictureBox88->Visible = true;
+		switch (Droga18[26]->rodzaj)
+		{
+		case 1: pictureBox88->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox88->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox88->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox88->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox88->Visible = false;
+
+
+	if (Droga18[27]->zycie == true) {
+		pictureBox89->Visible = true;
+		switch (Droga18[27]->rodzaj)
+		{
+		case 1: pictureBox89->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NW.png"); break;
+		case 2: pictureBox89->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NW.png"); break;
+		case 3: pictureBox89->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NW.png"); break;
+		case 4: pictureBox89->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox89->Visible = false;
+
+
+	if (Droga18[28]->zycie == true) {
+		pictureBox90->Visible = true;
+		switch (Droga18[28]->rodzaj)
+		{
+		case 1: pictureBox90->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NW.png"); break;
+		case 2: pictureBox90->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NW.png"); break;
+		case 3: pictureBox90->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NW.png"); break;
+		case 4: pictureBox90->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox90->Visible = false;
+
+
+	if (Droga18[29]->zycie == true) {
+		pictureBox91->Visible = true;
+		switch (Droga18[29]->rodzaj)
+		{
+		case 1: pictureBox91->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NWW.png"); break;
+		case 2: pictureBox91->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NWW.png"); break;
+		case 3: pictureBox91->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NWW.png"); break;
+		case 4: pictureBox91->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox91->Visible = false;
+
+
+	if (Droga18[30]->zycie == true) {
+		pictureBox92->Visible = true;
+		switch (Droga18[30]->rodzaj)
+		{
+		case 1: pictureBox92->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NWW.png"); break;
+		case 2: pictureBox92->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NWW.png"); break;
+		case 3: pictureBox92->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NWW.png"); break;
+		case 4: pictureBox92->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox92->Visible = false;
+
+
+	if (Droga18[31]->zycie == true) {
+		pictureBox93->Visible = true;
+		switch (Droga18[31]->rodzaj)
+		{
+		case 1: pictureBox93->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_W.png"); break;
+		case 2: pictureBox93->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_W.png"); break;
+		case 3: pictureBox93->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_W.png"); break;
+		case 4: pictureBox93->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_W.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox93->Visible = false;
+
+
+	if (Droga18[32]->zycie == true) {
+		pictureBox94->Visible = true;
+		switch (Droga18[32]->rodzaj)
+		{
+		case 1: pictureBox94->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SWW.png"); break;
+		case 2: pictureBox94->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SWW.png"); break;
+		case 3: pictureBox94->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SWW.png"); break;
+		case 4: pictureBox94->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox94->Visible = false;
+
+
+	if (Droga18[33]->zycie == true) {
+		pictureBox95->Visible = true;
+		switch (Droga18[33]->rodzaj)
+		{
+		case 1: pictureBox95->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SWW.png"); break;
+		case 2: pictureBox95->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SWW.png"); break;
+		case 3: pictureBox95->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SWW.png"); break;
+		case 4: pictureBox95->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox95->Visible = false;
+
+
+	if (Droga18[34]->zycie == true) {
+		pictureBox96->Visible = true;
+		switch (Droga18[34]->rodzaj)
+		{
+		case 1: pictureBox96->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox96->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox96->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox96->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox96->Visible = false;
+
+
+	if (Droga18[35]->zycie == true) {
+		pictureBox97->Visible = true;
+		switch (Droga18[35]->rodzaj)
+		{
+		case 1: pictureBox97->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox97->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox97->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox97->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox97->Visible = false;
+
+
+
+#pragma endregion
+
+#pragma region wswietlanie_drogi_19
+
+
+	if (Droga19[0]->zycie == true) {
+		pictureBox98->Visible = true;
+		switch (Droga19[0]->rodzaj)
+		{
+		case 1: pictureBox98->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox98->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox98->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox98->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox98->Visible = false;
+
+
+
+	if (Droga19[1]->zycie == true) {
+		pictureBox99->Visible = true;
+		switch (Droga19[1]->rodzaj)
+		{
+		case 1: pictureBox99->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSW.png"); break;
+		case 2: pictureBox99->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSW.png"); break;
+		case 3: pictureBox99->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSW.png"); break;
+		case 4: pictureBox99->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox99->Visible = false;
+
+
+	if (Droga19[2]->zycie == true) {
+		pictureBox100->Visible = true;
+		switch (Droga19[2]->rodzaj)
+		{
+		case 1: pictureBox100->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSW.png"); break;
+		case 2: pictureBox100->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSW.png"); break;
+		case 3: pictureBox100->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSW.png"); break;
+		case 4: pictureBox100->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox100->Visible = false;
+
+
+	if (Droga19[3]->zycie == true) {
+		pictureBox101->Visible = true;
+		switch (Droga19[3]->rodzaj)
+		{
+		case 1: pictureBox101->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSW.png"); break;
+		case 2: pictureBox101->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSW.png"); break;
+		case 3: pictureBox101->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSW.png"); break;
+		case 4: pictureBox101->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox101->Visible = false;
+
+
+	if (Droga19[4]->zycie == true) {
+		pictureBox102->Visible = true;
+		switch (Droga19[4]->rodzaj)
+		{
+		case 1: pictureBox102->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_S.png"); break;
+		case 2: pictureBox102->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_S.png"); break;
+		case 3: pictureBox102->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_S.png"); break;
+		case 4: pictureBox102->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_S.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox102->Visible = false;
+
+
+	if (Droga19[5]->zycie == true) {
+		pictureBox103->Visible = true;
+		switch (Droga19[5]->rodzaj)
+		{
+		case 1: pictureBox103->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_S.png"); break;
+		case 2: pictureBox103->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_S.png"); break;
+		case 3: pictureBox103->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_S.png"); break;
+		case 4: pictureBox103->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_S.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox103->Visible = false;
+
+
+	if (Droga19[6]->zycie == true) {
+		pictureBox104->Visible = true;
+		switch (Droga19[6]->rodzaj)
+		{
+		case 1: pictureBox104->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_S.png"); break;
+		case 2: pictureBox104->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_S.png"); break;
+		case 3: pictureBox104->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_S.png"); break;
+		case 4: pictureBox104->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_S.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox104->Visible = false;
+
+
+	if (Droga19[7]->zycie == true) {
+		pictureBox105->Visible = true;
+		switch (Droga19[7]->rodzaj)
+		{
+		case 1: pictureBox105->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox105->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox105->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox105->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox105->Visible = false;
+
+
+	if (Droga19[8]->zycie == true) {
+		pictureBox106->Visible = true;
+		switch (Droga19[8]->rodzaj)
+		{
+		case 1: pictureBox106->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SSE.png"); break;
+		case 2: pictureBox106->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SSE.png"); break;
+		case 3: pictureBox106->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SSE.png"); break;
+		case 4: pictureBox106->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SSE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox106->Visible = false;
+
+
+	if (Droga19[9]->zycie == true) {
+		pictureBox107->Visible = true;
+		switch (Droga19[9]->rodzaj)
+		{
+		case 1: pictureBox107->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SE.png"); break;
+		case 2: pictureBox107->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SE.png"); break;
+		case 3: pictureBox107->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SE.png"); break;
+		case 4: pictureBox107->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox107->Visible = false;
+
+
+	if (Droga19[10]->zycie == true) {
+		pictureBox108->Visible = true;
+		switch (Droga19[10]->rodzaj)
+		{
+		case 1: pictureBox108->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SE.png"); break;
+		case 2: pictureBox108->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SE.png"); break;
+		case 3: pictureBox108->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SE.png"); break;
+		case 4: pictureBox108->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox108->Visible = false;
+
+
+	if (Droga19[11]->zycie == true) {
+		pictureBox109->Visible = true;
+		switch (Droga19[11]->rodzaj)
+		{
+		case 1: pictureBox109->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SEE.png"); break;
+		case 2: pictureBox109->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SEE.png"); break;
+		case 3: pictureBox109->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SEE.png"); break;
+		case 4: pictureBox109->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SEE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox109->Visible = false;
+
+
+	if (Droga19[12]->zycie == true) {
+		pictureBox110->Visible = true;
+		switch (Droga19[12]->rodzaj)
+		{
+		case 1: pictureBox110->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SEE.png"); break;
+		case 2: pictureBox110->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SEE.png"); break;
+		case 3: pictureBox110->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SEE.png"); break;
+		case 4: pictureBox110->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SEE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox110->Visible = false;
+
+
+	if (Droga19[13]->zycie == true) {
+		pictureBox111->Visible = true;
+		switch (Droga19[13]->rodzaj)
+		{
+		case 1: pictureBox111->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SEE.png"); break;
+		case 2: pictureBox111->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SEE.png"); break;
+		case 3: pictureBox111->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SEE.png"); break;
+		case 4: pictureBox111->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SEE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox111->Visible = false;
+
+
+	if (Droga19[14]->zycie == true) {
+		pictureBox112->Visible = true;
+		switch (Droga19[14]->rodzaj)
+		{
+		case 1: pictureBox112->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_E.png"); break;
+		case 2: pictureBox112->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_E.png"); break;
+		case 3: pictureBox112->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_E.png"); break;
+		case 4: pictureBox112->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_E.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox112->Visible = false;
+
+
+	if (Droga19[15]->zycie == true) {
+		pictureBox113->Visible = true;
+		switch (Droga19[15]->rodzaj)
+		{
+		case 1: pictureBox113->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_E.png"); break;
+		case 2: pictureBox113->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_E.png"); break;
+		case 3: pictureBox113->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_E.png"); break;
+		case 4: pictureBox113->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_E.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox113->Visible = false;
+
+
+	if (Droga19[16]->zycie == true) {
+		pictureBox114->Visible = true;
+		switch (Droga19[16]->rodzaj)
+		{
+		case 1: pictureBox114->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NEE.png"); break;
+		case 2: pictureBox114->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NEE.png"); break;
+		case 3: pictureBox114->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NEE.png"); break;
+		case 4: pictureBox114->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NEE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox114->Visible = false;
+
+
+	if (Droga19[17]->zycie == true) {
+		pictureBox115->Visible = true;
+		switch (Droga19[17]->rodzaj)
+		{
+		case 1: pictureBox115->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox115->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox115->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox115->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox115->Visible = false;
+
+
+	if (Droga19[18]->zycie == true) {
+		pictureBox116->Visible = true;
+		switch (Droga19[18]->rodzaj)
+		{
+		case 1: pictureBox116->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox116->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox116->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox116->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox116->Visible = false;
+
+
+	if (Droga19[19]->zycie == true) {
+		pictureBox117->Visible = true;
+		switch (Droga19[19]->rodzaj)
+		{
+		case 1: pictureBox117->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox117->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox117->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox117->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox117->Visible = false;
+
+
+	if (Droga19[20]->zycie == true) {
+		pictureBox118->Visible = true;
+		switch (Droga19[20]->rodzaj)
+		{
+		case 1: pictureBox118->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NE.png"); break;
+		case 2: pictureBox118->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NE.png"); break;
+		case 3: pictureBox118->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NE.png"); break;
+		case 4: pictureBox118->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox118->Visible = false;
+
+
+	if (Droga19[21]->zycie == true) {
+		pictureBox119->Visible = true;
+		switch (Droga19[21]->rodzaj)
+		{
+		case 1: pictureBox119->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNE.png"); break;
+		case 2: pictureBox119->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNE.png"); break;
+		case 3: pictureBox119->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNE.png"); break;
+		case 4: pictureBox119->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox119->Visible = false;
+
+
+	if (Droga19[22]->zycie == true) {
+		pictureBox120->Visible = true;
+		switch (Droga19[22]->rodzaj)
+		{
+		case 1: pictureBox120->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNE.png"); break;
+		case 2: pictureBox120->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNE.png"); break;
+		case 3: pictureBox120->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNE.png"); break;
+		case 4: pictureBox120->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNE.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox120->Visible = false;
+
+
+	if (Droga19[23]->zycie == true) {
+		pictureBox121->Visible = true;
+		switch (Droga19[23]->rodzaj)
+		{
+		case 1: pictureBox121->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_N.png"); break;
+		case 2: pictureBox121->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_N.png"); break;
+		case 3: pictureBox121->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_N.png"); break;
+		case 4: pictureBox121->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_N.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox121->Visible = false;
+
+
+	if (Droga19[24]->zycie == true) {
+		pictureBox122->Visible = true;
+		switch (Droga19[24]->rodzaj)
+		{
+		case 1: pictureBox122->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox122->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox122->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox122->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox122->Visible = false;
+
+
+	if (Droga19[25]->zycie == true) {
+		pictureBox123->Visible = true;
+		switch (Droga19[25]->rodzaj)
+		{
+		case 1: pictureBox123->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox123->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox123->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox123->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox123->Visible = false;
+
+
+	if (Droga19[26]->zycie == true) {
+		pictureBox124->Visible = true;
+		switch (Droga19[26]->rodzaj)
+		{
+		case 1: pictureBox124->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NNW.png"); break;
+		case 2: pictureBox124->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NNW.png"); break;
+		case 3: pictureBox124->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NNW.png"); break;
+		case 4: pictureBox124->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NNW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox124->Visible = false;
+
+
+	if (Droga19[27]->zycie == true) {
+		pictureBox125->Visible = true;
+		switch (Droga19[27]->rodzaj)
+		{
+		case 1: pictureBox125->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NW.png"); break;
+		case 2: pictureBox125->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NW.png"); break;
+		case 3: pictureBox125->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NW.png"); break;
+		case 4: pictureBox125->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox125->Visible = false;
+
+
+	if (Droga19[28]->zycie == true) {
+		pictureBox126->Visible = true;
+		switch (Droga19[28]->rodzaj)
+		{
+		case 1: pictureBox126->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NW.png"); break;
+		case 2: pictureBox126->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NW.png"); break;
+		case 3: pictureBox126->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NW.png"); break;
+		case 4: pictureBox126->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox126->Visible = false;
+
+
+	if (Droga19[29]->zycie == true) {
+		pictureBox127->Visible = true;
+		switch (Droga19[29]->rodzaj)
+		{
+		case 1: pictureBox127->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NWW.png"); break;
+		case 2: pictureBox127->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NWW.png"); break;
+		case 3: pictureBox127->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NWW.png"); break;
+		case 4: pictureBox127->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox127->Visible = false;
+
+
+	if (Droga19[30]->zycie == true) {
+		pictureBox128->Visible = true;
+		switch (Droga19[30]->rodzaj)
+		{
+		case 1: pictureBox128->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_NWW.png"); break;
+		case 2: pictureBox128->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_NWW.png"); break;
+		case 3: pictureBox128->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_NWW.png"); break;
+		case 4: pictureBox128->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_NWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox128->Visible = false;
+
+
+	if (Droga19[31]->zycie == true) {
+		pictureBox129->Visible = true;
+		switch (Droga19[31]->rodzaj)
+		{
+		case 1: pictureBox129->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_W.png"); break;
+		case 2: pictureBox129->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_W.png"); break;
+		case 3: pictureBox129->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_W.png"); break;
+		case 4: pictureBox129->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_W.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox129->Visible = false;
+
+
+	if (Droga19[32]->zycie == true) {
+		pictureBox130->Visible = true;
+		switch (Droga19[32]->rodzaj)
+		{
+		case 1: pictureBox130->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SWW.png"); break;
+		case 2: pictureBox130->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SWW.png"); break;
+		case 3: pictureBox130->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SWW.png"); break;
+		case 4: pictureBox130->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox130->Visible = false;
+
+
+	if (Droga19[33]->zycie == true) {
+		pictureBox131->Visible = true;
+		switch (Droga19[33]->rodzaj)
+		{
+		case 1: pictureBox131->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SWW.png"); break;
+		case 2: pictureBox131->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SWW.png"); break;
+		case 3: pictureBox131->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SWW.png"); break;
+		case 4: pictureBox131->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SWW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox131->Visible = false;
+
+
+	if (Droga19[34]->zycie == true) {
+		pictureBox132->Visible = true;
+		switch (Droga19[34]->rodzaj)
+		{
+		case 1: pictureBox132->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox132->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox132->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox132->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox132->Visible = false;
+
+
+	if (Droga19[35]->zycie == true) {
+		pictureBox133->Visible = true;
+		switch (Droga19[35]->rodzaj)
+		{
+		case 1: pictureBox133->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLACK_SW.png"); break;
+		case 2: pictureBox133->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigBLUE_SW.png"); break;
+		case 3: pictureBox133->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigRED_SW.png"); break;
+		case 4: pictureBox133->Image = Image::FromFile(L"C:\\Users\\Krystian\\Documents\\GitHub\\Autosim\\Project11111\\Obrazki\\Autka\\BigGRAY_SW.png"); break;
+		default:
+			break;
+		}
+	}
+	else pictureBox133->Visible = false;
+
+
+
+#pragma endregion
+}
 
 }
 
