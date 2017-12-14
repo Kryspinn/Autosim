@@ -14,6 +14,8 @@ public:
 	void Nowe_Auto();
 	void Wybor_Pasa();
 	void Skrecanie();
+	String^ zrobczas(int czas);
+	
 
 
 	void Ustawwaruki(int natezeniee, int losowoscc);
@@ -41,8 +43,12 @@ public:
 
 public:
 	Random^ rnd;
-	int natezenie = 4;
-	int losowosc = 20;
+	int natezenie = 2;
+	int losowosc = 0;
+
+	array<int>^ ilosc;
+	array<int>^ srczas;
+
 	array< Auto^ >^ Droga1;
 	array< Auto^ >^ Droga2;
 	array< Auto^ >^ Droga3;

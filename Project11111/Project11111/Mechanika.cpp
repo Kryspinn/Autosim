@@ -22,7 +22,7 @@
 #define DLUGOSCDROGI19 36
 
 
-#define OGRANICZENIEPREDKOSCI 3;
+#define OGRANICZENIEPREDKOSCI 4;
 using namespace System;
 
 
@@ -48,8 +48,27 @@ Mechanika::Mechanika()
 	array< Auto^ >^ local17 = gcnew array< Auto^ >(DLUGOSCDROGI17);
 	array< Auto^ >^ local18 = gcnew array< Auto^ >(DLUGOSCDROGI18);
 	array< Auto^ >^ local19 = gcnew array< Auto^ >(DLUGOSCDROGI19);
-	
-	
+	array< int >^ xxxilosc = gcnew array< int >(17);
+	array< int >^ xxxsrczas = gcnew array< int >(17);
+	ilosc = xxxilosc;
+	srczas = xxxsrczas;
+	ilosc[3] = 5;
+	/*array< int >^ localilo = gcnew array< int >(17);
+	array< int >^ localsr = gcnew array< int >(17);
+	for (int i = 0; i < 17; i++) {
+		local1[i] = gcnew int;
+	}
+	ilosc = local1;
+
+	for (int i = 0; i < 17; i++) {
+		local1[i] = gcnew Auto;
+	}
+	Droga1 = local1;
+*/
+
+
+
+
 	for (int i = 0; i < DLUGOSCDROGI1; i++) {
 		local1[i] = gcnew Auto;
 	}
@@ -607,6 +626,107 @@ void Mechanika::Przyspieszani_Hamowanie()
 	
 	for (int i = 0; i < DLUGOSCDROGI19; i++) {
 		if (Droga19[i]->zycie == true && Droga19[i]->przeszkoda == false) {
+			if (Droga19[i]->gdzie == 1) {
+				int wolne_miejsca = 0;
+				bool specjalny = false;
+				for (int j = 1; j <= Droga19[i]->predkosc + 1; j++) {
+					if (i + j < DLUGOSCDROGI19) {
+						if (Droga19[i + j]->zycie == false) wolne_miejsca++;
+						else j = 100;
+					}
+					else {
+						if (Droga19[i + j - DLUGOSCDROGI19]->zycie == false) wolne_miejsca++;
+						else j = 100;
+					}
+					if (i + j == 3) {
+						j = 100;
+						Droga19[i]->predkosc = wolne_miejsca;
+						specjalny = true;
+					}
+
+				}
+				int ograniczenie = OGRANICZENIEPREDKOSCI;
+				if (specjalny == false && Droga19[i]->predkosc < wolne_miejsca) Droga19[i]->predkosc++;
+				if (specjalny == false && Droga19[i]->predkosc >= wolne_miejsca) Droga19[i]->predkosc = wolne_miejsca;
+				if (specjalny == false && Droga19[i]->predkosc >= ograniczenie) Droga19[i]->predkosc = ograniczenie;
+			}
+			if (Droga19[i]->gdzie == 2) {
+				int wolne_miejsca = 0;
+				bool specjalny = false;
+				for (int j = 1; j <= Droga19[i]->predkosc + 1; j++) {
+					if (i + j < DLUGOSCDROGI19) {
+						if (Droga19[i + j]->zycie == false) wolne_miejsca++;
+						else j = 100;
+					}
+					else {
+						if (Droga19[i + j - DLUGOSCDROGI19]->zycie == false) wolne_miejsca++;
+						else j = 100;
+					}
+					if (i + j == 3) {
+						j = 100;
+						Droga19[i]->predkosc = wolne_miejsca;
+						specjalny = true;
+					}
+
+				}
+				int ograniczenie = OGRANICZENIEPREDKOSCI;
+				if (specjalny == false && Droga19[i]->predkosc < wolne_miejsca) Droga19[i]->predkosc++;
+				if (specjalny == false && Droga19[i]->predkosc >= wolne_miejsca) Droga19[i]->predkosc = wolne_miejsca;
+				if (specjalny == false && Droga19[i]->predkosc >= ograniczenie) Droga19[i]->predkosc = ograniczenie;
+			}
+			if (Droga19[i]->gdzie == 3) {
+				int wolne_miejsca = 0;
+				bool specjalny = false;
+				for (int j = 1; j <= Droga19[i]->predkosc + 1; j++) {
+					if (i + j < DLUGOSCDROGI19) {
+						if (Droga19[i + j]->zycie == false) wolne_miejsca++;
+						else j = 100;
+					}
+					else {
+						if (Droga19[i + j - DLUGOSCDROGI19]->zycie == false) wolne_miejsca++;
+						else j = 100;
+					}
+					if (i + j == 3) {
+						j = 100;
+						Droga19[i]->predkosc = wolne_miejsca;
+						specjalny = true;
+					}
+
+				}
+				int ograniczenie = OGRANICZENIEPREDKOSCI;
+				if (specjalny == false && Droga19[i]->predkosc < wolne_miejsca) Droga19[i]->predkosc++;
+				if (specjalny == false && Droga19[i]->predkosc >= wolne_miejsca) Droga19[i]->predkosc = wolne_miejsca;
+				if (specjalny == false && Droga19[i]->predkosc >= ograniczenie) Droga19[i]->predkosc = ograniczenie;
+			}
+			if (Droga19[i]->gdzie == 4) {
+				int wolne_miejsca = 0;
+				bool specjalny = false;
+				for (int j = 1; j <= Droga19[i]->predkosc + 1; j++) {
+					if (i + j < DLUGOSCDROGI19) {
+						if (Droga19[i + j]->zycie == false) wolne_miejsca++;
+						else j = 100;
+					}
+					else {
+						if (Droga19[i + j - DLUGOSCDROGI19]->zycie == false) wolne_miejsca++;
+						else j = 100;
+					}
+					if (i + j == 3) {
+						j = 100;
+						Droga19[i]->predkosc = wolne_miejsca;
+						specjalny = true;
+					}
+
+				}
+				int ograniczenie = OGRANICZENIEPREDKOSCI;
+				if (specjalny == false && Droga19[i]->predkosc < wolne_miejsca) Droga19[i]->predkosc++;
+				if (specjalny == false && Droga19[i]->predkosc >= wolne_miejsca) Droga19[i]->predkosc = wolne_miejsca;
+				if (specjalny == false && Droga19[i]->predkosc >= ograniczenie) Droga19[i]->predkosc = ograniczenie;
+			}
+		}
+	}
+
+	/*for (int i = 0; i < DLUGOSCDROGI19; i++) {
+		if (Droga19[i]->zycie == true && Droga19[i]->przeszkoda == false) {
 			int wolne_miejsca = 0;
 			bool specjalny = false;
 			for (int j = 1; j <= Droga19[i]->predkosc + 1; j++) {
@@ -624,7 +744,7 @@ void Mechanika::Przyspieszani_Hamowanie()
 			if (Droga19[i]->predkosc >= wolne_miejsca) Droga19[i]->predkosc = wolne_miejsca;
 			if (Droga19[i]->predkosc >= ograniczenie) Droga19[i]->predkosc = ograniczenie;
 		}
-	}
+	}*/
 	
 
 }
@@ -995,12 +1115,12 @@ void Mechanika::Przemieszczenie()
 						}
 						//mo¿liwoœci wed³ug wolnych miejsc
 						if (Droga1[i]->predkosc + i - DLUGOSCDROGI1 < wolne_miejsca_na_nowej_drodze && wolne_miejsca_na_nowej_drodze != 0) {
-							Drogatemp3[Droga1[i]->predkosc + i - DLUGOSCDROGI1] = gcnew Auto(Droga1[i]->predkosc, Droga1[i]->zycie, Droga1[i]->czas_zycia + 1, Droga1[i]->rodzaj, Droga1[i]->widocznosc, Droga1[i]->odwaga, Droga1[i]->zdenerwowanie, Droga1[i]->gdzie);
+							Drogatemp3[Droga1[i]->predkosc + i - DLUGOSCDROGI1] = gcnew Auto(Droga1[i]->predkosc, Droga1[i]->zycie, Droga1[i]->czas_zycia + 1, Droga1[i]->rodzaj, Droga1[i]->widocznosc, Droga1[i]->odwaga, Droga1[i]->zdenerwowanie, Droga1[i]->gdzie, Droga1[i]->skad);
 							Droga1[i]->zycie = false;
 							Drogatemp1[i]->zycie = false;	//jak wyjedzie to znika ii ma sie pojawiæ w kolejnej tablicy
 						}
 						if (Droga1[i]->predkosc + i - DLUGOSCDROGI1 >= wolne_miejsca_na_nowej_drodze && wolne_miejsca_na_nowej_drodze != 0) {
-							Drogatemp3[wolne_miejsca_na_nowej_drodze - 1] = gcnew Auto(Droga1[i]->predkosc, Droga1[i]->zycie, Droga1[i]->czas_zycia + 1, Droga1[i]->rodzaj, Droga1[i]->widocznosc, Droga1[i]->odwaga, Droga1[i]->zdenerwowanie, Droga1[i]->gdzie);
+							Drogatemp3[wolne_miejsca_na_nowej_drodze - 1] = gcnew Auto(Droga1[i]->predkosc, Droga1[i]->zycie, Droga1[i]->czas_zycia + 1, Droga1[i]->rodzaj, Droga1[i]->widocznosc, Droga1[i]->odwaga, Droga1[i]->zdenerwowanie, Droga1[i]->gdzie, Droga1[i]->skad);
 							Droga1[i]->zycie = false;
 							Drogatemp1[i]->zycie = false;	//jak wyjedzie to znika ii ma sie pojawiæ w kolejnej tablicy
 						}
@@ -1050,12 +1170,12 @@ void Mechanika::Przemieszczenie()
 						}
 						//mo¿liwoœci wed³ug wolnych miejsc
 						if (Droga2[i]->predkosc + i - DLUGOSCDROGI2 < wolne_miejsca_na_nowej_drodze && wolne_miejsca_na_nowej_drodze != 0) {
-							Drogatemp4[Droga2[i]->predkosc + i - DLUGOSCDROGI2] = gcnew Auto(Droga2[i]->predkosc, Droga2[i]->zycie, Droga2[i]->czas_zycia + 1, Droga2[i]->rodzaj, Droga2[i]->widocznosc, Droga2[i]->odwaga, Droga2[i]->zdenerwowanie, Droga2[i]->gdzie);
+							Drogatemp4[Droga2[i]->predkosc + i - DLUGOSCDROGI2] = gcnew Auto(Droga2[i]->predkosc, Droga2[i]->zycie, Droga2[i]->czas_zycia + 1, Droga2[i]->rodzaj, Droga2[i]->widocznosc, Droga2[i]->odwaga, Droga2[i]->zdenerwowanie, Droga2[i]->gdzie, Droga2[i]->skad);
 							Droga2[i]->zycie = false;
 							Drogatemp2[i]->zycie = false;	//jak wyjedzie to znika ii ma sie pojawiæ w kolejnej tablicy
 						}
 						if (Droga2[i]->predkosc + i - DLUGOSCDROGI2 >= wolne_miejsca_na_nowej_drodze && wolne_miejsca_na_nowej_drodze != 0) {
-							Drogatemp4[wolne_miejsca_na_nowej_drodze - 1] = gcnew Auto(Droga2[i]->predkosc, Droga2[i]->zycie, Droga2[i]->czas_zycia + 1, Droga2[i]->rodzaj, Droga2[i]->widocznosc, Droga2[i]->odwaga, Droga2[i]->zdenerwowanie, Droga2[i]->gdzie);
+							Drogatemp4[wolne_miejsca_na_nowej_drodze - 1] = gcnew Auto(Droga2[i]->predkosc, Droga2[i]->zycie, Droga2[i]->czas_zycia + 1, Droga2[i]->rodzaj, Droga2[i]->widocznosc, Droga2[i]->odwaga, Droga2[i]->zdenerwowanie, Droga2[i]->gdzie, Droga2[i]->skad);
 							Droga2[i]->zycie = false;
 							Drogatemp2[i]->zycie = false;	//jak wyjedzie to znika ii ma sie pojawiæ w kolejnej tablicy
 						}
@@ -1105,12 +1225,12 @@ void Mechanika::Przemieszczenie()
 						}
 						//mo¿liwoœci wed³ug wolnych miejsc
 						if (Droga4[i]->predkosc + i - DLUGOSCDROGI4 < wolne_miejsca_na_nowej_drodze && wolne_miejsca_na_nowej_drodze != 0) {
-							Drogatemp6[Droga4[i]->predkosc + i - DLUGOSCDROGI4] = gcnew Auto(Droga4[i]->predkosc, Droga4[i]->zycie, Droga4[i]->czas_zycia + 1, Droga4[i]->rodzaj, Droga4[i]->widocznosc, Droga4[i]->odwaga, Droga4[i]->zdenerwowanie, Droga4[i]->gdzie);
+							Drogatemp6[Droga4[i]->predkosc + i - DLUGOSCDROGI4] = gcnew Auto(Droga4[i]->predkosc, Droga4[i]->zycie, Droga4[i]->czas_zycia + 1, Droga4[i]->rodzaj, Droga4[i]->widocznosc, Droga4[i]->odwaga, Droga4[i]->zdenerwowanie, Droga4[i]->gdzie, Droga4[i]->skad);
 							Droga4[i]->zycie = false;
 							Drogatemp4[i]->zycie = false;	//jak wyjedzie to znika ii ma sie pojawiæ w kolejnej tablicy
 						}
 						if (Droga4[i]->predkosc + i - DLUGOSCDROGI4 >= wolne_miejsca_na_nowej_drodze && wolne_miejsca_na_nowej_drodze != 0) {
-							Drogatemp6[wolne_miejsca_na_nowej_drodze - 1] = gcnew Auto(Droga4[i]->predkosc, Droga4[i]->zycie, Droga4[i]->czas_zycia + 1, Droga4[i]->rodzaj, Droga4[i]->widocznosc, Droga4[i]->odwaga, Droga4[i]->zdenerwowanie, Droga4[i]->gdzie);
+							Drogatemp6[wolne_miejsca_na_nowej_drodze - 1] = gcnew Auto(Droga4[i]->predkosc, Droga4[i]->zycie, Droga4[i]->czas_zycia + 1, Droga4[i]->rodzaj, Droga4[i]->widocznosc, Droga4[i]->odwaga, Droga4[i]->zdenerwowanie, Droga4[i]->gdzie, Droga4[i]->skad);
 							Droga4[i]->zycie = false;
 							Drogatemp4[i]->zycie = false;	//jak wyjedzie to znika ii ma sie pojawiæ w kolejnej tablicy
 						}
@@ -1160,12 +1280,12 @@ void Mechanika::Przemieszczenie()
 						}
 						//mo¿liwoœci wed³ug wolnych miejsc
 						if (Droga5[i]->predkosc + i - DLUGOSCDROGI5 < wolne_miejsca_na_nowej_drodze && wolne_miejsca_na_nowej_drodze != 0) {
-							Drogatemp7[Droga5[i]->predkosc + i - DLUGOSCDROGI5] = gcnew Auto(Droga5[i]->predkosc, Droga5[i]->zycie, Droga5[i]->czas_zycia + 1, Droga5[i]->rodzaj, Droga5[i]->widocznosc, Droga5[i]->odwaga, Droga5[i]->zdenerwowanie, Droga5[i]->gdzie);
+							Drogatemp7[Droga5[i]->predkosc + i - DLUGOSCDROGI5] = gcnew Auto(Droga5[i]->predkosc, Droga5[i]->zycie, Droga5[i]->czas_zycia + 1, Droga5[i]->rodzaj, Droga5[i]->widocznosc, Droga5[i]->odwaga, Droga5[i]->zdenerwowanie, Droga5[i]->gdzie, Droga5[i]->skad);
 							Droga5[i]->zycie = false;
 							Drogatemp5[i]->zycie = false;	//jak wyjedzie to znika ii ma sie pojawiæ w kolejnej tablicy
 						}
 						if (Droga5[i]->predkosc + i - DLUGOSCDROGI5 >= wolne_miejsca_na_nowej_drodze && wolne_miejsca_na_nowej_drodze != 0) {
-							Drogatemp7[wolne_miejsca_na_nowej_drodze - 1] = gcnew Auto(Droga5[i]->predkosc, Droga5[i]->zycie, Droga5[i]->czas_zycia + 1, Droga5[i]->rodzaj, Droga5[i]->widocznosc, Droga5[i]->odwaga, Droga5[i]->zdenerwowanie, Droga5[i]->gdzie);
+							Drogatemp7[wolne_miejsca_na_nowej_drodze - 1] = gcnew Auto(Droga5[i]->predkosc, Droga5[i]->zycie, Droga5[i]->czas_zycia + 1, Droga5[i]->rodzaj, Droga5[i]->widocznosc, Droga5[i]->odwaga, Droga5[i]->zdenerwowanie, Droga5[i]->gdzie, Droga5[i]->skad);
 							Droga5[i]->zycie = false;
 							Drogatemp5[i]->zycie = false;	//jak wyjedzie to znika ii ma sie pojawiæ w kolejnej tablicy
 						}
@@ -1215,12 +1335,12 @@ void Mechanika::Przemieszczenie()
 						}
 						//mo¿liwoœci wed³ug wolnych miejsc
 						if (Droga8[i]->predkosc + i - DLUGOSCDROGI8 < wolne_miejsca_na_nowej_drodze && wolne_miejsca_na_nowej_drodze != 0) {
-							Drogatemp10[Droga8[i]->predkosc + i - DLUGOSCDROGI8] = gcnew Auto(Droga8[i]->predkosc, Droga8[i]->zycie, Droga8[i]->czas_zycia + 1, Droga8[i]->rodzaj, Droga8[i]->widocznosc, Droga8[i]->odwaga, Droga8[i]->zdenerwowanie, Droga8[i]->gdzie);
+							Drogatemp10[Droga8[i]->predkosc + i - DLUGOSCDROGI8] = gcnew Auto(Droga8[i]->predkosc, Droga8[i]->zycie, Droga8[i]->czas_zycia + 1, Droga8[i]->rodzaj, Droga8[i]->widocznosc, Droga8[i]->odwaga, Droga8[i]->zdenerwowanie, Droga8[i]->gdzie, Droga8[i]->skad);
 							Droga8[i]->zycie = false;
 							Drogatemp8[i]->zycie = false;	//jak wyjedzie to znika ii ma sie pojawiæ w kolejnej tablicy
 						}
 						if (Droga8[i]->predkosc + i - DLUGOSCDROGI8 >= wolne_miejsca_na_nowej_drodze && wolne_miejsca_na_nowej_drodze != 0) {
-							Drogatemp10[wolne_miejsca_na_nowej_drodze - 1] = gcnew Auto(Droga8[i]->predkosc, Droga8[i]->zycie, Droga8[i]->czas_zycia + 1, Droga8[i]->rodzaj, Droga8[i]->widocznosc, Droga8[i]->odwaga, Droga8[i]->zdenerwowanie, Droga8[i]->gdzie);
+							Drogatemp10[wolne_miejsca_na_nowej_drodze - 1] = gcnew Auto(Droga8[i]->predkosc, Droga8[i]->zycie, Droga8[i]->czas_zycia + 1, Droga8[i]->rodzaj, Droga8[i]->widocznosc, Droga8[i]->odwaga, Droga8[i]->zdenerwowanie, Droga8[i]->gdzie, Droga8[i]->skad);
 							Droga8[i]->zycie = false;
 							Drogatemp8[i]->zycie = false;	//jak wyjedzie to znika ii ma sie pojawiæ w kolejnej tablicy
 						}
@@ -1270,12 +1390,12 @@ void Mechanika::Przemieszczenie()
 						}
 						//mo¿liwoœci wed³ug wolnych miejsc
 						if (Droga9[i]->predkosc + i - DLUGOSCDROGI9 < wolne_miejsca_na_nowej_drodze && wolne_miejsca_na_nowej_drodze != 0) {
-							Drogatemp11[Droga9[i]->predkosc + i - DLUGOSCDROGI9] = gcnew Auto(Droga9[i]->predkosc, Droga9[i]->zycie, Droga9[i]->czas_zycia + 1, Droga9[i]->rodzaj, Droga9[i]->widocznosc, Droga9[i]->odwaga, Droga9[i]->zdenerwowanie, Droga9[i]->gdzie);
+							Drogatemp11[Droga9[i]->predkosc + i - DLUGOSCDROGI9] = gcnew Auto(Droga9[i]->predkosc, Droga9[i]->zycie, Droga9[i]->czas_zycia + 1, Droga9[i]->rodzaj, Droga9[i]->widocznosc, Droga9[i]->odwaga, Droga9[i]->zdenerwowanie, Droga9[i]->gdzie, Droga9[i]->skad);
 							Droga9[i]->zycie = false;
 							Drogatemp9[i]->zycie = false;	//jak wyjedzie to znika ii ma sie pojawiæ w kolejnej tablicy
 						}
 						if (Droga9[i]->predkosc + i - DLUGOSCDROGI9 >= wolne_miejsca_na_nowej_drodze && wolne_miejsca_na_nowej_drodze != 0) {
-							Drogatemp11[wolne_miejsca_na_nowej_drodze - 1] = gcnew Auto(Droga9[i]->predkosc, Droga9[i]->zycie, Droga9[i]->czas_zycia + 1, Droga9[i]->rodzaj, Droga9[i]->widocznosc, Droga9[i]->odwaga, Droga9[i]->zdenerwowanie, Droga9[i]->gdzie);
+							Drogatemp11[wolne_miejsca_na_nowej_drodze - 1] = gcnew Auto(Droga9[i]->predkosc, Droga9[i]->zycie, Droga9[i]->czas_zycia + 1, Droga9[i]->rodzaj, Droga9[i]->widocznosc, Droga9[i]->odwaga, Droga9[i]->zdenerwowanie, Droga9[i]->gdzie, Droga9[i]->skad);
 							Droga9[i]->zycie = false;
 							Drogatemp9[i]->zycie = false;	//jak wyjedzie to znika ii ma sie pojawiæ w kolejnej tablicy
 						}
@@ -1319,7 +1439,26 @@ void Mechanika::Przemieszczenie()
 					//wyjazd z drogi
 					else {
 						Drogatemp6[i]->zycie = false;
-						//infodroga2
+						
+						switch (Droga6[i]->skad) {
+						case 1:
+							ilosc[5]++;
+							srczas[5] = ((srczas[5] * (ilosc[5] - 1) + Droga6[i]->czas_zycia) / ilosc[5]);
+							break;
+						case 2:
+							ilosc[6]++;
+							srczas[6] = ((srczas[6] * (ilosc[6] - 1) + Droga6[i]->czas_zycia) / ilosc[6]);
+							break;
+						case 3:
+							ilosc[7]++;
+							srczas[7] = ((srczas[7] * (ilosc[7] - 1) + Droga6[i]->czas_zycia) / ilosc[7]);
+							break;
+						case 4:
+							ilosc[8]++;
+							srczas[8] = ((srczas[8] * (ilosc[8] - 1) + Droga6[i]->czas_zycia) / ilosc[8]);
+							break;
+
+						}
 					}
 
 				}
@@ -1356,7 +1495,24 @@ void Mechanika::Przemieszczenie()
 					//wyjazd z drogi
 					else {
 						Drogatemp7[i]->zycie = false;
-						//infodroga2
+						switch (Droga7[i]->skad) {
+						case 1:
+							ilosc[5]++;
+							srczas[5] = ((srczas[5] * (ilosc[5] - 1) + Droga7[i]->czas_zycia) / ilosc[5]);
+							break;
+						case 2:
+							ilosc[6]++;
+							srczas[6] = ((srczas[6] * (ilosc[6] - 1) + Droga7[i]->czas_zycia) / ilosc[6]);
+							break;
+						case 3:
+							ilosc[7]++;
+							srczas[7] = ((srczas[7] * (ilosc[7] - 1) + Droga7[i]->czas_zycia) / ilosc[7]);
+							break;
+						case 4:
+							ilosc[8]++;
+							srczas[8] = ((srczas[8] * (ilosc[8] - 1) + Droga7[i]->czas_zycia) / ilosc[8]);
+							break;
+						}
 					}
 
 				}
@@ -1394,6 +1550,24 @@ void Mechanika::Przemieszczenie()
 					else {
 						Drogatemp11[i]->zycie = false;
 						//infodroga3
+						switch (Droga11[i]->skad) {
+						case 1:
+							ilosc[9]++;
+							srczas[9] = ((srczas[9] * (ilosc[9] - 1) + Droga11[i]->czas_zycia) / ilosc[9]);
+							break;
+						case 2:
+							ilosc[10]++;
+							srczas[10] = ((srczas[10] * (ilosc[10] - 1) + Droga11[i]->czas_zycia) / ilosc[10]);
+							break;
+						case 3:
+							ilosc[11]++;
+							srczas[11] = ((srczas[11] * (ilosc[11] - 1) + Droga11[i]->czas_zycia) / ilosc[11]);
+							break;
+						case 4:
+							ilosc[12]++;
+							srczas[12] = ((srczas[12] * (ilosc[12] - 1) + Droga11[i]->czas_zycia) / ilosc[12]);
+							break;
+						}
 					}
 
 				}
@@ -1422,7 +1596,7 @@ void Mechanika::Przemieszczenie()
 	for (int i = 0; i < DLUGOSCDROGI12; i++) {
 		if (Droga12[i]->zycie == true) {			//sprawdzenie czy istnieje auto
 			if (Droga12[i]->czas_zycia >= 1) {	//postuj jednej sekundy na stacie
-				if (Droga12[i]->gdzie == 2) {
+				if (Droga12[i]->gdzie == 3) {
 
 					if (i + Droga12[i]->predkosc < DLUGOSCDROGI12) { //czy wyjedzie poza tablice
 						Drogatemp12[i + Droga12[i]->predkosc] = Droga12[i]; //ustawinie nowego miejsca
@@ -1431,6 +1605,25 @@ void Mechanika::Przemieszczenie()
 					else {
 						Drogatemp12[i]->zycie = false;
 						//infodroga3
+						switch (Droga12[i]->skad) {
+						case 1:
+							ilosc[9]++;
+							srczas[9] = ((srczas[9] * (ilosc[9] - 1) + Droga12[i]->czas_zycia) / ilosc[9]);
+							break;
+						case 2:
+							ilosc[10]++;
+							srczas[10] = ((srczas[10] * (ilosc[10] - 1) + Droga12[i]->czas_zycia) / ilosc[10]);
+							break;
+						case 3:
+							ilosc[11]++;
+							srczas[11] = ((srczas[11] * (ilosc[11] - 1) + Droga12[i]->czas_zycia) / ilosc[11]);
+							break;
+						case 4:
+							ilosc[12]++;
+							srczas[12] = ((srczas[12] * (ilosc[12] - 1) + Droga12[i]->czas_zycia) / ilosc[12]);
+							break;
+						}
+
 					}
 
 				}
@@ -1468,6 +1661,24 @@ void Mechanika::Przemieszczenie()
 					else {
 						Drogatemp15[i]->zycie = false;
 						//infodroga4
+						switch (Droga15[i]->skad) {
+						case 1:
+							ilosc[13]++;
+							srczas[13] = ((srczas[9] * (ilosc[13] - 1) + Droga15[i]->czas_zycia) / ilosc[13]);
+							break;
+						case 2:
+							ilosc[14]++;
+							srczas[14] = ((srczas[14] * (ilosc[14] - 1) + Droga15[i]->czas_zycia) / ilosc[14]);
+							break;
+						case 3:
+							ilosc[15]++;
+							srczas[15] = ((srczas[15] * (ilosc[15] - 1) + Droga15[i]->czas_zycia) / ilosc[15]);
+							break;
+						case 4:
+							ilosc[16]++;
+							srczas[16] = ((srczas[16] * (ilosc[16] - 1) + Droga15[i]->czas_zycia) / ilosc[16]);
+							break;
+						}
 					}
 
 				}
@@ -1505,6 +1716,25 @@ void Mechanika::Przemieszczenie()
 					else {
 						Drogatemp17[i]->zycie = false;
 						//infodroga1
+						switch (Droga17[i]->skad) {
+						case 1:
+							ilosc[1]++;
+							srczas[1] = ((srczas[1] * (ilosc[1] - 1) + Droga17[i]->czas_zycia) / ilosc[1]);
+							break;
+						case 2:
+							ilosc[2]++;
+							srczas[2] = ((srczas[2] * (ilosc[2] - 1) + Droga17[i]->czas_zycia) / ilosc[2]);
+							break;
+						case 3:
+							ilosc[3]++;
+							srczas[3] = ((srczas[3] * (ilosc[3] - 1) + Droga17[i]->czas_zycia) / ilosc[3]);
+							break;
+						case 4:
+							ilosc[4]++;
+							srczas[4] = ((srczas[4] * (ilosc[4] - 1) + Droga17[i]->czas_zycia) / ilosc[4]);
+							break;
+						}
+
 					}
 
 				}
@@ -1529,68 +1759,6 @@ void Mechanika::Przemieszczenie()
 		}
 	}
 
-
-
-	////------------------------DROGA 3
-	//for (int i = 0; i < DLUGOSCDROGI3; i++) {
-	//	if (Droga3[i]->zycie == true) {			//sprawdzenie czy istnieje auto
-	//		if (Droga3[i]->czas_zycia >= 1) {	//postuj jednej sekundy na stacie
-	//			if (Droga3[i]->gdzie == 3 || Droga3[i]->gdzie == 1 || Droga3[i]->gdzie == 4) {
-	//				if (i + Droga3[i]->predkosc < DLUGOSCDROGI3) { //czy wyjedzie poza tablice
-	//					Drogatemp3[i + Droga3[i]->predkosc] = Droga3[i]; //ustawinie nowego miejsca
-	//				}
-	//				//wyjazd z drogi
-	//				else {
-	//					int wolne_miejsca_na_nowej_drodze = 0;
-	//					for (int j = 0; j <= i + Droga3[i]->predkosc - DLUGOSCDROGI3; j++) {
-	//						if (Droga18[j]->zycie == false) wolne_miejsca_na_nowej_drodze++; //sprawdzamy droge do której siê udajemy
-	//						else j = 1000;//wyjscie z petli
-	//					}
-	//					
-	//					
-	//					int wolne_mijsce_zmiana = 0;
-	//					for (int k = 0; i - k >= 0 && Droga2[i - k]->zycie == false; k++) {
-	//						wolne_mijsce_zmiana++;
-	//					}
-	//					//mo¿liwoœci wed³ug wolnych miejsc
-	//					if (Droga3[i]->predkosc + i - DLUGOSCDROGI3 < wolne_miejsca_na_nowej_drodze && wolne_miejsca_na_nowej_drodze != 0) {
-	//						Drogatemp18[Droga3[i]->predkosc + i - DLUGOSCDROGI3] = gcnew Auto(Droga3[i]->predkosc, Droga3[i]->zycie, Droga3[i]->czas_zycia + 1, Droga3[i]->rodzaj, Droga3[i]->widocznosc, Droga3[i]->odwaga, Droga3[i]->zdenerwowanie, Droga3[i]->gdzie);
-	//						Droga3[i]->zycie = false;
-	//						Drogatemp3[i]->zycie = false;	//jak wyjedzie to znika ii ma sie pojawiæ w kolejnej tablicy
-	//					}
-	//					if (Droga3[i]->predkosc + i - DLUGOSCDROGI3 >= wolne_miejsca_na_nowej_drodze && wolne_miejsca_na_nowej_drodze != 0) {
-	//						Drogatemp18[wolne_miejsca_na_nowej_drodze - 1] = gcnew Auto(Droga3[i]->predkosc, Droga3[i]->zycie, Droga3[i]->czas_zycia + 1, Droga3[i]->rodzaj, Droga3[i]->widocznosc, Droga3[i]->odwaga, Droga3[i]->zdenerwowanie, Droga3[i]->gdzie);
-	//						Droga3[i]->zycie = false;
-	//						Drogatemp3[i]->zycie = false;	//jak wyjedzie to znika ii ma sie pojawiæ w kolejnej tablicy
-	//					}
-	//					if (wolne_miejsca_na_nowej_drodze == 0) {
-	//						Drogatemp3[i] = Droga3[i];
-	//					}
-	//				}
-	//			}
-	//			else {
-	//				int wolne_miejsca = 0;
-	//				for (int j = 1; j <= Droga3[i]->predkosc + 1; j++) {
-	//					if (i + j < DLUGOSCDROGI3) {
-	//						if (Droga3[i + j]->zycie == false) {
-	//							wolne_miejsca++;
-	//						}
-	//						else j = Droga3[i]->predkosc + 100;//wyjscie z pêtli
-	//					}
-	//				}
-	//				if (i + wolne_miejsca >= DLUGOSCDROGI3 - 1) {
-	//					Droga3[i]->predkosc = wolne_miejsca;
-	//				}
-	//				Drogatemp3[i + Droga3[i]->predkosc] = Droga3[i];
-	//			}
-	//		}
-	//		else Drogatemp3[i] = Droga3[i];   //postuj dla 1sekundy
-	//		Droga3[i]->czas_zycia++;		//inkrementacja ¿ycia
-	//	}
-	//}
-
-
-
 	//------------------------DROGA 3
 	for (int i = 0; i < DLUGOSCDROGI3; i++) {
 		if (Droga3[i]->zycie == true && Droga3[i]->przeszkoda == false) {
@@ -1598,6 +1766,7 @@ void Mechanika::Przemieszczenie()
 			Droga3[i]->czas_zycia++;
 		}
 	}
+	
 	//------------------------DROGA 10
 	for (int i = 0; i < DLUGOSCDROGI10; i++) {
 		if (Droga10[i]->zycie == true && Droga10[i]->przeszkoda == false) {
@@ -1605,6 +1774,7 @@ void Mechanika::Przemieszczenie()
 			Droga10[i]->czas_zycia++;
 		}
 	}
+	
 	//------------------------DROGA 13
 	for (int i = 0; i < DLUGOSCDROGI13; i++) {
 		if (Droga13[i]->zycie == true && Droga13[i]->przeszkoda == false) {
@@ -1612,6 +1782,7 @@ void Mechanika::Przemieszczenie()
 			Droga13[i]->czas_zycia++;
 		}
 	}
+	
 	//------------------------DROGA 14
 	for (int i = 0; i < DLUGOSCDROGI14; i++) {
 		if (Droga14[i]->zycie == true && Droga14[i]->przeszkoda == false) {
@@ -1619,6 +1790,7 @@ void Mechanika::Przemieszczenie()
 			Droga14[i]->czas_zycia++;
 		}
 	}
+	
 	//------------------------DROGA 16
 	for (int i = 0; i < DLUGOSCDROGI16; i++) {
 		if (Droga16[i]->zycie == true && Droga16[i]->przeszkoda == false) {
@@ -1703,7 +1875,7 @@ void Mechanika::Zmiana_Pasa()
 				}
 				if (Droga1[i + 1]->zycie == false || (Droga1[i + 1]->zycie == true && Droga1[i + 1]->przeszkoda == true)) {
 					if (Droga1[i]->odwaga < wolne_mijsce_zmiana) {
-						Droga2[i] = gcnew Auto(Droga1[i]->predkosc, Droga1[i]->zycie, Droga1[i]->czas_zycia, Droga1[i]->rodzaj, Droga1[i]->widocznosc, Droga1[i]->odwaga, Droga1[i]->zdenerwowanie, Droga1[i]->gdzie);
+						Droga2[i] = gcnew Auto(Droga1[i]->predkosc, Droga1[i]->zycie, Droga1[i]->czas_zycia, Droga1[i]->rodzaj, Droga1[i]->widocznosc, Droga1[i]->odwaga, Droga1[i]->zdenerwowanie, Droga1[i]->gdzie, Droga1[i]->skad);
 						Droga1[i]->zycie = false;
 					}
 					else Droga1[i]->predkosc = odleglosc_przeszkody;
@@ -1731,21 +1903,23 @@ void Mechanika::Nowe_Auto()
 			Droga1[0]->zycie = true;
 			Droga1[0]->czas_zycia = 0;
 			Droga1[0]->predkosc = rnd->Next(1, 3);
-			Droga1[0]->rodzaj = rnd->Next(1, 4);
-			Droga1[0]->gdzie = rnd->Next(1, 4);//popraw dla innych
+			Droga1[0]->rodzaj = rnd->Next(1, 5);
+			Droga1[0]->gdzie = rnd->Next(1, 5);//popraw dla innych
+			Droga1[0]->skad = 1;
 		}
 	}
 
-	if (Droga2[0]->zycie == false) {
+	/*if (Droga2[0]->zycie == false) {
 		int a = rnd->Next(1, 10);
 		if (natezenie >= a) {
 			Droga2[0]->zycie = true;
 			Droga2[0]->czas_zycia = 0;
 			Droga2[0]->predkosc = rnd->Next(1, 3);
-			Droga2[0]->rodzaj = rnd->Next(1, 4);
-			Droga2[0]->gdzie = rnd->Next(1, 4);
+			Droga2[0]->rodzaj = rnd->Next(1, 5);
+			Droga2[0]->gdzie = 2;
+			Droga2[0]->skad = 1;
 		}
-	}
+	}*/
 
 	if (Droga8[0]->zycie == false) {
 		int a = rnd->Next(1, 10);
@@ -1753,38 +1927,42 @@ void Mechanika::Nowe_Auto()
 			Droga8[0]->zycie = true;
 			Droga8[0]->czas_zycia = 0;
 			Droga8[0]->predkosc = rnd->Next(1, 3);
-			Droga8[0]->rodzaj = rnd->Next(1, 4);
-			Droga8[0]->gdzie = rnd->Next(1, 4);
+			Droga8[0]->rodzaj = rnd->Next(1, 5);
+			Droga8[0]->gdzie = rnd->Next(1, 5);
+			Droga8[0]->skad = 2;
 		}
 	}
-	if (Droga9[0]->zycie == false) {
+	/*if (Droga9[0]->zycie == false) {
 		int a = rnd->Next(1, 10);
 		if (natezenie >= a) {
 			Droga9[0]->zycie = true;
 			Droga9[0]->czas_zycia = 0;
 			Droga9[0]->predkosc = rnd->Next(1, 3);
-			Droga9[0]->rodzaj = rnd->Next(1, 4);
+			Droga9[0]->rodzaj = rnd->Next(1, 5);
 			Droga9[0]->gdzie = 3;
+			Droga9[0]->skad = 2;
 		}
-	}
+	}*/
 	if (Droga13[0]->zycie == false) {
 		int a = rnd->Next(1, 10);
-		if (natezenie >= a) {
+		if (natezenie/2 >= a) {
 			Droga13[0]->zycie = true;
 			Droga13[0]->czas_zycia = 0;
 			Droga13[0]->predkosc = rnd->Next(1, 3);
-			Droga13[0]->rodzaj = rnd->Next(1, 4);
-			Droga13[0]->gdzie = rnd->Next(1, 4);
+			Droga13[0]->rodzaj = rnd->Next(1, 5);
+			Droga13[0]->gdzie = rnd->Next(1, 5);
+			Droga13[0]->skad = 3;
 		}
 	}
 	if (Droga14[0]->zycie == false) {
 		int a = rnd->Next(1, 10);
-		if (natezenie >= a) {
+		if (natezenie/2+1 >= a) {
 			Droga14[0]->zycie = true;
 			Droga14[0]->czas_zycia = 0;
 			Droga14[0]->predkosc = rnd->Next(1, 3);
-			Droga14[0]->rodzaj = rnd->Next(1, 4);
-			Droga14[0]->gdzie = rnd->Next(1, 4);
+			Droga14[0]->rodzaj = rnd->Next(1, 5);
+			Droga14[0]->gdzie = rnd->Next(1, 5);
+			Droga14[0]->skad = 3;
 		}
 	}
 	if (Droga16[0]->zycie == false) {
@@ -1793,8 +1971,9 @@ void Mechanika::Nowe_Auto()
 			Droga16[0]->zycie = true;
 			Droga16[0]->czas_zycia = 0;
 			Droga16[0]->predkosc = rnd->Next(1, 3);
-			Droga16[0]->rodzaj = rnd->Next(1, 4);
-			Droga16[0]->gdzie = rnd->Next(1, 4);
+			Droga16[0]->rodzaj = rnd->Next(1, 5);
+			Droga16[0]->gdzie = rnd->Next(1, 5);
+			Droga16[0]->skad = 4;
 		}
 	}
 }
@@ -1811,7 +1990,7 @@ void Mechanika::Wybor_Pasa()
 					wolne_mijsce_zmiana++;
 				}
 				if (Droga1[i]->odwaga < wolne_mijsce_zmiana) {
-					Droga2[i] = gcnew Auto(Droga1[i]->predkosc, Droga1[i]->zycie, Droga1[i]->czas_zycia, Droga1[i]->rodzaj, Droga1[i]->widocznosc, Droga1[i]->odwaga, Droga1[i]->zdenerwowanie, Droga1[i]->gdzie);
+					Droga2[i] = gcnew Auto(Droga1[i]->predkosc, Droga1[i]->zycie, Droga1[i]->czas_zycia, Droga1[i]->rodzaj, Droga1[i]->widocznosc, Droga1[i]->odwaga, Droga1[i]->zdenerwowanie, Droga1[i]->gdzie, Droga1[i]->skad);
 					Droga1[i]->zycie = false; // zmiana pasa
 				}
 			}
@@ -1827,7 +2006,7 @@ void Mechanika::Wybor_Pasa()
 					wolne_mijsce_zmiana++;
 				}
 				if (Droga2[i]->odwaga < wolne_mijsce_zmiana) {
-					Droga1[i] = gcnew Auto(Droga2[i]->predkosc, Droga2[i]->zycie, Droga2[i]->czas_zycia, Droga2[i]->rodzaj, Droga2[i]->widocznosc, Droga2[i]->odwaga, Droga2[i]->zdenerwowanie, Droga2[i]->gdzie);
+					Droga1[i] = gcnew Auto(Droga2[i]->predkosc, Droga2[i]->zycie, Droga2[i]->czas_zycia, Droga2[i]->rodzaj, Droga2[i]->widocznosc, Droga2[i]->odwaga, Droga2[i]->zdenerwowanie, Droga2[i]->gdzie, Droga2[i]->skad);
 					Droga2[i]->zycie = false; // zmiana pasa
 				}
 			}
@@ -1843,7 +2022,7 @@ void Mechanika::Wybor_Pasa()
 					wolne_mijsce_zmiana++;
 				}
 				if (Droga8[i]->odwaga < wolne_mijsce_zmiana) {
-					Droga9[i] = gcnew Auto(Droga8[i]->predkosc, Droga8[i]->zycie, Droga8[i]->czas_zycia, Droga8[i]->rodzaj, Droga8[i]->widocznosc, Droga8[i]->odwaga, Droga8[i]->zdenerwowanie, Droga8[i]->gdzie);
+					Droga9[i] = gcnew Auto(Droga8[i]->predkosc, Droga8[i]->zycie, Droga8[i]->czas_zycia, Droga8[i]->rodzaj, Droga8[i]->widocznosc, Droga8[i]->odwaga, Droga8[i]->zdenerwowanie, Droga8[i]->gdzie, Droga8[i]->skad);
 					Droga8[i]->zycie = false; // zmiana pasa
 				}
 			}
@@ -1859,7 +2038,7 @@ void Mechanika::Wybor_Pasa()
 					wolne_mijsce_zmiana++;
 				}
 				if (Droga9[i]->odwaga < wolne_mijsce_zmiana) {
-					Droga8[i] = gcnew Auto(Droga9[i]->predkosc, Droga9[i]->zycie, Droga9[i]->czas_zycia, Droga9[i]->rodzaj, Droga9[i]->widocznosc, Droga9[i]->odwaga, Droga9[i]->zdenerwowanie, Droga9[i]->gdzie);
+					Droga8[i] = gcnew Auto(Droga9[i]->predkosc, Droga9[i]->zycie, Droga9[i]->czas_zycia, Droga9[i]->rodzaj, Droga9[i]->widocznosc, Droga9[i]->odwaga, Droga9[i]->zdenerwowanie, Droga9[i]->gdzie, Droga9[i]->skad);
 					Droga9[i]->zycie = false; // zmiana pasa
 				}
 			}
@@ -1875,7 +2054,7 @@ void Mechanika::Wybor_Pasa()
 					wolne_mijsce_zmiana++;
 				}
 				if (Droga13[i]->odwaga < wolne_mijsce_zmiana) {
-					Droga14[i] = gcnew Auto(Droga13[i]->predkosc, Droga13[i]->zycie, Droga13[i]->czas_zycia, Droga13[i]->rodzaj, Droga13[i]->widocznosc, Droga13[i]->odwaga, Droga13[i]->zdenerwowanie, Droga13[i]->gdzie);
+					Droga14[i] = gcnew Auto(Droga13[i]->predkosc, Droga13[i]->zycie, Droga13[i]->czas_zycia, Droga13[i]->rodzaj, Droga13[i]->widocznosc, Droga13[i]->odwaga, Droga13[i]->zdenerwowanie, Droga13[i]->gdzie, Droga13[i]->skad);
 					Droga13[i]->zycie = false; // zmiana pasa
 				}
 			}
@@ -1891,13 +2070,110 @@ void Mechanika::Wybor_Pasa()
 					wolne_mijsce_zmiana++;
 				}
 				if (Droga14[i]->odwaga < wolne_mijsce_zmiana) {
-					Droga13[i] = gcnew Auto(Droga14[i]->predkosc, Droga14[i]->zycie, Droga14[i]->czas_zycia, Droga14[i]->rodzaj, Droga14[i]->widocznosc, Droga14[i]->odwaga, Droga14[i]->zdenerwowanie, Droga14[i]->gdzie);
+					Droga13[i] = gcnew Auto(Droga14[i]->predkosc, Droga14[i]->zycie, Droga14[i]->czas_zycia, Droga14[i]->rodzaj, Droga14[i]->widocznosc, Droga14[i]->odwaga, Droga14[i]->zdenerwowanie, Droga14[i]->gdzie, Droga14[i]->skad);
 					Droga14[i]->zycie = false; // zmiana pasa
 				}
 			}
 		}
 	}
+	//-----droga ronda droga 18
+	for (int i = 0; i < DLUGOSCDROGI18; i++) {
+		if (Droga18[i]->zycie == true && Droga18[i]->przeszkoda == false) {		//sprawdzenie czy istnieje auto
+			
+			if (Droga18[i]->gdzie == 1 && (i <= 23 && i >= 4)) {
+				int wolne_mijsce_zmiana = 0;
+				for (int k = 0; i - k >= 0 && Droga19[i - k]->zycie == false; k++) {
+					wolne_mijsce_zmiana++;
+				}
+				if (Droga18[i]->odwaga < wolne_mijsce_zmiana) {
+					Droga19[i] = gcnew Auto(Droga18[i]->predkosc, Droga18[i]->zycie, Droga18[i]->czas_zycia, Droga18[i]->rodzaj, Droga18[i]->widocznosc, Droga18[i]->odwaga, Droga18[i]->zdenerwowanie, Droga18[i]->gdzie, Droga18[i]->skad);
+					Droga18[i]->zycie = false; // zmiana pasa
+				}
+			}
 
+			if (Droga18[i]->gdzie == 2 && (i <= 30 && i >= 14)) {
+				int wolne_mijsce_zmiana = 0;
+				for (int k = 0; i - k >= 0 && Droga19[i - k]->zycie == false; k++) {
+					wolne_mijsce_zmiana++;
+				}
+				if (Droga18[i]->odwaga < wolne_mijsce_zmiana) {
+					Droga19[i] = gcnew Auto(Droga18[i]->predkosc, Droga18[i]->zycie, Droga18[i]->czas_zycia, Droga18[i]->rodzaj, Droga18[i]->widocznosc, Droga18[i]->odwaga, Droga18[i]->zdenerwowanie, Droga18[i]->gdzie, Droga18[i]->skad);
+					Droga18[i]->zycie = false; // zmiana pasa
+				}
+			}
+
+			if (Droga18[i]->gdzie == 3 && ((i <= 3 && i >= 0) || (i > 24))) {
+				int wolne_mijsce_zmiana = 0;
+				for (int k = 0; i - k >= 0 && Droga19[i - k]->zycie == false; k++) {
+					wolne_mijsce_zmiana++;
+				}
+				if (Droga18[i]->odwaga < wolne_mijsce_zmiana) {
+					Droga19[i] = gcnew Auto(Droga18[i]->predkosc, Droga18[i]->zycie, Droga18[i]->czas_zycia, Droga18[i]->rodzaj, Droga18[i]->widocznosc, Droga18[i]->odwaga, Droga18[i]->zdenerwowanie, Droga18[i]->gdzie, Droga18[i]->skad);
+					Droga18[i]->zycie = false; // zmiana pasa
+				}
+			}
+
+			if (Droga18[i]->gdzie == 4 && ((i <= 14 && i >= 0) || (i > 31))) {
+				int wolne_mijsce_zmiana = 0;
+				for (int k = 0; i - k >= 0 && Droga19[i - k]->zycie == false; k++) {
+					wolne_mijsce_zmiana++;
+				}
+				if (Droga18[i]->odwaga < wolne_mijsce_zmiana) {
+					Droga19[i] = gcnew Auto(Droga18[i]->predkosc, Droga18[i]->zycie, Droga18[i]->czas_zycia, Droga18[i]->rodzaj, Droga18[i]->widocznosc, Droga18[i]->odwaga, Droga18[i]->zdenerwowanie, Droga18[i]->gdzie, Droga18[i]->skad);
+					Droga18[i]->zycie = false; // zmiana pasa
+				}
+			}
+		}
+	}
+	//------------droga 19
+	for (int i = 0; i < DLUGOSCDROGI19; i++) {
+		if (Droga19[i]->zycie == true && Droga19[i]->przeszkoda == false) {		//sprawdzenie czy istnieje auto
+
+			if (Droga19[i]->gdzie == 1 && ((i <= 3 && i >= 0) || (i >= 23))) {
+				int wolne_mijsce_zmiana = 0;
+				for (int k = 0; i - k >= 0 && Droga18[i - k]->zycie == false; k++) {
+					wolne_mijsce_zmiana++;
+				}
+				if (/*Droga19[i]->odwaga*/ 2<= wolne_mijsce_zmiana) {
+					Droga18[i] = gcnew Auto(Droga19[i]->predkosc, Droga19[i]->zycie, Droga19[i]->czas_zycia, Droga19[i]->rodzaj, Droga19[i]->widocznosc, Droga19[i]->odwaga, Droga19[i]->zdenerwowanie, Droga19[i]->gdzie, Droga19[i]->skad);
+					Droga19[i]->zycie = false; // zmiana pasa
+				}
+			}
+
+			if (Droga19[i]->gdzie == 2 && ((i <= 14 && i >= 0) || (i > 30))) {
+				int wolne_mijsce_zmiana = 0;
+				for (int k = 0; i - k >= 0 && Droga18[i - k]->zycie == false; k++) {
+					wolne_mijsce_zmiana++;
+				}
+				if (2 <= wolne_mijsce_zmiana) {
+					Droga18[i] = gcnew Auto(Droga19[i]->predkosc, Droga19[i]->zycie, Droga19[i]->czas_zycia, Droga19[i]->rodzaj, Droga19[i]->widocznosc, Droga19[i]->odwaga, Droga19[i]->zdenerwowanie, Droga19[i]->gdzie, Droga19[i]->skad);
+					Droga19[i]->zycie = false; // zmiana pasa
+				}
+			}
+
+			if (Droga19[i]->gdzie == 3 && (i <= 23 && i >= 3)) {
+				int wolne_mijsce_zmiana = 0;
+				for (int k = 0; i - k >= 0 && Droga18[i - k]->zycie == false; k++) {
+					wolne_mijsce_zmiana++;
+				}
+				if (2 <= wolne_mijsce_zmiana) {
+					Droga18[i] = gcnew Auto(Droga19[i]->predkosc, Droga19[i]->zycie, Droga19[i]->czas_zycia, Droga19[i]->rodzaj, Droga19[i]->widocznosc, Droga19[i]->odwaga, Droga19[i]->zdenerwowanie, Droga19[i]->gdzie, Droga19[i]->skad);
+					Droga19[i]->zycie = false; // zmiana pasa
+				}
+			}
+
+			if (Droga19[i]->gdzie == 4 && (i <= 30 && i >= 14)) {
+				int wolne_mijsce_zmiana = 0;
+				for (int k = 0; i - k >= 0 && Droga18[i - k]->zycie == false; k++) {
+					wolne_mijsce_zmiana++;
+				}
+				if (2 <= wolne_mijsce_zmiana) {
+					Droga18[i] = gcnew Auto(Droga19[i]->predkosc, Droga19[i]->zycie, Droga19[i]->czas_zycia, Droga19[i]->rodzaj, Droga19[i]->widocznosc, Droga19[i]->odwaga, Droga19[i]->zdenerwowanie, Droga19[i]->gdzie, Droga19[i]->skad);
+					Droga19[i]->zycie = false; // zmiana pasa
+				}
+			}
+		}
+	}
 
 }
 
@@ -1911,7 +2187,7 @@ void Mechanika::Skrecanie()
 			else k = -1;
 		}
 		if (wolne_miejsca>=Droga3[11]->odwaga){
-			Droga18[7] = gcnew Auto(1, Droga3[11]->zycie, Droga3[11]->czas_zycia, Droga3[11]->rodzaj, Droga3[11]->widocznosc, Droga3[11]->odwaga, Droga3[11]->zdenerwowanie, Droga3[11]->gdzie);
+			Droga18[7] = gcnew Auto(1, Droga3[11]->zycie, Droga3[11]->czas_zycia, Droga3[11]->rodzaj, Droga3[11]->widocznosc, Droga3[11]->odwaga, Droga3[11]->zdenerwowanie, Droga3[11]->gdzie, Droga3[11]->skad);
 			Droga3[11]->zycie = false; // zmiana pasa
 		}
 			
@@ -1925,7 +2201,7 @@ void Mechanika::Skrecanie()
 			else k = -1;
 		}
 		if (wolne_miejsca >= Droga10[12]->odwaga) {
-			Droga18[19] = gcnew Auto(1, Droga10[12]->zycie, Droga10[12]->czas_zycia, Droga10[12]->rodzaj, Droga10[12]->widocznosc, Droga10[12]->odwaga, Droga10[12]->zdenerwowanie, Droga10[12]->gdzie);
+			Droga18[19] = gcnew Auto(1, Droga10[12]->zycie, Droga10[12]->czas_zycia, Droga10[12]->rodzaj, Droga10[12]->widocznosc, Droga10[12]->odwaga, Droga10[12]->zdenerwowanie, Droga10[12]->gdzie, Droga10[12]->skad);
 			Droga10[12]->zycie = false; // zmiana pasa
 		}
 
@@ -1939,7 +2215,7 @@ void Mechanika::Skrecanie()
 			else k = -1;
 		}
 		if (wolne_miejsca >= Droga16[5]->odwaga) {
-			Droga18[32] = gcnew Auto(Droga16[5]->predkosc, Droga16[5]->zycie, Droga16[5]->czas_zycia, Droga16[5]->rodzaj, Droga16[5]->widocznosc, Droga16[5]->odwaga, Droga16[5]->zdenerwowanie, Droga16[5]->gdzie);
+			Droga18[32] = gcnew Auto(Droga16[5]->predkosc, Droga16[5]->zycie, Droga16[5]->czas_zycia, Droga16[5]->rodzaj, Droga16[5]->widocznosc, Droga16[5]->odwaga, Droga16[5]->zdenerwowanie, Droga16[5]->gdzie, Droga16[5]->skad);
 			Droga16[5]->zycie = false; // zmiana pasa
 		}
 
@@ -1953,7 +2229,7 @@ void Mechanika::Skrecanie()
 			else k = -1;
 		}
 		if (wolne_miejsca >= Droga14[13]->odwaga) {
-			Droga18[26] = gcnew Auto(1, Droga14[13]->zycie, Droga14[13]->czas_zycia, Droga14[13]->rodzaj, Droga14[13]->widocznosc, Droga14[13]->odwaga, Droga14[13]->zdenerwowanie, Droga14[13]->gdzie);
+			Droga18[26] = gcnew Auto(1, Droga14[13]->zycie, Droga14[13]->czas_zycia, Droga14[13]->rodzaj, Droga14[13]->widocznosc, Droga14[13]->odwaga, Droga14[13]->zdenerwowanie, Droga14[13]->gdzie, Droga14[13]->skad);
 			Droga14[13]->zycie = false; // zmiana pasa
 		}
 
@@ -1963,7 +2239,7 @@ void Mechanika::Skrecanie()
 	if (Droga13[13]->zycie == true) {
 		int wolne_miejsca1 = 0;
 		int wolne_miejsca2 = 0;
-		for (int k = 26; k >= 22; k--) {
+		for (int k = 25; k >= 22; k--) {
 			if (Droga18[k]->zycie == false) wolne_miejsca1++;
 			else k = -1;
 		}
@@ -1971,8 +2247,8 @@ void Mechanika::Skrecanie()
 			if (Droga19[k]->zycie == false) wolne_miejsca2++;
 			else k = -1;
 		}
-		if (wolne_miejsca1 >= Droga13[13]->odwaga && wolne_miejsca2 >= Droga13[13]->odwaga) {
-			Droga19[26] = gcnew Auto(1, Droga13[13]->zycie, Droga13[13]->czas_zycia, Droga13[13]->rodzaj, Droga13[13]->widocznosc, Droga13[13]->odwaga, Droga13[13]->zdenerwowanie, Droga13[13]->gdzie);
+		if (wolne_miejsca1 >=1 /*Droga13[13]->odwaga*/ && wolne_miejsca2 >= Droga13[13]->odwaga) {
+			Droga19[26] = gcnew Auto(1, Droga13[13]->zycie, Droga13[13]->czas_zycia, Droga13[13]->rodzaj, Droga13[13]->widocznosc, Droga13[13]->odwaga, Droga13[13]->zdenerwowanie, Droga13[13]->gdzie, Droga13[13]->skad);
 			Droga13[13]->zycie = false; // zmiana pasa
 		}
 
@@ -1982,7 +2258,7 @@ void Mechanika::Skrecanie()
 	if (Droga18[3]->zycie == true) {
 		
 		if (Droga18[3]->gdzie==1 && Droga17[0]->zycie==false) {
-			Droga17[0] = gcnew Auto(1, Droga18[3]->zycie, Droga18[3]->czas_zycia, Droga18[3]->rodzaj, Droga18[3]->widocznosc, Droga18[3]->odwaga, Droga18[3]->zdenerwowanie, Droga18[3]->gdzie);
+			Droga17[0] = gcnew Auto(1, Droga18[3]->zycie, Droga18[3]->czas_zycia, Droga18[3]->rodzaj, Droga18[3]->widocznosc, Droga18[3]->odwaga, Droga18[3]->zdenerwowanie, Droga18[3]->gdzie, Droga18[3]->skad);
 			Droga18[3]->zycie = false; // zmiana pasa
 		}
 
@@ -1992,7 +2268,7 @@ void Mechanika::Skrecanie()
 	if (Droga18[14]->zycie == true) {
 
 		if (Droga18[14]->gdzie == 2 && Droga5[0]->zycie == false) {
-			Droga5[0] = gcnew Auto(1, Droga18[14]->zycie, Droga18[14]->czas_zycia, Droga18[14]->rodzaj, Droga18[14]->widocznosc, Droga18[14]->odwaga, Droga18[14]->zdenerwowanie, Droga18[14]->gdzie);
+			Droga5[0] = gcnew Auto(1, Droga18[14]->zycie, Droga18[14]->czas_zycia, Droga18[14]->rodzaj, Droga18[14]->widocznosc, Droga18[14]->odwaga, Droga18[14]->zdenerwowanie, Droga18[14]->gdzie, Droga18[14]->skad);
 			Droga18[14]->zycie = false; // zmiana pasa
 		}
 
@@ -2002,7 +2278,7 @@ void Mechanika::Skrecanie()
 	if (Droga18[23]->zycie == true) {
 
 		if (Droga18[23]->gdzie == 3 && Droga12[0]->zycie == false) {
-			Droga12[0] = gcnew Auto(1, Droga18[23]->zycie, Droga18[23]->czas_zycia, Droga18[23]->rodzaj, Droga18[23]->widocznosc, Droga18[23]->odwaga, Droga18[23]->zdenerwowanie, Droga18[23]->gdzie);
+			Droga12[0] = gcnew Auto(1, Droga18[23]->zycie, Droga18[23]->czas_zycia, Droga18[23]->rodzaj, Droga18[23]->widocznosc, Droga18[23]->odwaga, Droga18[23]->zdenerwowanie, Droga18[23]->gdzie, Droga18[23]->skad);
 			Droga18[23]->zycie = false; // zmiana pasa
 		}
 
@@ -2012,11 +2288,34 @@ void Mechanika::Skrecanie()
 	if (Droga18[30]->zycie == true) {
 
 		if (Droga18[30]->gdzie == 4 && Droga15[0]->zycie == false) {
-			Droga15[0] = gcnew Auto(1, Droga18[30]->zycie, Droga18[30]->czas_zycia, Droga18[30]->rodzaj, Droga18[30]->widocznosc, Droga18[30]->odwaga, Droga18[30]->zdenerwowanie, Droga18[30]->gdzie);
+			Droga15[0] = gcnew Auto(1, Droga18[30]->zycie, Droga18[30]->czas_zycia, Droga18[30]->rodzaj, Droga18[30]->widocznosc, Droga18[30]->odwaga, Droga18[30]->zdenerwowanie, Droga18[30]->gdzie, Droga18[30]->skad);
 			Droga18[30]->zycie = false; // zmiana pasa
 		}
 
 	}
+}
+
+
+String ^ Mechanika::zrobczas(int czas)
+{
+	int godzin, minut, sekund;
+	godzin = czas / 3600;
+	String^ str1 = Convert::ToString(godzin);
+	if (godzin < 10 && godzin != 0) str1 = "0" + str1;
+	if (godzin == 0) str1 = "0" + str1;
+	if (godzin == 60) godzin = 0;
+	minut = (czas - godzin * 3600) / 60;
+	String^ str2 = Convert::ToString(minut);
+	if (minut < 10 && minut != 0) str2 = "0" + str2;
+	if (minut == 0) str2 = "0" + str2;
+	if (minut == 59) minut = 0;
+	sekund = (czas - godzin * 3600 - minut * 60);
+	String^ str3 = Convert::ToString(sekund);
+	if (sekund < 10 && sekund != 0) str3 = "0" + str3;
+	if (sekund == 0) str3 = "0" + str3;
+	if (sekund == 59) sekund = 0;
+	String^ zegar = str1 + ":" + str2 + ":" + str3;
+	return zegar;
 }
 
 

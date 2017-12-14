@@ -1,7 +1,7 @@
 #include "Auto.h"
 
 
-Auto::Auto(int pred, bool zyc, int czas, int rodzajj, int widocznoscc, int odwagaa, int zdenerwowaniee, int gdziee)
+Auto::Auto(int pred, bool zyc, int czas, int rodzajj, int widocznoscc, int odwagaa, int zdenerwowaniee, int gdziee, int skadd)
 {
 	predkosc = pred;
 	zycie = zyc;
@@ -12,6 +12,7 @@ Auto::Auto(int pred, bool zyc, int czas, int rodzajj, int widocznoscc, int odwag
 	odwaga = odwagaa;
 	zdenerwowanie = zdenerwowaniee;
 	gdzie = gdziee;
+	skad = skadd;
 }
 
 Auto::Auto()

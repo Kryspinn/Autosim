@@ -142,7 +142,7 @@ namespace Project11111 {
 	private: System::Windows::Forms::PictureBox^  pictureBox59;
 	private: System::Windows::Forms::PictureBox^  pictureBox60;
 private: System::Windows::Forms::PictureBox^  pictureBox61;
-private: System::Windows::Forms::Label^  label2;
+
 private: System::Windows::Forms::PictureBox^  pictureBox62;
 private: System::Windows::Forms::PictureBox^  pictureBox63;
 private: System::Windows::Forms::PictureBox^  pictureBox64;
@@ -362,6 +362,84 @@ private: System::Windows::Forms::PictureBox^  pictureBox277;
 private: System::Windows::Forms::PictureBox^  pictureBox278;
 private: System::Windows::Forms::PictureBox^  pictureBox279;
 private: System::Windows::Forms::PictureBox^  pictureBox280;
+private: System::Windows::Forms::GroupBox^  groupBox3;
+private: System::Windows::Forms::Label^  label3;
+private: System::Windows::Forms::PictureBox^  pictureBox281;
+private: System::Windows::Forms::PictureBox^  pictureBox282;
+private: System::Windows::Forms::GroupBox^  groupBox4;
+private: System::Windows::Forms::TextBox^  textBox1;
+private: System::Windows::Forms::GroupBox^  groupBox5;
+private: System::Windows::Forms::TextBox^  textBox2;
+private: System::Windows::Forms::TextBox^  sredni14;
+private: System::Windows::Forms::TextBox^  sredni13;
+private: System::Windows::Forms::TextBox^  sredni12;
+private: System::Windows::Forms::TextBox^  sredni11;
+private: System::Windows::Forms::TextBox^  ilosc14;
+private: System::Windows::Forms::TextBox^  ilosc13;
+private: System::Windows::Forms::TextBox^  ilosc12;
+private: System::Windows::Forms::TextBox^  Ilosc11;
+private: System::Windows::Forms::TextBox^  textBox7;
+private: System::Windows::Forms::TextBox^  textBox6;
+private: System::Windows::Forms::TextBox^  textBox5;
+private: System::Windows::Forms::TextBox^  textBox4;
+private: System::Windows::Forms::TextBox^  textBox3;
+private: System::Windows::Forms::GroupBox^  groupBox6;
+private: System::Windows::Forms::TextBox^  sredni24;
+
+private: System::Windows::Forms::TextBox^  sredni23;
+
+private: System::Windows::Forms::TextBox^  sredni22;
+
+private: System::Windows::Forms::TextBox^  sredni21;
+
+private: System::Windows::Forms::TextBox^  ilosc24;
+
+private: System::Windows::Forms::TextBox^  ilosc23;
+
+private: System::Windows::Forms::TextBox^  ilosc22;
+
+private: System::Windows::Forms::TextBox^  ilosc21;
+
+private: System::Windows::Forms::TextBox^  textBox16;
+private: System::Windows::Forms::TextBox^  textBox17;
+private: System::Windows::Forms::TextBox^  textBox18;
+private: System::Windows::Forms::TextBox^  textBox19;
+private: System::Windows::Forms::TextBox^  textBox20;
+private: System::Windows::Forms::TextBox^  textBox21;
+private: System::Windows::Forms::TextBox^  sredni0;
+
+private: System::Windows::Forms::TextBox^  ilosc0;
+private: System::Windows::Forms::TextBox^  textBox8;
+private: System::Windows::Forms::GroupBox^  groupBox7;
+private: System::Windows::Forms::TextBox^  sredni34;
+private: System::Windows::Forms::TextBox^  sredni33;
+private: System::Windows::Forms::TextBox^  sredni32;
+private: System::Windows::Forms::TextBox^  sredni31;
+private: System::Windows::Forms::TextBox^  ilosc34;
+private: System::Windows::Forms::TextBox^  ilosc33;
+private: System::Windows::Forms::TextBox^  ilosc32;
+private: System::Windows::Forms::TextBox^  ilosc31;
+private: System::Windows::Forms::TextBox^  textBox22;
+private: System::Windows::Forms::TextBox^  textBox23;
+private: System::Windows::Forms::TextBox^  textBox24;
+private: System::Windows::Forms::TextBox^  textBox25;
+private: System::Windows::Forms::TextBox^  textBox26;
+private: System::Windows::Forms::TextBox^  textBox27;
+private: System::Windows::Forms::GroupBox^  groupBox8;
+private: System::Windows::Forms::TextBox^  sredni44;
+private: System::Windows::Forms::TextBox^  sredni43;
+private: System::Windows::Forms::TextBox^  sredni42;
+private: System::Windows::Forms::TextBox^  sredni41;
+private: System::Windows::Forms::TextBox^  ilosc44;
+private: System::Windows::Forms::TextBox^  ilosc43;
+private: System::Windows::Forms::TextBox^  ilosc42;
+private: System::Windows::Forms::TextBox^  ilosc41;
+private: System::Windows::Forms::TextBox^  textBox36;
+private: System::Windows::Forms::TextBox^  textBox37;
+private: System::Windows::Forms::TextBox^  textBox38;
+private: System::Windows::Forms::TextBox^  textBox39;
+private: System::Windows::Forms::TextBox^  textBox40;
+private: System::Windows::Forms::TextBox^  textBox41;
 
 
 
@@ -499,7 +577,6 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox59 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox60 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox61 = (gcnew System::Windows::Forms::PictureBox());
-			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox62 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox63 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox64 = (gcnew System::Windows::Forms::PictureBox());
@@ -719,6 +796,75 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox278 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox279 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox280 = (gcnew System::Windows::Forms::PictureBox());
+			this->groupBox3 = (gcnew System::Windows::Forms::GroupBox());
+			this->label3 = (gcnew System::Windows::Forms::Label());
+			this->pictureBox281 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox282 = (gcnew System::Windows::Forms::PictureBox());
+			this->groupBox4 = (gcnew System::Windows::Forms::GroupBox());
+			this->sredni0 = (gcnew System::Windows::Forms::TextBox());
+			this->ilosc0 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox8 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
+			this->groupBox5 = (gcnew System::Windows::Forms::GroupBox());
+			this->sredni14 = (gcnew System::Windows::Forms::TextBox());
+			this->sredni13 = (gcnew System::Windows::Forms::TextBox());
+			this->sredni12 = (gcnew System::Windows::Forms::TextBox());
+			this->sredni11 = (gcnew System::Windows::Forms::TextBox());
+			this->ilosc14 = (gcnew System::Windows::Forms::TextBox());
+			this->ilosc13 = (gcnew System::Windows::Forms::TextBox());
+			this->ilosc12 = (gcnew System::Windows::Forms::TextBox());
+			this->Ilosc11 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox7 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox6 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox5 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox4 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox3 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
+			this->groupBox6 = (gcnew System::Windows::Forms::GroupBox());
+			this->sredni24 = (gcnew System::Windows::Forms::TextBox());
+			this->sredni23 = (gcnew System::Windows::Forms::TextBox());
+			this->sredni22 = (gcnew System::Windows::Forms::TextBox());
+			this->sredni21 = (gcnew System::Windows::Forms::TextBox());
+			this->ilosc24 = (gcnew System::Windows::Forms::TextBox());
+			this->ilosc23 = (gcnew System::Windows::Forms::TextBox());
+			this->ilosc22 = (gcnew System::Windows::Forms::TextBox());
+			this->ilosc21 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox16 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox17 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox18 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox19 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox20 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox21 = (gcnew System::Windows::Forms::TextBox());
+			this->groupBox7 = (gcnew System::Windows::Forms::GroupBox());
+			this->sredni34 = (gcnew System::Windows::Forms::TextBox());
+			this->sredni33 = (gcnew System::Windows::Forms::TextBox());
+			this->sredni32 = (gcnew System::Windows::Forms::TextBox());
+			this->sredni31 = (gcnew System::Windows::Forms::TextBox());
+			this->ilosc34 = (gcnew System::Windows::Forms::TextBox());
+			this->ilosc33 = (gcnew System::Windows::Forms::TextBox());
+			this->ilosc32 = (gcnew System::Windows::Forms::TextBox());
+			this->ilosc31 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox22 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox23 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox24 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox25 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox26 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox27 = (gcnew System::Windows::Forms::TextBox());
+			this->groupBox8 = (gcnew System::Windows::Forms::GroupBox());
+			this->sredni44 = (gcnew System::Windows::Forms::TextBox());
+			this->sredni43 = (gcnew System::Windows::Forms::TextBox());
+			this->sredni42 = (gcnew System::Windows::Forms::TextBox());
+			this->sredni41 = (gcnew System::Windows::Forms::TextBox());
+			this->ilosc44 = (gcnew System::Windows::Forms::TextBox());
+			this->ilosc43 = (gcnew System::Windows::Forms::TextBox());
+			this->ilosc42 = (gcnew System::Windows::Forms::TextBox());
+			this->ilosc41 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox36 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox37 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox38 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox39 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox40 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox41 = (gcnew System::Windows::Forms::TextBox());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxplusnatezenie))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxminusnatezenie))->BeginInit();
 			this->groupBox1->SuspendLayout();
@@ -1005,11 +1151,21 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox278))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox279))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox280))->BeginInit();
+			this->groupBox3->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox281))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox282))->BeginInit();
+			this->groupBox4->SuspendLayout();
+			this->groupBox5->SuspendLayout();
+			this->groupBox6->SuspendLayout();
+			this->groupBox7->SuspendLayout();
+			this->groupBox8->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// Start
 			// 
 			this->Start->BackColor = System::Drawing::SystemColors::ControlDarkDark;
+			this->Start->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(238)));
 			this->Start->Location = System::Drawing::Point(13, 13);
 			this->Start->Name = L"Start";
 			this->Start->Size = System::Drawing::Size(170, 102);
@@ -1020,7 +1176,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			// 
 			// timer1
 			// 
-			this->timer1->Interval = 10;
+			this->timer1->Interval = 1;
 			this->timer1->Tick += gcnew System::EventHandler(this, &MyForm::timer1_Tick);
 			// 
 			// label1
@@ -1807,15 +1963,6 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox61->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox61->TabIndex = 84;
 			this->pictureBox61->TabStop = false;
-			// 
-			// label2
-			// 
-			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(1058, 251);
-			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(35, 13);
-			this->label2->TabIndex = 85;
-			this->label2->Text = L"label2";
 			// 
 			// pictureBox62
 			// 
@@ -4229,6 +4376,738 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->pictureBox280->TabIndex = 304;
 			this->pictureBox280->TabStop = false;
 			// 
+			// groupBox3
+			// 
+			this->groupBox3->Controls->Add(this->label3);
+			this->groupBox3->Controls->Add(this->pictureBox281);
+			this->groupBox3->Controls->Add(this->pictureBox282);
+			this->groupBox3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(238)));
+			this->groupBox3->Location = System::Drawing::Point(558, 13);
+			this->groupBox3->Name = L"groupBox3";
+			this->groupBox3->Size = System::Drawing::Size(145, 74);
+			this->groupBox3->TabIndex = 305;
+			this->groupBox3->TabStop = false;
+			this->groupBox3->Text = L"Widocznoœæ";
+			// 
+			// label3
+			// 
+			this->label3->AutoSize = true;
+			this->label3->Location = System::Drawing::Point(61, 32);
+			this->label3->Name = L"label3";
+			this->label3->Size = System::Drawing::Size(21, 24);
+			this->label3->TabIndex = 22;
+			this->label3->Text = L"0";
+			// 
+			// pictureBox281
+			// 
+			this->pictureBox281->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox281.Image")));
+			this->pictureBox281->Location = System::Drawing::Point(109, 32);
+			this->pictureBox281->Name = L"pictureBox281";
+			this->pictureBox281->Size = System::Drawing::Size(30, 30);
+			this->pictureBox281->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
+			this->pictureBox281->TabIndex = 18;
+			this->pictureBox281->TabStop = false;
+			// 
+			// pictureBox282
+			// 
+			this->pictureBox282->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox282.Image")));
+			this->pictureBox282->Location = System::Drawing::Point(6, 32);
+			this->pictureBox282->Name = L"pictureBox282";
+			this->pictureBox282->Size = System::Drawing::Size(30, 30);
+			this->pictureBox282->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
+			this->pictureBox282->TabIndex = 20;
+			this->pictureBox282->TabStop = false;
+			// 
+			// groupBox4
+			// 
+			this->groupBox4->Controls->Add(this->sredni0);
+			this->groupBox4->Controls->Add(this->ilosc0);
+			this->groupBox4->Controls->Add(this->textBox8);
+			this->groupBox4->Controls->Add(this->textBox1);
+			this->groupBox4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(238)));
+			this->groupBox4->Location = System::Drawing::Point(12, 159);
+			this->groupBox4->Name = L"groupBox4";
+			this->groupBox4->Size = System::Drawing::Size(570, 137);
+			this->groupBox4->TabIndex = 306;
+			this->groupBox4->TabStop = false;
+			this->groupBox4->Text = L"Statystyki ogólne";
+			// 
+			// sredni0
+			// 
+			this->sredni0->BackColor = System::Drawing::Color::Gray;
+			this->sredni0->Location = System::Drawing::Point(429, 75);
+			this->sredni0->Name = L"sredni0";
+			this->sredni0->Size = System::Drawing::Size(98, 30);
+			this->sredni0->TabIndex = 8;
+			this->sredni0->Text = L"0";
+			this->sredni0->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// ilosc0
+			// 
+			this->ilosc0->BackColor = System::Drawing::Color::Gray;
+			this->ilosc0->Location = System::Drawing::Point(429, 32);
+			this->ilosc0->Name = L"ilosc0";
+			this->ilosc0->Size = System::Drawing::Size(98, 30);
+			this->ilosc0->TabIndex = 7;
+			this->ilosc0->Text = L"0";
+			this->ilosc0->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// textBox8
+			// 
+			this->textBox8->BackColor = System::Drawing::Color::Gray;
+			this->textBox8->Location = System::Drawing::Point(18, 75);
+			this->textBox8->Name = L"textBox8";
+			this->textBox8->Size = System::Drawing::Size(352, 30);
+			this->textBox8->TabIndex = 1;
+			this->textBox8->Text = L"Œredni czas przejazdu\r\n przez rondo";
+			// 
+			// textBox1
+			// 
+			this->textBox1->BackColor = System::Drawing::Color::Gray;
+			this->textBox1->Location = System::Drawing::Point(18, 32);
+			this->textBox1->Name = L"textBox1";
+			this->textBox1->Size = System::Drawing::Size(352, 30);
+			this->textBox1->TabIndex = 0;
+			this->textBox1->Text = L"Ilosc wszystkich samochodów";
+			// 
+			// groupBox5
+			// 
+			this->groupBox5->Controls->Add(this->sredni14);
+			this->groupBox5->Controls->Add(this->sredni13);
+			this->groupBox5->Controls->Add(this->sredni12);
+			this->groupBox5->Controls->Add(this->sredni11);
+			this->groupBox5->Controls->Add(this->ilosc14);
+			this->groupBox5->Controls->Add(this->ilosc13);
+			this->groupBox5->Controls->Add(this->ilosc12);
+			this->groupBox5->Controls->Add(this->Ilosc11);
+			this->groupBox5->Controls->Add(this->textBox7);
+			this->groupBox5->Controls->Add(this->textBox6);
+			this->groupBox5->Controls->Add(this->textBox5);
+			this->groupBox5->Controls->Add(this->textBox4);
+			this->groupBox5->Controls->Add(this->textBox3);
+			this->groupBox5->Controls->Add(this->textBox2);
+			this->groupBox5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(238)));
+			this->groupBox5->Location = System::Drawing::Point(13, 308);
+			this->groupBox5->Name = L"groupBox5";
+			this->groupBox5->Size = System::Drawing::Size(569, 166);
+			this->groupBox5->TabIndex = 307;
+			this->groupBox5->TabStop = false;
+			this->groupBox5->Text = L"Zjazd nr.1";
+			// 
+			// sredni14
+			// 
+			this->sredni14->BackColor = System::Drawing::Color::Gray;
+			this->sredni14->Location = System::Drawing::Point(459, 123);
+			this->sredni14->Name = L"sredni14";
+			this->sredni14->Size = System::Drawing::Size(98, 30);
+			this->sredni14->TabIndex = 13;
+			this->sredni14->Text = L"0";
+			this->sredni14->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// sredni13
+			// 
+			this->sredni13->BackColor = System::Drawing::Color::Gray;
+			this->sredni13->Location = System::Drawing::Point(353, 123);
+			this->sredni13->Name = L"sredni13";
+			this->sredni13->Size = System::Drawing::Size(98, 30);
+			this->sredni13->TabIndex = 12;
+			this->sredni13->Text = L"0";
+			this->sredni13->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// sredni12
+			// 
+			this->sredni12->BackColor = System::Drawing::Color::Gray;
+			this->sredni12->Location = System::Drawing::Point(249, 123);
+			this->sredni12->Name = L"sredni12";
+			this->sredni12->Size = System::Drawing::Size(98, 30);
+			this->sredni12->TabIndex = 11;
+			this->sredni12->Text = L"0";
+			this->sredni12->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// sredni11
+			// 
+			this->sredni11->BackColor = System::Drawing::Color::Gray;
+			this->sredni11->Location = System::Drawing::Point(145, 123);
+			this->sredni11->Name = L"sredni11";
+			this->sredni11->Size = System::Drawing::Size(98, 30);
+			this->sredni11->TabIndex = 10;
+			this->sredni11->Text = L"0";
+			this->sredni11->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// ilosc14
+			// 
+			this->ilosc14->BackColor = System::Drawing::Color::Gray;
+			this->ilosc14->Location = System::Drawing::Point(459, 83);
+			this->ilosc14->Name = L"ilosc14";
+			this->ilosc14->Size = System::Drawing::Size(98, 30);
+			this->ilosc14->TabIndex = 9;
+			this->ilosc14->Text = L"0";
+			this->ilosc14->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// ilosc13
+			// 
+			this->ilosc13->BackColor = System::Drawing::Color::Gray;
+			this->ilosc13->Location = System::Drawing::Point(353, 83);
+			this->ilosc13->Name = L"ilosc13";
+			this->ilosc13->Size = System::Drawing::Size(98, 30);
+			this->ilosc13->TabIndex = 8;
+			this->ilosc13->Text = L"0";
+			this->ilosc13->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// ilosc12
+			// 
+			this->ilosc12->BackColor = System::Drawing::Color::Gray;
+			this->ilosc12->Location = System::Drawing::Point(249, 83);
+			this->ilosc12->Name = L"ilosc12";
+			this->ilosc12->Size = System::Drawing::Size(98, 30);
+			this->ilosc12->TabIndex = 7;
+			this->ilosc12->Text = L"0";
+			this->ilosc12->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// Ilosc11
+			// 
+			this->Ilosc11->BackColor = System::Drawing::Color::Gray;
+			this->Ilosc11->Location = System::Drawing::Point(145, 83);
+			this->Ilosc11->Name = L"Ilosc11";
+			this->Ilosc11->Size = System::Drawing::Size(98, 30);
+			this->Ilosc11->TabIndex = 6;
+			this->Ilosc11->Text = L"0";
+			this->Ilosc11->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// textBox7
+			// 
+			this->textBox7->BackColor = System::Drawing::Color::Gray;
+			this->textBox7->Location = System::Drawing::Point(459, 43);
+			this->textBox7->Name = L"textBox7";
+			this->textBox7->Size = System::Drawing::Size(98, 30);
+			this->textBox7->TabIndex = 5;
+			this->textBox7->Text = L"Z drogi 4";
+			// 
+			// textBox6
+			// 
+			this->textBox6->BackColor = System::Drawing::Color::Gray;
+			this->textBox6->Location = System::Drawing::Point(353, 43);
+			this->textBox6->Name = L"textBox6";
+			this->textBox6->Size = System::Drawing::Size(98, 30);
+			this->textBox6->TabIndex = 4;
+			this->textBox6->Text = L"Z drogi 3";
+			// 
+			// textBox5
+			// 
+			this->textBox5->BackColor = System::Drawing::Color::Gray;
+			this->textBox5->Location = System::Drawing::Point(249, 43);
+			this->textBox5->Name = L"textBox5";
+			this->textBox5->Size = System::Drawing::Size(98, 30);
+			this->textBox5->TabIndex = 3;
+			this->textBox5->Text = L"Z drogi 2";
+			// 
+			// textBox4
+			// 
+			this->textBox4->BackColor = System::Drawing::Color::Gray;
+			this->textBox4->Location = System::Drawing::Point(145, 43);
+			this->textBox4->Name = L"textBox4";
+			this->textBox4->Size = System::Drawing::Size(98, 30);
+			this->textBox4->TabIndex = 2;
+			this->textBox4->Text = L"Z drogi 1";
+			// 
+			// textBox3
+			// 
+			this->textBox3->BackColor = System::Drawing::Color::Gray;
+			this->textBox3->Location = System::Drawing::Point(6, 123);
+			this->textBox3->Name = L"textBox3";
+			this->textBox3->Size = System::Drawing::Size(124, 30);
+			this->textBox3->TabIndex = 1;
+			this->textBox3->Text = L"Œredni czas";
+			// 
+			// textBox2
+			// 
+			this->textBox2->BackColor = System::Drawing::Color::Gray;
+			this->textBox2->Location = System::Drawing::Point(6, 83);
+			this->textBox2->Name = L"textBox2";
+			this->textBox2->Size = System::Drawing::Size(124, 30);
+			this->textBox2->TabIndex = 0;
+			this->textBox2->Text = L"Ilosc aut";
+			// 
+			// groupBox6
+			// 
+			this->groupBox6->Controls->Add(this->sredni24);
+			this->groupBox6->Controls->Add(this->sredni23);
+			this->groupBox6->Controls->Add(this->sredni22);
+			this->groupBox6->Controls->Add(this->sredni21);
+			this->groupBox6->Controls->Add(this->ilosc24);
+			this->groupBox6->Controls->Add(this->ilosc23);
+			this->groupBox6->Controls->Add(this->ilosc22);
+			this->groupBox6->Controls->Add(this->ilosc21);
+			this->groupBox6->Controls->Add(this->textBox16);
+			this->groupBox6->Controls->Add(this->textBox17);
+			this->groupBox6->Controls->Add(this->textBox18);
+			this->groupBox6->Controls->Add(this->textBox19);
+			this->groupBox6->Controls->Add(this->textBox20);
+			this->groupBox6->Controls->Add(this->textBox21);
+			this->groupBox6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(238)));
+			this->groupBox6->Location = System::Drawing::Point(13, 492);
+			this->groupBox6->Name = L"groupBox6";
+			this->groupBox6->Size = System::Drawing::Size(569, 166);
+			this->groupBox6->TabIndex = 308;
+			this->groupBox6->TabStop = false;
+			this->groupBox6->Text = L"Zjazd nr.2";
+			// 
+			// sredni24
+			// 
+			this->sredni24->BackColor = System::Drawing::Color::Gray;
+			this->sredni24->Location = System::Drawing::Point(459, 123);
+			this->sredni24->Name = L"sredni24";
+			this->sredni24->Size = System::Drawing::Size(98, 30);
+			this->sredni24->TabIndex = 13;
+			this->sredni24->Text = L"0";
+			this->sredni24->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// sredni23
+			// 
+			this->sredni23->BackColor = System::Drawing::Color::Gray;
+			this->sredni23->Location = System::Drawing::Point(353, 123);
+			this->sredni23->Name = L"sredni23";
+			this->sredni23->Size = System::Drawing::Size(98, 30);
+			this->sredni23->TabIndex = 12;
+			this->sredni23->Text = L"0";
+			this->sredni23->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// sredni22
+			// 
+			this->sredni22->BackColor = System::Drawing::Color::Gray;
+			this->sredni22->Location = System::Drawing::Point(249, 123);
+			this->sredni22->Name = L"sredni22";
+			this->sredni22->Size = System::Drawing::Size(98, 30);
+			this->sredni22->TabIndex = 11;
+			this->sredni22->Text = L"0";
+			this->sredni22->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// sredni21
+			// 
+			this->sredni21->BackColor = System::Drawing::Color::Gray;
+			this->sredni21->Location = System::Drawing::Point(145, 123);
+			this->sredni21->Name = L"sredni21";
+			this->sredni21->Size = System::Drawing::Size(98, 30);
+			this->sredni21->TabIndex = 10;
+			this->sredni21->Text = L"0";
+			this->sredni21->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// ilosc24
+			// 
+			this->ilosc24->BackColor = System::Drawing::Color::Gray;
+			this->ilosc24->Location = System::Drawing::Point(459, 83);
+			this->ilosc24->Name = L"ilosc24";
+			this->ilosc24->Size = System::Drawing::Size(98, 30);
+			this->ilosc24->TabIndex = 9;
+			this->ilosc24->Text = L"0";
+			this->ilosc24->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// ilosc23
+			// 
+			this->ilosc23->BackColor = System::Drawing::Color::Gray;
+			this->ilosc23->Location = System::Drawing::Point(353, 83);
+			this->ilosc23->Name = L"ilosc23";
+			this->ilosc23->Size = System::Drawing::Size(98, 30);
+			this->ilosc23->TabIndex = 8;
+			this->ilosc23->Text = L"0";
+			this->ilosc23->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// ilosc22
+			// 
+			this->ilosc22->BackColor = System::Drawing::Color::Gray;
+			this->ilosc22->Location = System::Drawing::Point(249, 83);
+			this->ilosc22->Name = L"ilosc22";
+			this->ilosc22->Size = System::Drawing::Size(98, 30);
+			this->ilosc22->TabIndex = 7;
+			this->ilosc22->Text = L"0";
+			this->ilosc22->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// ilosc21
+			// 
+			this->ilosc21->BackColor = System::Drawing::Color::Gray;
+			this->ilosc21->Location = System::Drawing::Point(145, 83);
+			this->ilosc21->Name = L"ilosc21";
+			this->ilosc21->Size = System::Drawing::Size(98, 30);
+			this->ilosc21->TabIndex = 6;
+			this->ilosc21->Text = L"0";
+			this->ilosc21->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// textBox16
+			// 
+			this->textBox16->BackColor = System::Drawing::Color::Gray;
+			this->textBox16->Location = System::Drawing::Point(459, 43);
+			this->textBox16->Name = L"textBox16";
+			this->textBox16->Size = System::Drawing::Size(98, 30);
+			this->textBox16->TabIndex = 5;
+			this->textBox16->Text = L"Z drogi 4";
+			// 
+			// textBox17
+			// 
+			this->textBox17->BackColor = System::Drawing::Color::Gray;
+			this->textBox17->Location = System::Drawing::Point(353, 43);
+			this->textBox17->Name = L"textBox17";
+			this->textBox17->Size = System::Drawing::Size(98, 30);
+			this->textBox17->TabIndex = 4;
+			this->textBox17->Text = L"Z drogi 3";
+			// 
+			// textBox18
+			// 
+			this->textBox18->BackColor = System::Drawing::Color::Gray;
+			this->textBox18->Location = System::Drawing::Point(249, 43);
+			this->textBox18->Name = L"textBox18";
+			this->textBox18->Size = System::Drawing::Size(98, 30);
+			this->textBox18->TabIndex = 3;
+			this->textBox18->Text = L"Z drogi 2";
+			// 
+			// textBox19
+			// 
+			this->textBox19->BackColor = System::Drawing::Color::Gray;
+			this->textBox19->Location = System::Drawing::Point(145, 43);
+			this->textBox19->Name = L"textBox19";
+			this->textBox19->Size = System::Drawing::Size(98, 30);
+			this->textBox19->TabIndex = 2;
+			this->textBox19->Text = L"Z drogi 1";
+			// 
+			// textBox20
+			// 
+			this->textBox20->BackColor = System::Drawing::Color::Gray;
+			this->textBox20->Location = System::Drawing::Point(6, 123);
+			this->textBox20->Name = L"textBox20";
+			this->textBox20->Size = System::Drawing::Size(124, 30);
+			this->textBox20->TabIndex = 1;
+			this->textBox20->Text = L"Œredni czas";
+			// 
+			// textBox21
+			// 
+			this->textBox21->BackColor = System::Drawing::Color::Gray;
+			this->textBox21->Location = System::Drawing::Point(6, 83);
+			this->textBox21->Name = L"textBox21";
+			this->textBox21->Size = System::Drawing::Size(124, 30);
+			this->textBox21->TabIndex = 0;
+			this->textBox21->Text = L"Ilosc aut";
+			// 
+			// groupBox7
+			// 
+			this->groupBox7->Controls->Add(this->sredni34);
+			this->groupBox7->Controls->Add(this->sredni33);
+			this->groupBox7->Controls->Add(this->sredni32);
+			this->groupBox7->Controls->Add(this->sredni31);
+			this->groupBox7->Controls->Add(this->ilosc34);
+			this->groupBox7->Controls->Add(this->ilosc33);
+			this->groupBox7->Controls->Add(this->ilosc32);
+			this->groupBox7->Controls->Add(this->ilosc31);
+			this->groupBox7->Controls->Add(this->textBox22);
+			this->groupBox7->Controls->Add(this->textBox23);
+			this->groupBox7->Controls->Add(this->textBox24);
+			this->groupBox7->Controls->Add(this->textBox25);
+			this->groupBox7->Controls->Add(this->textBox26);
+			this->groupBox7->Controls->Add(this->textBox27);
+			this->groupBox7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(238)));
+			this->groupBox7->Location = System::Drawing::Point(13, 789);
+			this->groupBox7->Name = L"groupBox7";
+			this->groupBox7->Size = System::Drawing::Size(569, 166);
+			this->groupBox7->TabIndex = 309;
+			this->groupBox7->TabStop = false;
+			this->groupBox7->Text = L"Zjazd nr.3";
+			// 
+			// sredni34
+			// 
+			this->sredni34->BackColor = System::Drawing::Color::Gray;
+			this->sredni34->Location = System::Drawing::Point(459, 123);
+			this->sredni34->Name = L"sredni34";
+			this->sredni34->Size = System::Drawing::Size(98, 30);
+			this->sredni34->TabIndex = 13;
+			this->sredni34->Text = L"0";
+			this->sredni34->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// sredni33
+			// 
+			this->sredni33->BackColor = System::Drawing::Color::Gray;
+			this->sredni33->Location = System::Drawing::Point(353, 123);
+			this->sredni33->Name = L"sredni33";
+			this->sredni33->Size = System::Drawing::Size(98, 30);
+			this->sredni33->TabIndex = 12;
+			this->sredni33->Text = L"0";
+			this->sredni33->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// sredni32
+			// 
+			this->sredni32->BackColor = System::Drawing::Color::Gray;
+			this->sredni32->Location = System::Drawing::Point(249, 123);
+			this->sredni32->Name = L"sredni32";
+			this->sredni32->Size = System::Drawing::Size(98, 30);
+			this->sredni32->TabIndex = 11;
+			this->sredni32->Text = L"0";
+			this->sredni32->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// sredni31
+			// 
+			this->sredni31->BackColor = System::Drawing::Color::Gray;
+			this->sredni31->Location = System::Drawing::Point(145, 123);
+			this->sredni31->Name = L"sredni31";
+			this->sredni31->Size = System::Drawing::Size(98, 30);
+			this->sredni31->TabIndex = 10;
+			this->sredni31->Text = L"0";
+			this->sredni31->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// ilosc34
+			// 
+			this->ilosc34->BackColor = System::Drawing::Color::Gray;
+			this->ilosc34->Location = System::Drawing::Point(459, 83);
+			this->ilosc34->Name = L"ilosc34";
+			this->ilosc34->Size = System::Drawing::Size(98, 30);
+			this->ilosc34->TabIndex = 9;
+			this->ilosc34->Text = L"0";
+			this->ilosc34->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// ilosc33
+			// 
+			this->ilosc33->BackColor = System::Drawing::Color::Gray;
+			this->ilosc33->Location = System::Drawing::Point(353, 83);
+			this->ilosc33->Name = L"ilosc33";
+			this->ilosc33->Size = System::Drawing::Size(98, 30);
+			this->ilosc33->TabIndex = 8;
+			this->ilosc33->Text = L"0";
+			this->ilosc33->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// ilosc32
+			// 
+			this->ilosc32->BackColor = System::Drawing::Color::Gray;
+			this->ilosc32->Location = System::Drawing::Point(249, 83);
+			this->ilosc32->Name = L"ilosc32";
+			this->ilosc32->Size = System::Drawing::Size(98, 30);
+			this->ilosc32->TabIndex = 7;
+			this->ilosc32->Text = L"0";
+			this->ilosc32->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// ilosc31
+			// 
+			this->ilosc31->BackColor = System::Drawing::Color::Gray;
+			this->ilosc31->Location = System::Drawing::Point(145, 83);
+			this->ilosc31->Name = L"ilosc31";
+			this->ilosc31->Size = System::Drawing::Size(98, 30);
+			this->ilosc31->TabIndex = 6;
+			this->ilosc31->Text = L"0";
+			this->ilosc31->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// textBox22
+			// 
+			this->textBox22->BackColor = System::Drawing::Color::Gray;
+			this->textBox22->Location = System::Drawing::Point(459, 43);
+			this->textBox22->Name = L"textBox22";
+			this->textBox22->Size = System::Drawing::Size(98, 30);
+			this->textBox22->TabIndex = 5;
+			this->textBox22->Text = L"Z drogi 4";
+			// 
+			// textBox23
+			// 
+			this->textBox23->BackColor = System::Drawing::Color::Gray;
+			this->textBox23->Location = System::Drawing::Point(353, 43);
+			this->textBox23->Name = L"textBox23";
+			this->textBox23->Size = System::Drawing::Size(98, 30);
+			this->textBox23->TabIndex = 4;
+			this->textBox23->Text = L"Z drogi 3";
+			// 
+			// textBox24
+			// 
+			this->textBox24->BackColor = System::Drawing::Color::Gray;
+			this->textBox24->Location = System::Drawing::Point(249, 43);
+			this->textBox24->Name = L"textBox24";
+			this->textBox24->Size = System::Drawing::Size(98, 30);
+			this->textBox24->TabIndex = 3;
+			this->textBox24->Text = L"Z drogi 2";
+			// 
+			// textBox25
+			// 
+			this->textBox25->BackColor = System::Drawing::Color::Gray;
+			this->textBox25->Location = System::Drawing::Point(145, 43);
+			this->textBox25->Name = L"textBox25";
+			this->textBox25->Size = System::Drawing::Size(98, 30);
+			this->textBox25->TabIndex = 2;
+			this->textBox25->Text = L"Z drogi 1";
+			// 
+			// textBox26
+			// 
+			this->textBox26->BackColor = System::Drawing::Color::Gray;
+			this->textBox26->Location = System::Drawing::Point(6, 123);
+			this->textBox26->Name = L"textBox26";
+			this->textBox26->Size = System::Drawing::Size(124, 30);
+			this->textBox26->TabIndex = 1;
+			this->textBox26->Text = L"Œredni czas";
+			// 
+			// textBox27
+			// 
+			this->textBox27->BackColor = System::Drawing::Color::Gray;
+			this->textBox27->Location = System::Drawing::Point(6, 83);
+			this->textBox27->Name = L"textBox27";
+			this->textBox27->Size = System::Drawing::Size(124, 30);
+			this->textBox27->TabIndex = 0;
+			this->textBox27->Text = L"Ilosc aut";
+			// 
+			// groupBox8
+			// 
+			this->groupBox8->Controls->Add(this->sredni44);
+			this->groupBox8->Controls->Add(this->sredni43);
+			this->groupBox8->Controls->Add(this->sredni42);
+			this->groupBox8->Controls->Add(this->sredni41);
+			this->groupBox8->Controls->Add(this->ilosc44);
+			this->groupBox8->Controls->Add(this->ilosc43);
+			this->groupBox8->Controls->Add(this->ilosc42);
+			this->groupBox8->Controls->Add(this->ilosc41);
+			this->groupBox8->Controls->Add(this->textBox36);
+			this->groupBox8->Controls->Add(this->textBox37);
+			this->groupBox8->Controls->Add(this->textBox38);
+			this->groupBox8->Controls->Add(this->textBox39);
+			this->groupBox8->Controls->Add(this->textBox40);
+			this->groupBox8->Controls->Add(this->textBox41);
+			this->groupBox8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(238)));
+			this->groupBox8->Location = System::Drawing::Point(623, 789);
+			this->groupBox8->Name = L"groupBox8";
+			this->groupBox8->Size = System::Drawing::Size(569, 166);
+			this->groupBox8->TabIndex = 310;
+			this->groupBox8->TabStop = false;
+			this->groupBox8->Text = L"Zjazd nr.4";
+			// 
+			// sredni44
+			// 
+			this->sredni44->BackColor = System::Drawing::Color::Gray;
+			this->sredni44->Location = System::Drawing::Point(459, 123);
+			this->sredni44->Name = L"sredni44";
+			this->sredni44->Size = System::Drawing::Size(98, 30);
+			this->sredni44->TabIndex = 13;
+			this->sredni44->Text = L"0";
+			this->sredni44->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// sredni43
+			// 
+			this->sredni43->BackColor = System::Drawing::Color::Gray;
+			this->sredni43->Location = System::Drawing::Point(353, 123);
+			this->sredni43->Name = L"sredni43";
+			this->sredni43->Size = System::Drawing::Size(98, 30);
+			this->sredni43->TabIndex = 12;
+			this->sredni43->Text = L"0";
+			this->sredni43->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// sredni42
+			// 
+			this->sredni42->BackColor = System::Drawing::Color::Gray;
+			this->sredni42->Location = System::Drawing::Point(249, 123);
+			this->sredni42->Name = L"sredni42";
+			this->sredni42->Size = System::Drawing::Size(98, 30);
+			this->sredni42->TabIndex = 11;
+			this->sredni42->Text = L"0";
+			this->sredni42->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// sredni41
+			// 
+			this->sredni41->BackColor = System::Drawing::Color::Gray;
+			this->sredni41->Location = System::Drawing::Point(145, 123);
+			this->sredni41->Name = L"sredni41";
+			this->sredni41->Size = System::Drawing::Size(98, 30);
+			this->sredni41->TabIndex = 10;
+			this->sredni41->Text = L"0";
+			this->sredni41->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// ilosc44
+			// 
+			this->ilosc44->BackColor = System::Drawing::Color::Gray;
+			this->ilosc44->Location = System::Drawing::Point(459, 83);
+			this->ilosc44->Name = L"ilosc44";
+			this->ilosc44->Size = System::Drawing::Size(98, 30);
+			this->ilosc44->TabIndex = 9;
+			this->ilosc44->Text = L"0";
+			this->ilosc44->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// ilosc43
+			// 
+			this->ilosc43->BackColor = System::Drawing::Color::Gray;
+			this->ilosc43->Location = System::Drawing::Point(353, 83);
+			this->ilosc43->Name = L"ilosc43";
+			this->ilosc43->Size = System::Drawing::Size(98, 30);
+			this->ilosc43->TabIndex = 8;
+			this->ilosc43->Text = L"0";
+			this->ilosc43->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// ilosc42
+			// 
+			this->ilosc42->BackColor = System::Drawing::Color::Gray;
+			this->ilosc42->Location = System::Drawing::Point(249, 83);
+			this->ilosc42->Name = L"ilosc42";
+			this->ilosc42->Size = System::Drawing::Size(98, 30);
+			this->ilosc42->TabIndex = 7;
+			this->ilosc42->Text = L"0";
+			this->ilosc42->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// ilosc41
+			// 
+			this->ilosc41->BackColor = System::Drawing::Color::Gray;
+			this->ilosc41->Location = System::Drawing::Point(145, 83);
+			this->ilosc41->Name = L"ilosc41";
+			this->ilosc41->Size = System::Drawing::Size(98, 30);
+			this->ilosc41->TabIndex = 6;
+			this->ilosc41->Text = L"0";
+			this->ilosc41->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// textBox36
+			// 
+			this->textBox36->BackColor = System::Drawing::Color::Gray;
+			this->textBox36->Location = System::Drawing::Point(459, 43);
+			this->textBox36->Name = L"textBox36";
+			this->textBox36->Size = System::Drawing::Size(98, 30);
+			this->textBox36->TabIndex = 5;
+			this->textBox36->Text = L"Z drogi 4";
+			// 
+			// textBox37
+			// 
+			this->textBox37->BackColor = System::Drawing::Color::Gray;
+			this->textBox37->Location = System::Drawing::Point(353, 43);
+			this->textBox37->Name = L"textBox37";
+			this->textBox37->Size = System::Drawing::Size(98, 30);
+			this->textBox37->TabIndex = 4;
+			this->textBox37->Text = L"Z drogi 3";
+			// 
+			// textBox38
+			// 
+			this->textBox38->BackColor = System::Drawing::Color::Gray;
+			this->textBox38->Location = System::Drawing::Point(249, 43);
+			this->textBox38->Name = L"textBox38";
+			this->textBox38->Size = System::Drawing::Size(98, 30);
+			this->textBox38->TabIndex = 3;
+			this->textBox38->Text = L"Z drogi 2";
+			// 
+			// textBox39
+			// 
+			this->textBox39->BackColor = System::Drawing::Color::Gray;
+			this->textBox39->Location = System::Drawing::Point(145, 43);
+			this->textBox39->Name = L"textBox39";
+			this->textBox39->Size = System::Drawing::Size(98, 30);
+			this->textBox39->TabIndex = 2;
+			this->textBox39->Text = L"Z drogi 1";
+			// 
+			// textBox40
+			// 
+			this->textBox40->BackColor = System::Drawing::Color::Gray;
+			this->textBox40->Location = System::Drawing::Point(6, 123);
+			this->textBox40->Name = L"textBox40";
+			this->textBox40->Size = System::Drawing::Size(124, 30);
+			this->textBox40->TabIndex = 1;
+			this->textBox40->Text = L"Œredni czas";
+			// 
+			// textBox41
+			// 
+			this->textBox41->BackColor = System::Drawing::Color::Gray;
+			this->textBox41->Location = System::Drawing::Point(6, 83);
+			this->textBox41->Name = L"textBox41";
+			this->textBox41->Size = System::Drawing::Size(124, 30);
+			this->textBox41->TabIndex = 0;
+			this->textBox41->Text = L"Ilosc aut";
+			// 
 			// MyForm
 			// 
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::None;
@@ -4236,6 +5115,12 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->BackColor = System::Drawing::SystemColors::ControlDarkDark;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->ClientSize = System::Drawing::Size(1898, 1029);
+			this->Controls->Add(this->groupBox8);
+			this->Controls->Add(this->groupBox7);
+			this->Controls->Add(this->groupBox6);
+			this->Controls->Add(this->groupBox5);
+			this->Controls->Add(this->groupBox4);
+			this->Controls->Add(this->groupBox3);
 			this->Controls->Add(this->pictureBox280);
 			this->Controls->Add(this->pictureBox279);
 			this->Controls->Add(this->pictureBox278);
@@ -4455,7 +5340,6 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			this->Controls->Add(this->pictureBox64);
 			this->Controls->Add(this->pictureBox63);
 			this->Controls->Add(this->pictureBox62);
-			this->Controls->Add(this->label2);
 			this->Controls->Add(this->pictureBox61);
 			this->Controls->Add(this->pictureBox60);
 			this->Controls->Add(this->pictureBox59);
@@ -4815,6 +5699,20 @@ private: System::Windows::Forms::PictureBox^  pictureBox280;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox278))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox279))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox280))->EndInit();
+			this->groupBox3->ResumeLayout(false);
+			this->groupBox3->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox281))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox282))->EndInit();
+			this->groupBox4->ResumeLayout(false);
+			this->groupBox4->PerformLayout();
+			this->groupBox5->ResumeLayout(false);
+			this->groupBox5->PerformLayout();
+			this->groupBox6->ResumeLayout(false);
+			this->groupBox6->PerformLayout();
+			this->groupBox7->ResumeLayout(false);
+			this->groupBox7->PerformLayout();
+			this->groupBox8->ResumeLayout(false);
+			this->groupBox8->PerformLayout();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -4906,7 +5804,56 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 	Droga18 = M.DajDroge18();
 	Droga19 = M.DajDroge19();
 
-if(czas%1000==10){
+#pragma region staty
+	ilosc0->Text = Convert::ToString(M.ilosc[0]);
+
+	Ilosc11->Text = Convert::ToString(M.ilosc[1]);
+	ilosc12->Text = Convert::ToString(M.ilosc[2]);
+	ilosc13->Text = Convert::ToString(M.ilosc[3]);
+	ilosc14->Text = Convert::ToString(M.ilosc[4]);
+
+	ilosc21->Text = Convert::ToString(M.ilosc[5]);
+	ilosc22->Text = Convert::ToString(M.ilosc[6]);
+	ilosc23->Text = Convert::ToString(M.ilosc[7]);
+	ilosc24->Text = Convert::ToString(M.ilosc[8]);
+
+	ilosc31->Text = Convert::ToString(M.ilosc[9]);
+	ilosc32->Text = Convert::ToString(M.ilosc[10]);
+	ilosc33->Text = Convert::ToString(M.ilosc[11]);
+	ilosc34->Text = Convert::ToString(M.ilosc[12]);
+
+	ilosc41->Text = Convert::ToString(M.ilosc[13]);
+	ilosc42->Text = Convert::ToString(M.ilosc[14]);
+	ilosc43->Text = Convert::ToString(M.ilosc[15]);
+	ilosc44->Text = Convert::ToString(M.ilosc[16]);
+	
+	sredni0->Text = M.zrobczas(M.srczas[0]);
+
+	sredni11->Text = M.zrobczas(M.srczas[1]);
+	sredni12->Text = M.zrobczas(M.srczas[2]);
+	sredni13->Text = M.zrobczas(M.srczas[3]);
+	sredni14->Text = M.zrobczas(M.srczas[4]);
+
+	sredni21->Text = M.zrobczas(M.srczas[5]);
+	sredni22->Text = M.zrobczas(M.srczas[6]);
+	sredni23->Text = M.zrobczas(M.srczas[7]);
+	sredni24->Text = M.zrobczas(M.srczas[8]);
+
+	sredni31->Text = M.zrobczas(M.srczas[9]);
+	sredni32->Text = M.zrobczas(M.srczas[10]);
+	sredni33->Text = M.zrobczas(M.srczas[11]);
+	sredni34->Text = M.zrobczas(M.srczas[12]);
+
+	sredni41->Text = M.zrobczas(M.srczas[13]);
+	sredni42->Text = M.zrobczas(M.srczas[14]);
+	sredni43->Text = M.zrobczas(M.srczas[15]);
+	sredni44->Text = M.zrobczas(M.srczas[16]);
+
+#pragma endregion
+
+
+
+if(czas%10000==10){
 #pragma region wyœwietlanie_drogi_1
 	if (Droga1[0]->zycie == true) {
 		pictureBox1->Visible = true;
