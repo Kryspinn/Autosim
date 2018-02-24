@@ -440,6 +440,7 @@ private: System::Windows::Forms::TextBox^  textBox38;
 private: System::Windows::Forms::TextBox^  textBox39;
 private: System::Windows::Forms::TextBox^  textBox40;
 private: System::Windows::Forms::TextBox^  textBox41;
+private: System::Windows::Forms::Button^  button1;
 
 
 
@@ -865,6 +866,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox39 = (gcnew System::Windows::Forms::TextBox());
 			this->textBox40 = (gcnew System::Windows::Forms::TextBox());
 			this->textBox41 = (gcnew System::Windows::Forms::TextBox());
+			this->button1 = (gcnew System::Windows::Forms::Button());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxplusnatezenie))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxminusnatezenie))->BeginInit();
 			this->groupBox1->SuspendLayout();
@@ -1176,7 +1178,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			// 
 			// timer1
 			// 
-			this->timer1->Interval = 1;
+			this->timer1->Interval = 1000;
 			this->timer1->Tick += gcnew System::EventHandler(this, &MyForm::timer1_Tick);
 			// 
 			// label1
@@ -1188,7 +1190,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->label1->ImageAlign = System::Drawing::ContentAlignment::TopCenter;
 			this->label1->Location = System::Drawing::Point(1785, 13);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(71, 25);
+			this->label1->Size = System::Drawing::Size(86, 32);
 			this->label1->TabIndex = 16;
 			this->label1->Text = L"Zegar";
 			// 
@@ -1199,7 +1201,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 				static_cast<System::Byte>(0)));
 			this->zegar->Location = System::Drawing::Point(1772, 49);
 			this->zegar->Name = L"zegar";
-			this->zegar->Size = System::Drawing::Size(92, 22);
+			this->zegar->Size = System::Drawing::Size(114, 27);
 			this->zegar->TabIndex = 17;
 			this->zegar->Text = L"00:00:00";
 			// 
@@ -1244,7 +1246,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->labelnatezenie->AutoSize = true;
 			this->labelnatezenie->Location = System::Drawing::Point(61, 34);
 			this->labelnatezenie->Name = L"labelnatezenie";
-			this->labelnatezenie->Size = System::Drawing::Size(21, 24);
+			this->labelnatezenie->Size = System::Drawing::Size(27, 29);
 			this->labelnatezenie->TabIndex = 21;
 			this->labelnatezenie->Text = L"0";
 			// 
@@ -1267,7 +1269,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->labellosowosc->AutoSize = true;
 			this->labellosowosc->Location = System::Drawing::Point(61, 32);
 			this->labellosowosc->Name = L"labellosowosc";
-			this->labellosowosc->Size = System::Drawing::Size(21, 24);
+			this->labellosowosc->Size = System::Drawing::Size(27, 29);
 			this->labellosowosc->TabIndex = 22;
 			this->labellosowosc->Text = L"0";
 			// 
@@ -4395,7 +4397,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->label3->AutoSize = true;
 			this->label3->Location = System::Drawing::Point(61, 32);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(21, 24);
+			this->label3->Size = System::Drawing::Size(27, 29);
 			this->label3->TabIndex = 22;
 			this->label3->Text = L"0";
 			// 
@@ -4439,7 +4441,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->sredni0->BackColor = System::Drawing::Color::Gray;
 			this->sredni0->Location = System::Drawing::Point(429, 75);
 			this->sredni0->Name = L"sredni0";
-			this->sredni0->Size = System::Drawing::Size(98, 30);
+			this->sredni0->Size = System::Drawing::Size(98, 36);
 			this->sredni0->TabIndex = 8;
 			this->sredni0->Text = L"0";
 			this->sredni0->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4449,7 +4451,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->ilosc0->BackColor = System::Drawing::Color::Gray;
 			this->ilosc0->Location = System::Drawing::Point(429, 32);
 			this->ilosc0->Name = L"ilosc0";
-			this->ilosc0->Size = System::Drawing::Size(98, 30);
+			this->ilosc0->Size = System::Drawing::Size(98, 36);
 			this->ilosc0->TabIndex = 7;
 			this->ilosc0->Text = L"0";
 			this->ilosc0->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4459,7 +4461,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox8->BackColor = System::Drawing::Color::Gray;
 			this->textBox8->Location = System::Drawing::Point(18, 75);
 			this->textBox8->Name = L"textBox8";
-			this->textBox8->Size = System::Drawing::Size(352, 30);
+			this->textBox8->Size = System::Drawing::Size(352, 36);
 			this->textBox8->TabIndex = 1;
 			this->textBox8->Text = L"Œredni czas przejazdu\r\n przez rondo";
 			// 
@@ -4468,7 +4470,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox1->BackColor = System::Drawing::Color::Gray;
 			this->textBox1->Location = System::Drawing::Point(18, 32);
 			this->textBox1->Name = L"textBox1";
-			this->textBox1->Size = System::Drawing::Size(352, 30);
+			this->textBox1->Size = System::Drawing::Size(352, 36);
 			this->textBox1->TabIndex = 0;
 			this->textBox1->Text = L"Ilosc wszystkich samochodów";
 			// 
@@ -4502,7 +4504,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->sredni14->BackColor = System::Drawing::Color::Gray;
 			this->sredni14->Location = System::Drawing::Point(459, 123);
 			this->sredni14->Name = L"sredni14";
-			this->sredni14->Size = System::Drawing::Size(98, 30);
+			this->sredni14->Size = System::Drawing::Size(98, 36);
 			this->sredni14->TabIndex = 13;
 			this->sredni14->Text = L"0";
 			this->sredni14->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4512,7 +4514,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->sredni13->BackColor = System::Drawing::Color::Gray;
 			this->sredni13->Location = System::Drawing::Point(353, 123);
 			this->sredni13->Name = L"sredni13";
-			this->sredni13->Size = System::Drawing::Size(98, 30);
+			this->sredni13->Size = System::Drawing::Size(98, 36);
 			this->sredni13->TabIndex = 12;
 			this->sredni13->Text = L"0";
 			this->sredni13->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4522,7 +4524,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->sredni12->BackColor = System::Drawing::Color::Gray;
 			this->sredni12->Location = System::Drawing::Point(249, 123);
 			this->sredni12->Name = L"sredni12";
-			this->sredni12->Size = System::Drawing::Size(98, 30);
+			this->sredni12->Size = System::Drawing::Size(98, 36);
 			this->sredni12->TabIndex = 11;
 			this->sredni12->Text = L"0";
 			this->sredni12->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4532,7 +4534,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->sredni11->BackColor = System::Drawing::Color::Gray;
 			this->sredni11->Location = System::Drawing::Point(145, 123);
 			this->sredni11->Name = L"sredni11";
-			this->sredni11->Size = System::Drawing::Size(98, 30);
+			this->sredni11->Size = System::Drawing::Size(98, 36);
 			this->sredni11->TabIndex = 10;
 			this->sredni11->Text = L"0";
 			this->sredni11->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4542,7 +4544,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->ilosc14->BackColor = System::Drawing::Color::Gray;
 			this->ilosc14->Location = System::Drawing::Point(459, 83);
 			this->ilosc14->Name = L"ilosc14";
-			this->ilosc14->Size = System::Drawing::Size(98, 30);
+			this->ilosc14->Size = System::Drawing::Size(98, 36);
 			this->ilosc14->TabIndex = 9;
 			this->ilosc14->Text = L"0";
 			this->ilosc14->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4552,7 +4554,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->ilosc13->BackColor = System::Drawing::Color::Gray;
 			this->ilosc13->Location = System::Drawing::Point(353, 83);
 			this->ilosc13->Name = L"ilosc13";
-			this->ilosc13->Size = System::Drawing::Size(98, 30);
+			this->ilosc13->Size = System::Drawing::Size(98, 36);
 			this->ilosc13->TabIndex = 8;
 			this->ilosc13->Text = L"0";
 			this->ilosc13->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4562,7 +4564,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->ilosc12->BackColor = System::Drawing::Color::Gray;
 			this->ilosc12->Location = System::Drawing::Point(249, 83);
 			this->ilosc12->Name = L"ilosc12";
-			this->ilosc12->Size = System::Drawing::Size(98, 30);
+			this->ilosc12->Size = System::Drawing::Size(98, 36);
 			this->ilosc12->TabIndex = 7;
 			this->ilosc12->Text = L"0";
 			this->ilosc12->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4572,7 +4574,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->Ilosc11->BackColor = System::Drawing::Color::Gray;
 			this->Ilosc11->Location = System::Drawing::Point(145, 83);
 			this->Ilosc11->Name = L"Ilosc11";
-			this->Ilosc11->Size = System::Drawing::Size(98, 30);
+			this->Ilosc11->Size = System::Drawing::Size(98, 36);
 			this->Ilosc11->TabIndex = 6;
 			this->Ilosc11->Text = L"0";
 			this->Ilosc11->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4582,7 +4584,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox7->BackColor = System::Drawing::Color::Gray;
 			this->textBox7->Location = System::Drawing::Point(459, 43);
 			this->textBox7->Name = L"textBox7";
-			this->textBox7->Size = System::Drawing::Size(98, 30);
+			this->textBox7->Size = System::Drawing::Size(98, 36);
 			this->textBox7->TabIndex = 5;
 			this->textBox7->Text = L"Z drogi 4";
 			// 
@@ -4591,7 +4593,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox6->BackColor = System::Drawing::Color::Gray;
 			this->textBox6->Location = System::Drawing::Point(353, 43);
 			this->textBox6->Name = L"textBox6";
-			this->textBox6->Size = System::Drawing::Size(98, 30);
+			this->textBox6->Size = System::Drawing::Size(98, 36);
 			this->textBox6->TabIndex = 4;
 			this->textBox6->Text = L"Z drogi 3";
 			// 
@@ -4600,7 +4602,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox5->BackColor = System::Drawing::Color::Gray;
 			this->textBox5->Location = System::Drawing::Point(249, 43);
 			this->textBox5->Name = L"textBox5";
-			this->textBox5->Size = System::Drawing::Size(98, 30);
+			this->textBox5->Size = System::Drawing::Size(98, 36);
 			this->textBox5->TabIndex = 3;
 			this->textBox5->Text = L"Z drogi 2";
 			// 
@@ -4609,7 +4611,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox4->BackColor = System::Drawing::Color::Gray;
 			this->textBox4->Location = System::Drawing::Point(145, 43);
 			this->textBox4->Name = L"textBox4";
-			this->textBox4->Size = System::Drawing::Size(98, 30);
+			this->textBox4->Size = System::Drawing::Size(98, 36);
 			this->textBox4->TabIndex = 2;
 			this->textBox4->Text = L"Z drogi 1";
 			// 
@@ -4618,7 +4620,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox3->BackColor = System::Drawing::Color::Gray;
 			this->textBox3->Location = System::Drawing::Point(6, 123);
 			this->textBox3->Name = L"textBox3";
-			this->textBox3->Size = System::Drawing::Size(124, 30);
+			this->textBox3->Size = System::Drawing::Size(124, 36);
 			this->textBox3->TabIndex = 1;
 			this->textBox3->Text = L"Œredni czas";
 			// 
@@ -4627,7 +4629,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox2->BackColor = System::Drawing::Color::Gray;
 			this->textBox2->Location = System::Drawing::Point(6, 83);
 			this->textBox2->Name = L"textBox2";
-			this->textBox2->Size = System::Drawing::Size(124, 30);
+			this->textBox2->Size = System::Drawing::Size(124, 36);
 			this->textBox2->TabIndex = 0;
 			this->textBox2->Text = L"Ilosc aut";
 			// 
@@ -4661,7 +4663,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->sredni24->BackColor = System::Drawing::Color::Gray;
 			this->sredni24->Location = System::Drawing::Point(459, 123);
 			this->sredni24->Name = L"sredni24";
-			this->sredni24->Size = System::Drawing::Size(98, 30);
+			this->sredni24->Size = System::Drawing::Size(98, 36);
 			this->sredni24->TabIndex = 13;
 			this->sredni24->Text = L"0";
 			this->sredni24->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4671,7 +4673,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->sredni23->BackColor = System::Drawing::Color::Gray;
 			this->sredni23->Location = System::Drawing::Point(353, 123);
 			this->sredni23->Name = L"sredni23";
-			this->sredni23->Size = System::Drawing::Size(98, 30);
+			this->sredni23->Size = System::Drawing::Size(98, 36);
 			this->sredni23->TabIndex = 12;
 			this->sredni23->Text = L"0";
 			this->sredni23->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4681,7 +4683,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->sredni22->BackColor = System::Drawing::Color::Gray;
 			this->sredni22->Location = System::Drawing::Point(249, 123);
 			this->sredni22->Name = L"sredni22";
-			this->sredni22->Size = System::Drawing::Size(98, 30);
+			this->sredni22->Size = System::Drawing::Size(98, 36);
 			this->sredni22->TabIndex = 11;
 			this->sredni22->Text = L"0";
 			this->sredni22->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4691,7 +4693,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->sredni21->BackColor = System::Drawing::Color::Gray;
 			this->sredni21->Location = System::Drawing::Point(145, 123);
 			this->sredni21->Name = L"sredni21";
-			this->sredni21->Size = System::Drawing::Size(98, 30);
+			this->sredni21->Size = System::Drawing::Size(98, 36);
 			this->sredni21->TabIndex = 10;
 			this->sredni21->Text = L"0";
 			this->sredni21->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4701,7 +4703,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->ilosc24->BackColor = System::Drawing::Color::Gray;
 			this->ilosc24->Location = System::Drawing::Point(459, 83);
 			this->ilosc24->Name = L"ilosc24";
-			this->ilosc24->Size = System::Drawing::Size(98, 30);
+			this->ilosc24->Size = System::Drawing::Size(98, 36);
 			this->ilosc24->TabIndex = 9;
 			this->ilosc24->Text = L"0";
 			this->ilosc24->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4711,7 +4713,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->ilosc23->BackColor = System::Drawing::Color::Gray;
 			this->ilosc23->Location = System::Drawing::Point(353, 83);
 			this->ilosc23->Name = L"ilosc23";
-			this->ilosc23->Size = System::Drawing::Size(98, 30);
+			this->ilosc23->Size = System::Drawing::Size(98, 36);
 			this->ilosc23->TabIndex = 8;
 			this->ilosc23->Text = L"0";
 			this->ilosc23->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4721,7 +4723,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->ilosc22->BackColor = System::Drawing::Color::Gray;
 			this->ilosc22->Location = System::Drawing::Point(249, 83);
 			this->ilosc22->Name = L"ilosc22";
-			this->ilosc22->Size = System::Drawing::Size(98, 30);
+			this->ilosc22->Size = System::Drawing::Size(98, 36);
 			this->ilosc22->TabIndex = 7;
 			this->ilosc22->Text = L"0";
 			this->ilosc22->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4731,7 +4733,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->ilosc21->BackColor = System::Drawing::Color::Gray;
 			this->ilosc21->Location = System::Drawing::Point(145, 83);
 			this->ilosc21->Name = L"ilosc21";
-			this->ilosc21->Size = System::Drawing::Size(98, 30);
+			this->ilosc21->Size = System::Drawing::Size(98, 36);
 			this->ilosc21->TabIndex = 6;
 			this->ilosc21->Text = L"0";
 			this->ilosc21->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4741,7 +4743,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox16->BackColor = System::Drawing::Color::Gray;
 			this->textBox16->Location = System::Drawing::Point(459, 43);
 			this->textBox16->Name = L"textBox16";
-			this->textBox16->Size = System::Drawing::Size(98, 30);
+			this->textBox16->Size = System::Drawing::Size(98, 36);
 			this->textBox16->TabIndex = 5;
 			this->textBox16->Text = L"Z drogi 4";
 			// 
@@ -4750,7 +4752,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox17->BackColor = System::Drawing::Color::Gray;
 			this->textBox17->Location = System::Drawing::Point(353, 43);
 			this->textBox17->Name = L"textBox17";
-			this->textBox17->Size = System::Drawing::Size(98, 30);
+			this->textBox17->Size = System::Drawing::Size(98, 36);
 			this->textBox17->TabIndex = 4;
 			this->textBox17->Text = L"Z drogi 3";
 			// 
@@ -4759,7 +4761,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox18->BackColor = System::Drawing::Color::Gray;
 			this->textBox18->Location = System::Drawing::Point(249, 43);
 			this->textBox18->Name = L"textBox18";
-			this->textBox18->Size = System::Drawing::Size(98, 30);
+			this->textBox18->Size = System::Drawing::Size(98, 36);
 			this->textBox18->TabIndex = 3;
 			this->textBox18->Text = L"Z drogi 2";
 			// 
@@ -4768,7 +4770,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox19->BackColor = System::Drawing::Color::Gray;
 			this->textBox19->Location = System::Drawing::Point(145, 43);
 			this->textBox19->Name = L"textBox19";
-			this->textBox19->Size = System::Drawing::Size(98, 30);
+			this->textBox19->Size = System::Drawing::Size(98, 36);
 			this->textBox19->TabIndex = 2;
 			this->textBox19->Text = L"Z drogi 1";
 			// 
@@ -4777,7 +4779,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox20->BackColor = System::Drawing::Color::Gray;
 			this->textBox20->Location = System::Drawing::Point(6, 123);
 			this->textBox20->Name = L"textBox20";
-			this->textBox20->Size = System::Drawing::Size(124, 30);
+			this->textBox20->Size = System::Drawing::Size(124, 36);
 			this->textBox20->TabIndex = 1;
 			this->textBox20->Text = L"Œredni czas";
 			// 
@@ -4786,7 +4788,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox21->BackColor = System::Drawing::Color::Gray;
 			this->textBox21->Location = System::Drawing::Point(6, 83);
 			this->textBox21->Name = L"textBox21";
-			this->textBox21->Size = System::Drawing::Size(124, 30);
+			this->textBox21->Size = System::Drawing::Size(124, 36);
 			this->textBox21->TabIndex = 0;
 			this->textBox21->Text = L"Ilosc aut";
 			// 
@@ -4820,7 +4822,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->sredni34->BackColor = System::Drawing::Color::Gray;
 			this->sredni34->Location = System::Drawing::Point(459, 123);
 			this->sredni34->Name = L"sredni34";
-			this->sredni34->Size = System::Drawing::Size(98, 30);
+			this->sredni34->Size = System::Drawing::Size(98, 36);
 			this->sredni34->TabIndex = 13;
 			this->sredni34->Text = L"0";
 			this->sredni34->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4830,7 +4832,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->sredni33->BackColor = System::Drawing::Color::Gray;
 			this->sredni33->Location = System::Drawing::Point(353, 123);
 			this->sredni33->Name = L"sredni33";
-			this->sredni33->Size = System::Drawing::Size(98, 30);
+			this->sredni33->Size = System::Drawing::Size(98, 36);
 			this->sredni33->TabIndex = 12;
 			this->sredni33->Text = L"0";
 			this->sredni33->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4840,7 +4842,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->sredni32->BackColor = System::Drawing::Color::Gray;
 			this->sredni32->Location = System::Drawing::Point(249, 123);
 			this->sredni32->Name = L"sredni32";
-			this->sredni32->Size = System::Drawing::Size(98, 30);
+			this->sredni32->Size = System::Drawing::Size(98, 36);
 			this->sredni32->TabIndex = 11;
 			this->sredni32->Text = L"0";
 			this->sredni32->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4850,7 +4852,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->sredni31->BackColor = System::Drawing::Color::Gray;
 			this->sredni31->Location = System::Drawing::Point(145, 123);
 			this->sredni31->Name = L"sredni31";
-			this->sredni31->Size = System::Drawing::Size(98, 30);
+			this->sredni31->Size = System::Drawing::Size(98, 36);
 			this->sredni31->TabIndex = 10;
 			this->sredni31->Text = L"0";
 			this->sredni31->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4860,7 +4862,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->ilosc34->BackColor = System::Drawing::Color::Gray;
 			this->ilosc34->Location = System::Drawing::Point(459, 83);
 			this->ilosc34->Name = L"ilosc34";
-			this->ilosc34->Size = System::Drawing::Size(98, 30);
+			this->ilosc34->Size = System::Drawing::Size(98, 36);
 			this->ilosc34->TabIndex = 9;
 			this->ilosc34->Text = L"0";
 			this->ilosc34->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4870,7 +4872,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->ilosc33->BackColor = System::Drawing::Color::Gray;
 			this->ilosc33->Location = System::Drawing::Point(353, 83);
 			this->ilosc33->Name = L"ilosc33";
-			this->ilosc33->Size = System::Drawing::Size(98, 30);
+			this->ilosc33->Size = System::Drawing::Size(98, 36);
 			this->ilosc33->TabIndex = 8;
 			this->ilosc33->Text = L"0";
 			this->ilosc33->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4880,7 +4882,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->ilosc32->BackColor = System::Drawing::Color::Gray;
 			this->ilosc32->Location = System::Drawing::Point(249, 83);
 			this->ilosc32->Name = L"ilosc32";
-			this->ilosc32->Size = System::Drawing::Size(98, 30);
+			this->ilosc32->Size = System::Drawing::Size(98, 36);
 			this->ilosc32->TabIndex = 7;
 			this->ilosc32->Text = L"0";
 			this->ilosc32->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4890,7 +4892,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->ilosc31->BackColor = System::Drawing::Color::Gray;
 			this->ilosc31->Location = System::Drawing::Point(145, 83);
 			this->ilosc31->Name = L"ilosc31";
-			this->ilosc31->Size = System::Drawing::Size(98, 30);
+			this->ilosc31->Size = System::Drawing::Size(98, 36);
 			this->ilosc31->TabIndex = 6;
 			this->ilosc31->Text = L"0";
 			this->ilosc31->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4900,7 +4902,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox22->BackColor = System::Drawing::Color::Gray;
 			this->textBox22->Location = System::Drawing::Point(459, 43);
 			this->textBox22->Name = L"textBox22";
-			this->textBox22->Size = System::Drawing::Size(98, 30);
+			this->textBox22->Size = System::Drawing::Size(98, 36);
 			this->textBox22->TabIndex = 5;
 			this->textBox22->Text = L"Z drogi 4";
 			// 
@@ -4909,7 +4911,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox23->BackColor = System::Drawing::Color::Gray;
 			this->textBox23->Location = System::Drawing::Point(353, 43);
 			this->textBox23->Name = L"textBox23";
-			this->textBox23->Size = System::Drawing::Size(98, 30);
+			this->textBox23->Size = System::Drawing::Size(98, 36);
 			this->textBox23->TabIndex = 4;
 			this->textBox23->Text = L"Z drogi 3";
 			// 
@@ -4918,7 +4920,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox24->BackColor = System::Drawing::Color::Gray;
 			this->textBox24->Location = System::Drawing::Point(249, 43);
 			this->textBox24->Name = L"textBox24";
-			this->textBox24->Size = System::Drawing::Size(98, 30);
+			this->textBox24->Size = System::Drawing::Size(98, 36);
 			this->textBox24->TabIndex = 3;
 			this->textBox24->Text = L"Z drogi 2";
 			// 
@@ -4927,7 +4929,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox25->BackColor = System::Drawing::Color::Gray;
 			this->textBox25->Location = System::Drawing::Point(145, 43);
 			this->textBox25->Name = L"textBox25";
-			this->textBox25->Size = System::Drawing::Size(98, 30);
+			this->textBox25->Size = System::Drawing::Size(98, 36);
 			this->textBox25->TabIndex = 2;
 			this->textBox25->Text = L"Z drogi 1";
 			// 
@@ -4936,7 +4938,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox26->BackColor = System::Drawing::Color::Gray;
 			this->textBox26->Location = System::Drawing::Point(6, 123);
 			this->textBox26->Name = L"textBox26";
-			this->textBox26->Size = System::Drawing::Size(124, 30);
+			this->textBox26->Size = System::Drawing::Size(124, 36);
 			this->textBox26->TabIndex = 1;
 			this->textBox26->Text = L"Œredni czas";
 			// 
@@ -4945,7 +4947,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox27->BackColor = System::Drawing::Color::Gray;
 			this->textBox27->Location = System::Drawing::Point(6, 83);
 			this->textBox27->Name = L"textBox27";
-			this->textBox27->Size = System::Drawing::Size(124, 30);
+			this->textBox27->Size = System::Drawing::Size(124, 36);
 			this->textBox27->TabIndex = 0;
 			this->textBox27->Text = L"Ilosc aut";
 			// 
@@ -4979,7 +4981,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->sredni44->BackColor = System::Drawing::Color::Gray;
 			this->sredni44->Location = System::Drawing::Point(459, 123);
 			this->sredni44->Name = L"sredni44";
-			this->sredni44->Size = System::Drawing::Size(98, 30);
+			this->sredni44->Size = System::Drawing::Size(98, 36);
 			this->sredni44->TabIndex = 13;
 			this->sredni44->Text = L"0";
 			this->sredni44->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4989,7 +4991,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->sredni43->BackColor = System::Drawing::Color::Gray;
 			this->sredni43->Location = System::Drawing::Point(353, 123);
 			this->sredni43->Name = L"sredni43";
-			this->sredni43->Size = System::Drawing::Size(98, 30);
+			this->sredni43->Size = System::Drawing::Size(98, 36);
 			this->sredni43->TabIndex = 12;
 			this->sredni43->Text = L"0";
 			this->sredni43->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -4999,7 +5001,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->sredni42->BackColor = System::Drawing::Color::Gray;
 			this->sredni42->Location = System::Drawing::Point(249, 123);
 			this->sredni42->Name = L"sredni42";
-			this->sredni42->Size = System::Drawing::Size(98, 30);
+			this->sredni42->Size = System::Drawing::Size(98, 36);
 			this->sredni42->TabIndex = 11;
 			this->sredni42->Text = L"0";
 			this->sredni42->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -5009,7 +5011,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->sredni41->BackColor = System::Drawing::Color::Gray;
 			this->sredni41->Location = System::Drawing::Point(145, 123);
 			this->sredni41->Name = L"sredni41";
-			this->sredni41->Size = System::Drawing::Size(98, 30);
+			this->sredni41->Size = System::Drawing::Size(98, 36);
 			this->sredni41->TabIndex = 10;
 			this->sredni41->Text = L"0";
 			this->sredni41->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -5019,7 +5021,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->ilosc44->BackColor = System::Drawing::Color::Gray;
 			this->ilosc44->Location = System::Drawing::Point(459, 83);
 			this->ilosc44->Name = L"ilosc44";
-			this->ilosc44->Size = System::Drawing::Size(98, 30);
+			this->ilosc44->Size = System::Drawing::Size(98, 36);
 			this->ilosc44->TabIndex = 9;
 			this->ilosc44->Text = L"0";
 			this->ilosc44->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -5029,7 +5031,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->ilosc43->BackColor = System::Drawing::Color::Gray;
 			this->ilosc43->Location = System::Drawing::Point(353, 83);
 			this->ilosc43->Name = L"ilosc43";
-			this->ilosc43->Size = System::Drawing::Size(98, 30);
+			this->ilosc43->Size = System::Drawing::Size(98, 36);
 			this->ilosc43->TabIndex = 8;
 			this->ilosc43->Text = L"0";
 			this->ilosc43->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -5039,7 +5041,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->ilosc42->BackColor = System::Drawing::Color::Gray;
 			this->ilosc42->Location = System::Drawing::Point(249, 83);
 			this->ilosc42->Name = L"ilosc42";
-			this->ilosc42->Size = System::Drawing::Size(98, 30);
+			this->ilosc42->Size = System::Drawing::Size(98, 36);
 			this->ilosc42->TabIndex = 7;
 			this->ilosc42->Text = L"0";
 			this->ilosc42->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -5049,7 +5051,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->ilosc41->BackColor = System::Drawing::Color::Gray;
 			this->ilosc41->Location = System::Drawing::Point(145, 83);
 			this->ilosc41->Name = L"ilosc41";
-			this->ilosc41->Size = System::Drawing::Size(98, 30);
+			this->ilosc41->Size = System::Drawing::Size(98, 36);
 			this->ilosc41->TabIndex = 6;
 			this->ilosc41->Text = L"0";
 			this->ilosc41->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -5059,7 +5061,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox36->BackColor = System::Drawing::Color::Gray;
 			this->textBox36->Location = System::Drawing::Point(459, 43);
 			this->textBox36->Name = L"textBox36";
-			this->textBox36->Size = System::Drawing::Size(98, 30);
+			this->textBox36->Size = System::Drawing::Size(98, 36);
 			this->textBox36->TabIndex = 5;
 			this->textBox36->Text = L"Z drogi 4";
 			// 
@@ -5068,7 +5070,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox37->BackColor = System::Drawing::Color::Gray;
 			this->textBox37->Location = System::Drawing::Point(353, 43);
 			this->textBox37->Name = L"textBox37";
-			this->textBox37->Size = System::Drawing::Size(98, 30);
+			this->textBox37->Size = System::Drawing::Size(98, 36);
 			this->textBox37->TabIndex = 4;
 			this->textBox37->Text = L"Z drogi 3";
 			// 
@@ -5077,7 +5079,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox38->BackColor = System::Drawing::Color::Gray;
 			this->textBox38->Location = System::Drawing::Point(249, 43);
 			this->textBox38->Name = L"textBox38";
-			this->textBox38->Size = System::Drawing::Size(98, 30);
+			this->textBox38->Size = System::Drawing::Size(98, 36);
 			this->textBox38->TabIndex = 3;
 			this->textBox38->Text = L"Z drogi 2";
 			// 
@@ -5086,7 +5088,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox39->BackColor = System::Drawing::Color::Gray;
 			this->textBox39->Location = System::Drawing::Point(145, 43);
 			this->textBox39->Name = L"textBox39";
-			this->textBox39->Size = System::Drawing::Size(98, 30);
+			this->textBox39->Size = System::Drawing::Size(98, 36);
 			this->textBox39->TabIndex = 2;
 			this->textBox39->Text = L"Z drogi 1";
 			// 
@@ -5095,7 +5097,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox40->BackColor = System::Drawing::Color::Gray;
 			this->textBox40->Location = System::Drawing::Point(6, 123);
 			this->textBox40->Name = L"textBox40";
-			this->textBox40->Size = System::Drawing::Size(124, 30);
+			this->textBox40->Size = System::Drawing::Size(124, 36);
 			this->textBox40->TabIndex = 1;
 			this->textBox40->Text = L"Œredni czas";
 			// 
@@ -5104,9 +5106,19 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->textBox41->BackColor = System::Drawing::Color::Gray;
 			this->textBox41->Location = System::Drawing::Point(6, 83);
 			this->textBox41->Name = L"textBox41";
-			this->textBox41->Size = System::Drawing::Size(124, 30);
+			this->textBox41->Size = System::Drawing::Size(124, 36);
 			this->textBox41->TabIndex = 0;
 			this->textBox41->Text = L"Ilosc aut";
+			// 
+			// button1
+			// 
+			this->button1->Location = System::Drawing::Point(754, 91);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(75, 23);
+			this->button1->TabIndex = 311;
+			this->button1->Text = L"10000";
+			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
 			// MyForm
 			// 
@@ -5115,6 +5127,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 			this->BackColor = System::Drawing::SystemColors::ControlDarkDark;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->ClientSize = System::Drawing::Size(1898, 1029);
+			this->Controls->Add(this->button1);
 			this->Controls->Add(this->groupBox8);
 			this->Controls->Add(this->groupBox7);
 			this->Controls->Add(this->groupBox6);
@@ -5725,6 +5738,9 @@ private: System::Windows::Forms::TextBox^  textBox41;
 		int natezenie = 9;	
 		int losowosc = 0;
 		Mechanika M;
+
+#pragma region droaga
+
 		array< Auto^ >^ Droga1;
 		array< Auto^ >^ Droga2;
 		array< Auto^ >^ Droga3;
@@ -5746,6 +5762,7 @@ private: System::Windows::Forms::TextBox^  textBox41;
 		array< Auto^ >^ Droga19;
 		Random^ rnd;
 
+#pragma endregion
 
 private: System::Void Start_Click(System::Object^  sender, System::EventArgs^  e) {
 	if (timer1->Enabled == true) timer1->Enabled = false;
@@ -5773,10 +5790,11 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 	if (sekund == 59) sekund = 0;
 	zegar->Text = str1 + ":" + str2 + ":" + str3;
 #pragma endregion
-	//M.Ustaw_Przeszkode();
+	M.Ustaw_Przeszkode();
 	M.Nowe_Auto();
-	M.Zmiana_Pasa();
+	
 	M.Wybor_Pasa();
+	M.Zmiana_Pasa();
 	M.Skrecanie();
 	M.Przyspieszani_Hamowanie();
 	M.Zdarzenia_Losowe();
@@ -5853,7 +5871,7 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 
 
 
-if(czas%10000==10){
+if(czas%1==0){
 #pragma region wyœwietlanie_drogi_1
 	if (Droga1[0]->zycie == true) {
 		pictureBox1->Visible = true;
@@ -10037,24 +10055,173 @@ private: System::Void pictureBox15_Click(System::Object^  sender, System::EventA
 }
 private: System::Void pictureBox14_Click(System::Object^  sender, System::EventArgs^  e) {
 	natezenie++;
-	if (natezenie >= 9) natezenie = 9;
+	if (natezenie >= 10) natezenie = 10;
 	String^ str1 = Convert::ToString(natezenie);
 	labelnatezenie->Text = str1;
 }
 
 private: System::Void pictureBox17_Click(System::Object^  sender, System::EventArgs^  e) {
-	losowosc--;
+	losowosc= losowosc-5;
 	if (losowosc <= 0) losowosc = 0;
 	String^ str1 = Convert::ToString(losowosc);
 	labellosowosc->Text = str1;
 }
 private: System::Void pictureBox16_Click(System::Object^  sender, System::EventArgs^  e) {
-	losowosc++;
-	if (losowosc >= 9) losowosc = 9;
+	losowosc = losowosc + 5;
+	if (losowosc >= 100) losowosc = 100;
 	String^ str1 = Convert::ToString(losowosc);
 	labellosowosc->Text = str1;
 }
 
 
+private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
+	Mechanika M;
+	M.Ustawwaruki(natezenie, losowosc);
+	int przejazdy = 3600*100;
+	for (int a = 1 ; a <= przejazdy; a++) {
+
+		czas++;
+		
+#pragma endregion
+		//M.Ustaw_Przeszkode();
+		M.Nowe_Auto();
+		M.Wybor_Pasa();
+		//M.Zmiana_Pasa();
+		M.Skrecanie();
+		M.Przyspieszani_Hamowanie();
+		M.Zdarzenia_Losowe();
+		M.Przemieszczenie();
+		//M.Denerwowanie();
+		if (przejazdy%a == 0) {
+			button1->Text= Convert::ToString(a);
+
+			ilosc0->Text = Convert::ToString(M.ilosc[0]);
+
+			Ilosc11->Text = Convert::ToString(M.ilosc[1]);
+			ilosc12->Text = Convert::ToString(M.ilosc[2]);
+			ilosc13->Text = Convert::ToString(M.ilosc[3]);
+			ilosc14->Text = Convert::ToString(M.ilosc[4]);
+
+			ilosc21->Text = Convert::ToString(M.ilosc[5]);
+			ilosc22->Text = Convert::ToString(M.ilosc[6]);
+			ilosc23->Text = Convert::ToString(M.ilosc[7]);
+			ilosc24->Text = Convert::ToString(M.ilosc[8]);
+
+			ilosc31->Text = Convert::ToString(M.ilosc[9]);
+			ilosc32->Text = Convert::ToString(M.ilosc[10]);
+			ilosc33->Text = Convert::ToString(M.ilosc[11]);
+			ilosc34->Text = Convert::ToString(M.ilosc[12]);
+
+			ilosc41->Text = Convert::ToString(M.ilosc[13]);
+			ilosc42->Text = Convert::ToString(M.ilosc[14]);
+			ilosc43->Text = Convert::ToString(M.ilosc[15]);
+			ilosc44->Text = Convert::ToString(M.ilosc[16]);
+
+			sredni0->Text = M.zrobczas(M.srczas[0]);
+
+			sredni11->Text = M.zrobczas(M.srczas[1]);
+			sredni12->Text = M.zrobczas(M.srczas[2]);
+			sredni13->Text = M.zrobczas(M.srczas[3]);
+			sredni14->Text = M.zrobczas(M.srczas[4]);
+
+			sredni21->Text = M.zrobczas(M.srczas[5]);
+			sredni22->Text = M.zrobczas(M.srczas[6]);
+			sredni23->Text = M.zrobczas(M.srczas[7]);
+			sredni24->Text = M.zrobczas(M.srczas[8]);
+
+			sredni31->Text = M.zrobczas(M.srczas[9]);
+			sredni32->Text = M.zrobczas(M.srczas[10]);
+			sredni33->Text = M.zrobczas(M.srczas[11]);
+			sredni34->Text = M.zrobczas(M.srczas[12]);
+
+			sredni41->Text = M.zrobczas(M.srczas[13]);
+			sredni42->Text = M.zrobczas(M.srczas[14]);
+			sredni43->Text = M.zrobczas(M.srczas[15]);
+			sredni44->Text = M.zrobczas(M.srczas[16]);
+
+			int godzin, minut, sekund;
+			godzin = czas / 3600;
+			String^ str1 = Convert::ToString(godzin);
+			if (godzin < 10 && godzin != 0) str1 = "0" + str1;
+			if (godzin == 0) str1 = "0" + str1;
+			if (godzin == 60) godzin = 0;
+			minut = (czas - godzin * 3600) / 60;
+			String^ str2 = Convert::ToString(minut);
+			if (minut < 10 && minut != 0) str2 = "0" + str2;
+			if (minut == 0) str2 = "0" + str2;
+			if (minut == 59) minut = 0;
+			sekund = (czas - godzin * 3600 - minut * 60);
+			String^ str3 = Convert::ToString(sekund);
+			if (sekund < 10 && sekund != 0) str3 = "0" + str3;
+			if (sekund == 0) str3 = "0" + str3;
+			if (sekund == 59) sekund = 0;
+			zegar->Text = str1 + ":" + str2 + ":" + str3;
+		}
+
+
+	}
+	ilosc0->Text = Convert::ToString(M.ilosc[0]);
+
+	Ilosc11->Text = Convert::ToString(M.ilosc[1]);
+	ilosc12->Text = Convert::ToString(M.ilosc[2]);
+	ilosc13->Text = Convert::ToString(M.ilosc[3]);
+	ilosc14->Text = Convert::ToString(M.ilosc[4]);
+
+	ilosc21->Text = Convert::ToString(M.ilosc[5]);
+	ilosc22->Text = Convert::ToString(M.ilosc[6]);
+	ilosc23->Text = Convert::ToString(M.ilosc[7]);
+	ilosc24->Text = Convert::ToString(M.ilosc[8]);
+
+	ilosc31->Text = Convert::ToString(M.ilosc[9]);
+	ilosc32->Text = Convert::ToString(M.ilosc[10]);
+	ilosc33->Text = Convert::ToString(M.ilosc[11]);
+	ilosc34->Text = Convert::ToString(M.ilosc[12]);
+
+	ilosc41->Text = Convert::ToString(M.ilosc[13]);
+	ilosc42->Text = Convert::ToString(M.ilosc[14]);
+	ilosc43->Text = Convert::ToString(M.ilosc[15]);
+	ilosc44->Text = Convert::ToString(M.ilosc[16]);
+
+	sredni0->Text = M.zrobczas(M.srczas[0]);
+
+	sredni11->Text = M.zrobczas(M.srczas[1]);
+	sredni12->Text = M.zrobczas(M.srczas[2]);
+	sredni13->Text = M.zrobczas(M.srczas[3]);
+	sredni14->Text = M.zrobczas(M.srczas[4]);
+
+	sredni21->Text = M.zrobczas(M.srczas[5]);
+	sredni22->Text = M.zrobczas(M.srczas[6]);
+	sredni23->Text = M.zrobczas(M.srczas[7]);
+	sredni24->Text = M.zrobczas(M.srczas[8]);
+
+	sredni31->Text = M.zrobczas(M.srczas[9]);
+	sredni32->Text = M.zrobczas(M.srczas[10]);
+	sredni33->Text = M.zrobczas(M.srczas[11]);
+	sredni34->Text = M.zrobczas(M.srczas[12]);
+
+	sredni41->Text = M.zrobczas(M.srczas[13]);
+	sredni42->Text = M.zrobczas(M.srczas[14]);
+	sredni43->Text = M.zrobczas(M.srczas[15]);
+	sredni44->Text = M.zrobczas(M.srczas[16]);
+
+	int godzin, minut, sekund;
+	godzin = czas / 3600;
+	String^ str1 = Convert::ToString(godzin);
+	if (godzin < 10 && godzin != 0) str1 = "0" + str1;
+	if (godzin == 0) str1 = "0" + str1;
+	if (godzin == 60) godzin = 0;
+	minut = (czas - godzin * 3600) / 60;
+	String^ str2 = Convert::ToString(minut);
+	if (minut < 10 && minut != 0) str2 = "0" + str2;
+	if (minut == 0) str2 = "0" + str2;
+	if (minut == 59) minut = 0;
+	sekund = (czas - godzin * 3600 - minut * 60);
+	String^ str3 = Convert::ToString(sekund);
+	if (sekund < 10 && sekund != 0) str3 = "0" + str3;
+	if (sekund == 0) str3 = "0" + str3;
+	if (sekund == 59) sekund = 0;
+	zegar->Text = str1 + ":" + str2 + ":" + str3;
+
+}
 };//----------------------------------------------
 }

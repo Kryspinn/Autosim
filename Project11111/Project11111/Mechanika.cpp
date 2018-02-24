@@ -22,7 +22,7 @@
 #define DLUGOSCDROGI19 36
 
 
-#define OGRANICZENIEPREDKOSCI 4;
+#define OGRANICZENIEPREDKOSCI 3;
 using namespace System;
 
 
@@ -753,7 +753,7 @@ void Mechanika::Zdarzenia_Losowe()
 {
 	for (int i = 0; i < DLUGOSCDROGI1; i++) {
 		if (Droga1[i]->zycie == true && Droga1[i]->przeszkoda == false) {
-			int a = rnd->Next(1, 100);
+			int a = rnd->Next(1, 101);
 			if (losowosc >= a) {
 				Droga1[i]->predkosc--;
 				if (a == 1 || a == 2 || a == 3) Droga1[i]->predkosc = 0;
@@ -764,7 +764,7 @@ void Mechanika::Zdarzenia_Losowe()
 
 	for (int i = 0; i < DLUGOSCDROGI2; i++) {
 		if (Droga2[i]->zycie == true && Droga2[i]->przeszkoda == false) {
-			int a = rnd->Next(1, 100);
+			int a = rnd->Next(1, 101);
 			if (losowosc >= a) {
 				Droga2[i]->predkosc--;
 				if (a == 1 || a == 2 || a == 3) Droga2[i]->predkosc = 0;
@@ -776,7 +776,7 @@ void Mechanika::Zdarzenia_Losowe()
 
 	for (int i = 0; i < DLUGOSCDROGI3; i++) {
 		if (Droga3[i]->zycie == true && Droga3[i]->przeszkoda == false) {
-			int a = rnd->Next(1, 100);
+			int a = rnd->Next(1, 101);
 			if (losowosc >= a) {
 				Droga3[i]->predkosc--;
 				if (a == 1 || a == 2 || a == 3) Droga3[i]->predkosc = 0;
@@ -788,7 +788,7 @@ void Mechanika::Zdarzenia_Losowe()
 
 	for (int i = 0; i < DLUGOSCDROGI4; i++) {
 		if (Droga4[i]->zycie == true && Droga4[i]->przeszkoda == false) {
-			int a = rnd->Next(1, 100);
+			int a = rnd->Next(1, 101);
 			if (losowosc >= a) {
 				Droga4[i]->predkosc--;
 				if (a == 1 || a == 2 || a == 3) Droga4[i]->predkosc = 0;
@@ -801,7 +801,7 @@ void Mechanika::Zdarzenia_Losowe()
 
 	for (int i = 0; i < DLUGOSCDROGI5; i++) {
 		if (Droga5[i]->zycie == true && Droga5[i]->przeszkoda == false) {
-			int a = rnd->Next(1, 100);
+			int a = rnd->Next(1, 101);
 			if (losowosc >= a) {
 				Droga5[i]->predkosc--;
 				if (a == 1 || a == 2 || a == 3) Droga5[i]->predkosc = 0;
@@ -813,7 +813,7 @@ void Mechanika::Zdarzenia_Losowe()
 
 	for (int i = 0; i < DLUGOSCDROGI6; i++) {
 		if (Droga6[i]->zycie == true && Droga6[i]->przeszkoda == false) {
-			int a = rnd->Next(1, 100);
+			int a = rnd->Next(1, 101);
 			if (losowosc >= a) {
 				Droga6[i]->predkosc--;
 				if (a == 1 || a == 2 || a == 3) Droga6[i]->predkosc = 0;
@@ -825,7 +825,7 @@ void Mechanika::Zdarzenia_Losowe()
 
 	for (int i = 0; i < DLUGOSCDROGI7; i++) {
 		if (Droga7[i]->zycie == true && Droga7[i]->przeszkoda == false) {
-			int a = rnd->Next(1, 100);
+			int a = rnd->Next(1, 101);
 			if (losowosc >= a) {
 				Droga7[i]->predkosc--;
 				if (a == 1 || a == 2 || a == 3) Droga7[i]->predkosc = 0;
@@ -837,7 +837,7 @@ void Mechanika::Zdarzenia_Losowe()
 
 	for (int i = 0; i < DLUGOSCDROGI8; i++) {
 		if (Droga8[i]->zycie == true && Droga8[i]->przeszkoda == false) {
-			int a = rnd->Next(1, 100);
+			int a = rnd->Next(1, 101);
 			if (losowosc >= a) {
 				Droga8[i]->predkosc--;
 				if (a == 1 || a == 2 || a == 3) Droga8[i]->predkosc = 0;
@@ -849,7 +849,7 @@ void Mechanika::Zdarzenia_Losowe()
 
 	for (int i = 0; i < DLUGOSCDROGI9; i++) {
 		if (Droga9[i]->zycie == true && Droga9[i]->przeszkoda == false) {
-			int a = rnd->Next(1, 100);
+			int a = rnd->Next(1, 101);
 			if (losowosc >= a) {
 				Droga9[i]->predkosc--;
 				if (a == 1 || a == 2 || a == 3) Droga9[i]->predkosc = 0;
@@ -861,7 +861,7 @@ void Mechanika::Zdarzenia_Losowe()
 
 	for (int i = 0; i < DLUGOSCDROGI10; i++) {
 		if (Droga10[i]->zycie == true && Droga10[i]->przeszkoda == false) {
-			int a = rnd->Next(1, 100);
+			int a = rnd->Next(1, 101);
 			if (losowosc >= a) {
 				Droga10[i]->predkosc--;
 				if (a == 1 || a == 2 || a == 3) Droga10[i]->predkosc = 0;
@@ -873,7 +873,7 @@ void Mechanika::Zdarzenia_Losowe()
 
 	for (int i = 0; i < DLUGOSCDROGI11; i++) {
 		if (Droga11[i]->zycie == true && Droga11[i]->przeszkoda == false) {
-			int a = rnd->Next(1, 100);
+			int a = rnd->Next(1, 101);
 			if (losowosc >= a) {
 				Droga11[i]->predkosc--;
 				if (a == 1 || a == 2 || a == 3) Droga11[i]->predkosc = 0;
@@ -885,7 +885,7 @@ void Mechanika::Zdarzenia_Losowe()
 
 	for (int i = 0; i < DLUGOSCDROGI12; i++) {
 		if (Droga12[i]->zycie == true && Droga12[i]->przeszkoda == false) {
-			int a = rnd->Next(1, 100);
+			int a = rnd->Next(1, 101);
 			if (losowosc >= a) {
 				Droga12[i]->predkosc--;
 				if (a == 1 || a == 2 || a == 3) Droga12[i]->predkosc = 0;
@@ -897,7 +897,7 @@ void Mechanika::Zdarzenia_Losowe()
 
 	for (int i = 0; i < DLUGOSCDROGI13; i++) {
 		if (Droga13[i]->zycie == true && Droga13[i]->przeszkoda == false) {
-			int a = rnd->Next(1, 100);
+			int a = rnd->Next(1, 101);
 			if (losowosc >= a) {
 				Droga13[i]->predkosc--;
 				if (a == 1 || a == 2 || a == 3) Droga13[i]->predkosc = 0;
@@ -909,7 +909,7 @@ void Mechanika::Zdarzenia_Losowe()
 
 	for (int i = 0; i < DLUGOSCDROGI14; i++) {
 		if (Droga14[i]->zycie == true && Droga14[i]->przeszkoda == false) {
-			int a = rnd->Next(1, 100);
+			int a = rnd->Next(1, 101);
 			if (losowosc >= a) {
 				Droga14[i]->predkosc--;
 				if (a == 1 || a == 2 || a == 3) Droga14[i]->predkosc = 0;
@@ -921,7 +921,7 @@ void Mechanika::Zdarzenia_Losowe()
 
 	for (int i = 0; i < DLUGOSCDROGI15; i++) {
 		if (Droga15[i]->zycie == true && Droga15[i]->przeszkoda == false) {
-			int a = rnd->Next(1, 100);
+			int a = rnd->Next(1, 101);
 			if (losowosc >= a) {
 				Droga15[i]->predkosc--;
 				if (a == 1 || a == 2 || a == 3) Droga15[i]->predkosc = 0;
@@ -933,7 +933,7 @@ void Mechanika::Zdarzenia_Losowe()
 
 	for (int i = 0; i < DLUGOSCDROGI16; i++) {
 		if (Droga16[i]->zycie == true && Droga16[i]->przeszkoda == false) {
-			int a = rnd->Next(1, 100);
+			int a = rnd->Next(1, 101);
 			if (losowosc >= a) {
 				Droga16[i]->predkosc--;
 				if (a == 1 || a == 2 || a == 3) Droga16[i]->predkosc = 0;
@@ -945,7 +945,7 @@ void Mechanika::Zdarzenia_Losowe()
 
 	for (int i = 0; i < DLUGOSCDROGI17; i++) {
 		if (Droga17[i]->zycie == true && Droga17[i]->przeszkoda == false) {
-			int a = rnd->Next(1, 100);
+			int a = rnd->Next(1, 101);
 			if (losowosc >= a) {
 				Droga17[i]->predkosc--;
 				if (a == 1 || a == 2 || a == 3) Droga17[i]->predkosc = 0;
@@ -957,7 +957,7 @@ void Mechanika::Zdarzenia_Losowe()
 
 	for (int i = 0; i < DLUGOSCDROGI18; i++) {
 		if (Droga18[i]->zycie == true && Droga18[i]->przeszkoda == false) {
-			int a = rnd->Next(1, 100);
+			int a = rnd->Next(1, 101);
 			if (losowosc >= a) {
 				Droga18[i]->predkosc--;
 				if (a == 1 || a == 2 || a == 3) Droga18[i]->predkosc = 0;
@@ -969,7 +969,7 @@ void Mechanika::Zdarzenia_Losowe()
 
 	for (int i = 0; i < DLUGOSCDROGI19; i++) {
 		if (Droga19[i]->zycie == true && Droga19[i]->przeszkoda == false) {
-			int a = rnd->Next(1, 100);
+			int a = rnd->Next(1, 101);
 			if (losowosc >= a) {
 				Droga19[i]->predkosc--;
 				if (a == 1 || a == 2 || a == 3) Droga19[i]->predkosc = 0;
@@ -1101,7 +1101,7 @@ void Mechanika::Przemieszczenie()
 	for (int i = 0; i < DLUGOSCDROGI1; i++) {
 		if (Droga1[i]->zycie == true) {			//sprawdzenie czy istnieje auto
 			if (Droga1[i]->czas_zycia >= 1) {	//postuj jednej sekundy na stacie
-				if (Droga1[i]->gdzie == 1 || Droga1[i]->gdzie == 3 || Droga1[i]->gdzie == 4) {
+				if (Droga1[i]->gdzie == 1 || Droga1[i]->gdzie == 3 || Droga1[i]->gdzie == 4 || Droga1[i]->gdzie == 2) {
 					
 					if (i + Droga1[i]->predkosc < DLUGOSCDROGI1) { //czy wyjedzie poza tablice
 						Drogatemp1[i + Droga1[i]->predkosc] = Droga1[i]; //ustawinie nowego miejsca
@@ -1321,7 +1321,7 @@ void Mechanika::Przemieszczenie()
 	for (int i = 0; i < DLUGOSCDROGI8; i++) {
 		if (Droga8[i]->zycie == true) {			//sprawdzenie czy istnieje auto
 			if (Droga8[i]->czas_zycia >= 1) {	//postuj jednej sekundy na stacie
-				if (Droga8[i]->gdzie == 2  || Droga8[i]->gdzie == 1 || Droga8[i]->gdzie == 4) {
+				if (Droga8[i]->gdzie == 2  || Droga8[i]->gdzie == 1 || Droga8[i]->gdzie == 4 || Droga1[i]->gdzie == 3) {
 
 					if (i + Droga8[i]->predkosc < DLUGOSCDROGI8) { //czy wyjedzie poza tablice
 						Drogatemp8[i + Droga8[i]->predkosc] = Droga8[i]; //ustawinie nowego miejsca
@@ -1828,7 +1828,13 @@ void Mechanika::Przemieszczenie()
 
 		}
 	}
-
+	ilosc[0] = 0;
+	srczas[0] = 0;
+	for (int x = 1; x < 17; x++) {
+		ilosc[0] = ilosc[0] + ilosc[x];
+		srczas[0] = srczas[0] + srczas[x];
+	}
+	srczas[0] = srczas[0] / 16;
 
 	Droga1 = Drogatemp1;
 	Droga2 = Drogatemp2;
@@ -1884,13 +1890,83 @@ void Mechanika::Zmiana_Pasa()
 			}
 		}
 	}
+
+
+
+	for (int i = 0; i < DLUGOSCDROGI18; i++) {
+		if (Droga18[i]->zycie == true && Droga18[i]->przeszkoda == false) {		//sprawdzenie czy istnieje auto
+			int odleglosc_przeszkody = 0;
+			bool jest_przeszkoda = false;
+			for (int j = 1; j + i < DLUGOSCDROGI18; j++) {
+				if (Droga18[j + i]->przeszkoda == false) {
+					odleglosc_przeszkody++;
+				}
+				else {
+					j = 100;//wyjscie z pêtli
+					jest_przeszkoda = true;
+				}
+			}
+			if (Droga18[i]->widocznosc >= odleglosc_przeszkody && jest_przeszkoda == true) {
+				//widaæ przeszkode
+				int wolne_mijsce_zmiana = 0;
+				for (int k = 0; i - k >= 0 && Droga19[i - k]->zycie == false; k++) {
+					wolne_mijsce_zmiana++;
+				}
+				if (Droga18[i + 1]->zycie == false || (Droga18[i + 1]->zycie == true && Droga18[i + 1]->przeszkoda == true)) {
+					if (Droga18[i]->odwaga < wolne_mijsce_zmiana) {
+						Droga19[i] = gcnew Auto(Droga18[i]->predkosc, Droga18[i]->zycie, Droga18[i]->czas_zycia, Droga18[i]->rodzaj, Droga18[i]->widocznosc, Droga18[i]->odwaga, Droga18[i]->zdenerwowanie, Droga18[i]->gdzie, Droga18[i]->skad);
+						Droga18[i]->zycie = false;
+					}
+					else Droga18[i]->predkosc = odleglosc_przeszkody;
+				}
+				else Droga18[i]->predkosc = odleglosc_przeszkody;
+			}
+		}
+	}
+
+	for (int i = 0; i < DLUGOSCDROGI19; i++) {
+		if (Droga19[i]->zycie == true && Droga19[i]->przeszkoda == false) {		//sprawdzenie czy istnieje auto
+			int odleglosc_przeszkody = 0;
+			bool jest_przeszkoda = false;
+			for (int j = 1; j + i < DLUGOSCDROGI19; j++) {
+				if (Droga19[j + i]->przeszkoda == false) {
+					odleglosc_przeszkody++;
+				}
+				else {
+					j = 100;//wyjscie z pêtli
+					jest_przeszkoda = true;
+				}
+			}
+			if (Droga19[i]->widocznosc >= odleglosc_przeszkody && jest_przeszkoda == true) {
+				//widaæ przeszkode
+				int wolne_mijsce_zmiana = 0;
+				for (int k = 0; i - k >= 0 && Droga18[i - k]->zycie == false; k++) {
+					wolne_mijsce_zmiana++;
+				}
+				if (Droga19[i + 1]->zycie == false || (Droga19[i + 1]->zycie == true && Droga19[i + 1]->przeszkoda == true)) {
+					if (Droga19[i]->odwaga < wolne_mijsce_zmiana) {
+						Droga18[i] = gcnew Auto(Droga19[i]->predkosc, Droga19[i]->zycie, Droga19[i]->czas_zycia, Droga19[i]->rodzaj, Droga19[i]->widocznosc, Droga19[i]->odwaga, Droga19[i]->zdenerwowanie, Droga19[i]->gdzie, Droga19[i]->skad);
+						Droga19[i]->zycie = false;
+					}
+					else Droga19[i]->predkosc = odleglosc_przeszkody;
+				}
+				else Droga19[i]->predkosc = odleglosc_przeszkody;
+			}
+		}
+	}
+
+
 }
 
 void Mechanika::Ustaw_Przeszkode()
 {
-	Droga1[10]->przeszkoda = true;
-	Droga1[10]->zycie = true;
-	Droga1[10]->predkosc = 0;
+	/*Droga1[8]->przeszkoda = true;
+	Droga1[8]->zycie = true;
+	Droga1[8]->predkosc = 0;*/
+
+	Droga19[10]->przeszkoda = true;
+	Droga19[10]->zycie = true;
+	Droga19[10]->predkosc = 0;
 }
 
 
@@ -1904,8 +1980,13 @@ void Mechanika::Nowe_Auto()
 			Droga1[0]->czas_zycia = 0;
 			Droga1[0]->predkosc = rnd->Next(1, 3);
 			Droga1[0]->rodzaj = rnd->Next(1, 5);
-			Droga1[0]->gdzie = rnd->Next(1, 5);//popraw dla innych
+			//Droga1[0]->gdzie = rnd->Next(1, 5);//popraw dla innych
 			Droga1[0]->skad = 1;
+			int g = rnd->Next(1, 100);
+			if (g <= 8)					Droga1[0]->gdzie = 1;
+			else if (g > 8 && g <= 40)		Droga1[0]->gdzie = 2;
+			else if (g > 40 && g <= 84)		Droga1[0]->gdzie = 3;
+			else				Droga1[0]->gdzie = 4;
 		}
 	}
 
@@ -1928,8 +2009,13 @@ void Mechanika::Nowe_Auto()
 			Droga8[0]->czas_zycia = 0;
 			Droga8[0]->predkosc = rnd->Next(1, 3);
 			Droga8[0]->rodzaj = rnd->Next(1, 5);
-			Droga8[0]->gdzie = rnd->Next(1, 5);
+			//Droga8[0]->gdzie = rnd->Next(1, 5);
 			Droga8[0]->skad = 2;
+			int g = rnd->Next(1, 100);
+			if (g <= 35)				Droga8[0]->gdzie = 1;
+			else if (g > 35 && g <= 40)		Droga8[0]->gdzie = 2;
+			else if (g > 40 && g <= 84)		Droga8[0]->gdzie = 3;
+			else				Droga8[0]->gdzie = 4;
 		}
 	}
 	/*if (Droga9[0]->zycie == false) {
@@ -1943,18 +2029,23 @@ void Mechanika::Nowe_Auto()
 			Droga9[0]->skad = 2;
 		}
 	}*/
-	if (Droga13[0]->zycie == false) {
+	if (Droga14[0]->zycie == false) {
 		int a = rnd->Next(1, 10);
-		if (natezenie/2 >= a) {
-			Droga13[0]->zycie = true;
-			Droga13[0]->czas_zycia = 0;
-			Droga13[0]->predkosc = rnd->Next(1, 3);
-			Droga13[0]->rodzaj = rnd->Next(1, 5);
-			Droga13[0]->gdzie = rnd->Next(1, 5);
-			Droga13[0]->skad = 3;
+		if (natezenie >= a) {
+			Droga14[0]->zycie = true;
+			Droga14[0]->czas_zycia = 0;
+			Droga14[0]->predkosc = rnd->Next(1, 3);
+			Droga14[0]->rodzaj = rnd->Next(1, 5);
+			//Droga14[0]->gdzie = rnd->Next(1, 5);
+			Droga14[0]->skad = 3;
+			int g = rnd->Next(1, 100);
+			if (g <= 35)				Droga14[0]->gdzie = 1;
+			else if (g > 35 && g <= 80)		Droga14[0]->gdzie = 2;
+			else if (g > 80 && g <= 84)		Droga14[0]->gdzie = 3;
+			else 						Droga14[0]->gdzie = 4;
 		}
 	}
-	if (Droga14[0]->zycie == false) {
+	/*if (Droga14[0]->zycie == false) {
 		int a = rnd->Next(1, 10);
 		if (natezenie/2+1 >= a) {
 			Droga14[0]->zycie = true;
@@ -1964,16 +2055,21 @@ void Mechanika::Nowe_Auto()
 			Droga14[0]->gdzie = rnd->Next(1, 5);
 			Droga14[0]->skad = 3;
 		}
-	}
+	}*/
 	if (Droga16[0]->zycie == false) {
 		int a = rnd->Next(1, 10);
-		if (natezenie >= a) {
+		if (natezenie/2 >= a) {
 			Droga16[0]->zycie = true;
 			Droga16[0]->czas_zycia = 0;
 			Droga16[0]->predkosc = rnd->Next(1, 3);
 			Droga16[0]->rodzaj = rnd->Next(1, 5);
-			Droga16[0]->gdzie = rnd->Next(1, 5);
+			//Droga16[0]->gdzie = rnd->Next(1, 5);
 			Droga16[0]->skad = 4;
+			int g = rnd->Next(1, 100);
+			if (g <= 32)				Droga16[0]->gdzie = 1;
+			else if (g > 32 && g <= 64)		Droga16[0]->gdzie = 2;
+			else if (g > 64 && g <= 95)		Droga16[0]->gdzie = 3;
+			else						Droga16[0]->gdzie = 4;
 		}
 	}
 }
@@ -1982,20 +2078,20 @@ void Mechanika::Wybor_Pasa()
 {
 
 	//------------Dla drogi 1
-	for (int i = 0; i < DLUGOSCDROGI1; i++) {
-		if (Droga1[i]->zycie == true && Droga1[i]->przeszkoda == false) {		//sprawdzenie czy istnieje auto
-			if (Droga1[i]->gdzie == 2) {
-				int wolne_mijsce_zmiana = 0;
-				for (int k = 0; i - k >= 0 && Droga2[i - k]->zycie == false; k++) {
-					wolne_mijsce_zmiana++;
-				}
-				if (Droga1[i]->odwaga < wolne_mijsce_zmiana) {
-					Droga2[i] = gcnew Auto(Droga1[i]->predkosc, Droga1[i]->zycie, Droga1[i]->czas_zycia, Droga1[i]->rodzaj, Droga1[i]->widocznosc, Droga1[i]->odwaga, Droga1[i]->zdenerwowanie, Droga1[i]->gdzie, Droga1[i]->skad);
-					Droga1[i]->zycie = false; // zmiana pasa
-				}
-			}
-		}
-	}
+	//for (int i = 0; i < DLUGOSCDROGI1; i++) {
+	//	if (Droga1[i]->zycie == true && Droga1[i]->przeszkoda == false) {		//sprawdzenie czy istnieje auto
+	//		if (Droga1[i]->gdzie == 2) {
+	//			int wolne_mijsce_zmiana = 0;
+	//			for (int k = 0; i - k >= 0 && Droga2[i - k]->zycie == false; k++) {
+	//				wolne_mijsce_zmiana++;
+	//			}
+	//			if (Droga1[i]->odwaga < wolne_mijsce_zmiana) {
+	//				Droga2[i] = gcnew Auto(Droga1[i]->predkosc, Droga1[i]->zycie, Droga1[i]->czas_zycia, Droga1[i]->rodzaj, Droga1[i]->widocznosc, Droga1[i]->odwaga, Droga1[i]->zdenerwowanie, Droga1[i]->gdzie, Droga1[i]->skad);
+	//				Droga1[i]->zycie = false; // zmiana pasa
+	//			}
+	//		}
+	//	}
+	//}
 
 	//-------------------Dla drogi 2
 	for (int i = 0; i < DLUGOSCDROGI2; i++) {
@@ -2014,20 +2110,20 @@ void Mechanika::Wybor_Pasa()
 	}
 
 	//-------------------Dla drogi 8
-	for (int i = 0; i < DLUGOSCDROGI8; i++) {
-		if (Droga8[i]->zycie == true && Droga8[i]->przeszkoda == false) {		//sprawdzenie czy istnieje auto
-			if (Droga8[i]->gdzie == 3) {
-				int wolne_mijsce_zmiana = 0;
-				for (int k = 0; i - k >= 0 && Droga9[i - k]->zycie == false; k++) {
-					wolne_mijsce_zmiana++;
-				}
-				if (Droga8[i]->odwaga < wolne_mijsce_zmiana) {
-					Droga9[i] = gcnew Auto(Droga8[i]->predkosc, Droga8[i]->zycie, Droga8[i]->czas_zycia, Droga8[i]->rodzaj, Droga8[i]->widocznosc, Droga8[i]->odwaga, Droga8[i]->zdenerwowanie, Droga8[i]->gdzie, Droga8[i]->skad);
-					Droga8[i]->zycie = false; // zmiana pasa
-				}
-			}
-		}
-	}
+	//for (int i = 0; i < DLUGOSCDROGI8; i++) {
+	//	if (Droga8[i]->zycie == true && Droga8[i]->przeszkoda == false) {		//sprawdzenie czy istnieje auto
+	//		if (Droga8[i]->gdzie == 3) {
+	//			int wolne_mijsce_zmiana = 0;
+	//			for (int k = 0; i - k >= 0 && Droga9[i - k]->zycie == false; k++) {
+	//				wolne_mijsce_zmiana++;
+	//			}
+	//			if (Droga8[i]->odwaga < wolne_mijsce_zmiana) {
+	//				Droga9[i] = gcnew Auto(Droga8[i]->predkosc, Droga8[i]->zycie, Droga8[i]->czas_zycia, Droga8[i]->rodzaj, Droga8[i]->widocznosc, Droga8[i]->odwaga, Droga8[i]->zdenerwowanie, Droga8[i]->gdzie, Droga8[i]->skad);
+	//				Droga8[i]->zycie = false; // zmiana pasa
+	//			}
+	//		}
+	//	}
+	//}
 
 	//-------------------Dla drogi 9
 	for (int i = 0; i < DLUGOSCDROGI9; i++) {
@@ -2061,7 +2157,7 @@ void Mechanika::Wybor_Pasa()
 		}
 	}
 
-	//-------------------Dla drogi 14
+	////-------------------Dla drogi 14
 	for (int i = 0; i < DLUGOSCDROGI14; i++) {
 		if (Droga14[i]->zycie == true && Droga14[i]->przeszkoda == false) {		//sprawdzenie czy istnieje auto
 			if (Droga14[i]->gdzie == 3) {
@@ -2126,10 +2222,11 @@ void Mechanika::Wybor_Pasa()
 		}
 	}
 	//------------droga 19
+	
 	for (int i = 0; i < DLUGOSCDROGI19; i++) {
 		if (Droga19[i]->zycie == true && Droga19[i]->przeszkoda == false) {		//sprawdzenie czy istnieje auto
 
-			if (Droga19[i]->gdzie == 1 && ((i <= 3 && i >= 0) || (i >= 23))) {
+			if (Droga19[i]->gdzie == 1 && ((i <= 3 && i >= 0) || (i >= 24))) {
 				int wolne_mijsce_zmiana = 0;
 				for (int k = 0; i - k >= 0 && Droga18[i - k]->zycie == false; k++) {
 					wolne_mijsce_zmiana++;
@@ -2150,8 +2247,7 @@ void Mechanika::Wybor_Pasa()
 					Droga19[i]->zycie = false; // zmiana pasa
 				}
 			}
-
-			if (Droga19[i]->gdzie == 3 && (i <= 23 && i >= 3)) {
+			if (Droga19[i]->gdzie == 3 && (i <= 23 && i >= 4)) {
 				int wolne_mijsce_zmiana = 0;
 				for (int k = 0; i - k >= 0 && Droga18[i - k]->zycie == false; k++) {
 					wolne_mijsce_zmiana++;
@@ -2162,7 +2258,7 @@ void Mechanika::Wybor_Pasa()
 				}
 			}
 
-			if (Droga19[i]->gdzie == 4 && (i <= 30 && i >= 14)) {
+			if (Droga19[i]->gdzie == 4 && (i <= 30 && i >= 15)) {
 				int wolne_mijsce_zmiana = 0;
 				for (int k = 0; i - k >= 0 && Droga18[i - k]->zycie == false; k++) {
 					wolne_mijsce_zmiana++;
@@ -2235,7 +2331,7 @@ void Mechanika::Skrecanie()
 
 	}
 	
-	//------z drogi 13
+	////------z drogi 13
 	if (Droga13[13]->zycie == true) {
 		int wolne_miejsca1 = 0;
 		int wolne_miejsca2 = 0;
@@ -2247,12 +2343,12 @@ void Mechanika::Skrecanie()
 			if (Droga19[k]->zycie == false) wolne_miejsca2++;
 			else k = -1;
 		}
-		if (wolne_miejsca1 >=1 /*Droga13[13]->odwaga*/ && wolne_miejsca2 >= Droga13[13]->odwaga) {
+		if (wolne_miejsca1 >= 1 /*Droga13[13]->odwaga*/ && wolne_miejsca2 >= Droga13[13]->odwaga) {
 			Droga19[26] = gcnew Auto(1, Droga13[13]->zycie, Droga13[13]->czas_zycia, Droga13[13]->rodzaj, Droga13[13]->widocznosc, Droga13[13]->odwaga, Droga13[13]->zdenerwowanie, Droga13[13]->gdzie, Droga13[13]->skad);
 			Droga13[13]->zycie = false; // zmiana pasa
 		}
-
 	}
+
 
 	//------z drogi 18 zjazd 1
 	if (Droga18[3]->zycie == true) {
@@ -2292,6 +2388,16 @@ void Mechanika::Skrecanie()
 			Droga18[30]->zycie = false; // zmiana pasa
 		}
 
+	}
+}
+
+void Mechanika::Denerwowanie()
+{
+	if (Droga3[11]->predkosc == 0) {
+		Droga3[11]->zdenerwowanie--;
+	}
+	if (Droga3[11]->zdenerwowanie <= 0) {
+		Droga3[11]->odwaga = 1;
 	}
 }
 

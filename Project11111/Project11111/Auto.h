@@ -12,9 +12,9 @@ public:
 	bool zycie;
 	int czas_zycia;
 	int predkosc;  //predkoœc auta
-	int widocznosc = 4; // ilosc pól z której widaæ przeszkode
+	int widocznosc = 8; // ilosc pól z której widaæ przeszkode
 	int odwaga = 2;	//ilosc miejsca zeby zmienic pas
-	int zdenerwowanie; //czas potrzebny do zmniejszenia odwagi
+	int zdenerwowanie = 2; //czas potrzebny do zmniejszenia odwagi
 	int rodzaj; // kolor auta
 	int gdzie; //numer drogi zjazdowej
 	int skad;
